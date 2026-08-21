@@ -3,39 +3,43 @@
   "version": "0.1.0",
   "description": "Reusable React components for interactive TI system block diagrams",
   "type": "module",
-  "sideEffects": ["**/*.css"],
-  "files": ["dist", "src/diagrams/*.svg", "src/diagrams/*.json"],
-  "main": "./dist/ti-sysblocks.js",
-  "module": "./dist/ti-sysblocks.js",
-  "types": "./dist/index.d.ts",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "files": [
+    "lib"
+  ],
+  "module": "lib/index.ts",
+  "types": "lib/index.ts",
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/ti-sysblocks.js"
-    },
-    "./style.css": "./dist/ti-sysblocks.css"
+    ".": "./lib/index.ts",
+    "./style.css": "./lib/SysBlockDiagram.css"
   },
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
+    "generate": "bun scripts/generate-ti-diagrams.ts",
+    "start": "cosmos",
+    "build:site": "bun run validate:diagrams && cosmos-export",
     "typecheck": "tsc --noEmit",
-    "build:types": "tsc -p tsconfig.lib.json",
-    "build:lib": "npm run build:types && vite build --config vite.lib.config.ts",
-    "build:demo": "vite build",
     "validate:diagrams": "node scripts/validate-diagrams.mjs",
-    "build": "npm run validate:diagrams && npm run typecheck && npm run build:lib && npm run build:demo"
+    "build": "bun run validate:diagrams && bun run typecheck",
+    "format": "biome format --write .",
+    "format:check": "biome format ."
   },
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18"
   },
   "devDependencies": {
-    "@types/react": "^19.2.0",
-    "@types/react-dom": "^19.2.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "typescript": "^5.9.0",
-    "vite": "^7.1.0"
+    "@biomejs/biome": "^2.5.4",
+    "@types/bun": "latest",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.4",
+    "react-cosmos": "^7.3.0",
+    "react-cosmos-plugin-vite": "^7.3.0",
+    "react-dom": "^19.2.4",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.5"
   },
   "repository": {
     "type": "git",

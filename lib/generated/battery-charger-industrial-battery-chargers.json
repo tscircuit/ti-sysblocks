@@ -1,0 +1,2907 @@
+{
+  "title": "Battery charger — Industrial battery chargers",
+  "sourceUrl": "https://www.ti.com/solution/battery-charger",
+  "defaultSelected": "subsystemid-19704",
+  "nodes": [
+    {
+      "id": "subsystemid-19704",
+      "details": {
+        "title": "Isolated DC/DC power stage",
+        "description": "The isolated DC/DC power stage converts the boosted DC voltage at the PFC output into an isolated low voltage CC/CV controlled output required for charging the battery. Efficiency is a key parameter for this stage as it needs to contain protection mechanisms for over current and over temperature.",
+        "productGroups": [
+          {
+            "category": "Isolation",
+            "sections": [
+              {
+                "title": "Transformer drivers",
+                "products": [
+                  {
+                    "part": "SN6501",
+                    "description": "Low-noise, 350-mA, 410-kHz transformer driver for isolated power supplies",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN6501",
+                      "html": "https://www.ti.com/product/SN6501"
+                    }
+                  },
+                  {
+                    "part": "SN6505B",
+                    "description": "Low-noise, 1-A, 420-kHz transformer driver with soft start for isolated power supplies",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN6505B",
+                      "html": "https://www.ti.com/product/SN6505B"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "UCC24612",
+                    "description": "High-frequency multi-mode synchronous rectifier controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC24612",
+                      "html": "https://www.ti.com/product/UCC24612"
+                    }
+                  },
+                  {
+                    "part": "UCC24624",
+                    "description": "High-frequency, dual synchronous rectifier controller for LLC converters",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC24624",
+                      "html": "https://www.ti.com/product/UCC24624"
+                    }
+                  },
+                  {
+                    "part": "UCC25661",
+                    "description": "Wide VIN and VOUT 750KHz LLC controller with high-voltage startup",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC25661",
+                      "html": "https://www.ti.com/product/UCC25661"
+                    }
+                  },
+                  {
+                    "part": "UCC25800-Q1",
+                    "description": "Ultra-low EMI transformer driver for isolated bias supplies",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC25800-Q1",
+                      "html": "https://www.ti.com/product/UCC25800-Q1"
+                    }
+                  },
+                  {
+                    "part": "UCC28750",
+                    "description": "Current-mode flyback controller with secondary-side regulation (SSR) for offline applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28750",
+                      "html": "https://www.ti.com/product/UCC28750"
+                    }
+                  },
+                  {
+                    "part": "UCC28C54",
+                    "description": "Industrial, 30-V, low-power current-mode PWM controller, 14.5-V/9-V UVLO, 50% duty cycle",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28C54",
+                      "html": "https://www.ti.com/product/UCC28C54"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LMR33630",
+                    "description": "SIMPLE SWITCHER® 3.8V to 36V, 3A Synchronous Buck Converter With Ultra-Low EMI",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR33630",
+                      "html": "https://www.ti.com/product/LMR33630"
+                    }
+                  },
+                  {
+                    "part": "LMR51610",
+                    "description": "SIMPLE SWITCHER® power converter with 4.5V-to-65V 1A synchronous buck and 25µA quiescent current",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR51610",
+                      "html": "https://www.ti.com/product/LMR51610"
+                    }
+                  },
+                  {
+                    "part": "TPS561243",
+                    "description": "4.2V to 17V input voltage, 1A, 1.2MHz synchronous buck converter in SOT563 with Eco-mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS561243",
+                      "html": "https://www.ti.com/product/TPS561243"
+                    }
+                  },
+                  {
+                    "part": "TPS563252",
+                    "description": "3-V to 17-V input voltage, 3-A, 1.2-Mhz synchronous buck converter in SOT563",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS563252",
+                      "html": "https://www.ti.com/product/TPS563252"
+                    }
+                  },
+                  {
+                    "part": "TPS564252",
+                    "description": "3-V to 17-V input voltage, 4-A ECO mode, synchronous buck converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS564252",
+                      "html": "https://www.ti.com/product/TPS564252"
+                    }
+                  },
+                  {
+                    "part": "TPS566231",
+                    "description": "3-V to 18-V input, 6-A synchronous step-down voltage regulator with pulse skip mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS566231",
+                      "html": "https://www.ti.com/product/TPS566231"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Gallium nitride (GaN) power stages",
+                "products": [
+                  {
+                    "part": "LMG3410R150",
+                    "description": "600-V 150-mΩ GaN with integrated driver and overcurrent protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMG3410R150",
+                      "html": "https://www.ti.com/product/LMG3410R150"
+                    }
+                  },
+                  {
+                    "part": "LMG3411R070",
+                    "description": "600-V 70-mΩ GaN with integrated driver and cycle-by-cycle overcurrent protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMG3411R070",
+                      "html": "https://www.ti.com/product/LMG3411R070"
+                    }
+                  },
+                  {
+                    "part": "LMG3612",
+                    "description": "650V 120mΩ GaN FET with integrated driver and protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMG3612",
+                      "html": "https://www.ti.com/product/LMG3612"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Half-bridge drivers",
+                "products": [
+                  {
+                    "part": "LMG1210",
+                    "description": "1.5-A, 3-A, 200-V half bridge gate driver, 5-V UVLO and programmable dead-time for GaNFET and MOSFET",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMG1210",
+                      "html": "https://www.ti.com/product/LMG1210"
+                    }
+                  },
+                  {
+                    "part": "UCC27302A",
+                    "description": "120V 4.5A half-bridge driver with 5V UVLO, interlock, and enable options",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27302A",
+                      "html": "https://www.ti.com/product/UCC27302A"
+                    }
+                  },
+                  {
+                    "part": "UCC27734",
+                    "description": "700V 4A half-bridge gate driver with 8V UVLO and interlock",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27734",
+                      "html": "https://www.ti.com/product/UCC27734"
+                    }
+                  },
+                  {
+                    "part": "UCC27735",
+                    "description": "700V 4A half-bridge gate driver with 8V UVLO, interlock, and enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27735",
+                      "html": "https://www.ti.com/product/UCC27735"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Isolated gate drivers",
+                "products": [
+                  {
+                    "part": "UCC21330",
+                    "description": "4A/6A dual-channel basic isolated gate driver with disable, programmable deadtime",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC21330",
+                      "html": "https://www.ti.com/product/UCC21330"
+                    }
+                  },
+                  {
+                    "part": "UCC21550",
+                    "description": "4A/6A dual-channel reinforced isolated gate driver with disable, programmable deadtime",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC21550",
+                      "html": "https://www.ti.com/product/UCC21550"
+                    }
+                  },
+                  {
+                    "part": "UCC5320",
+                    "description": "4A single-channel basic/reinforced isolated gate driver, split output or emitter-referenced UVLO",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC5320",
+                      "html": "https://www.ti.com/product/UCC5320"
+                    }
+                  },
+                  {
+                    "part": "UCC5350",
+                    "description": "10A/10A single-channel basic/reinforced isolated gate driver with miller clamp or split output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC5350",
+                      "html": "https://www.ti.com/product/UCC5350"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Isolated power modules (integrated transformer)",
+                "products": [
+                  {
+                    "part": "DCH010505S",
+                    "description": "Miniature, 1W, 3kVDC Isolated DC/DC Converters",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DCH010505S",
+                      "html": "https://www.ti.com/product/DCH010505S"
+                    }
+                  },
+                  {
+                    "part": "UCC33420",
+                    "description": "5V/5V 1.5W 3kVrms isolated DC-DC module with integrated transformer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC33420",
+                      "html": "https://www.ti.com/product/UCC33420"
+                    }
+                  },
+                  {
+                    "part": "UCC33420-Q1",
+                    "description": "Automotive, 5V/5V 1.5W 3kVrms isolated DC-DC module with integrated transformer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC33420-Q1",
+                      "html": "https://www.ti.com/product/UCC33420-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Low-side drivers",
+                "products": [
+                  {
+                    "part": "UCC27444",
+                    "description": "20V VDD, 4A/4A dual-channel low-side driver with -5V input capability and enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27444",
+                      "html": "https://www.ti.com/product/UCC27444"
+                    }
+                  },
+                  {
+                    "part": "UCC27511A",
+                    "description": "4-A/8-A single-channel gate driver with 5-V UVLO, split outputs, 5-V IN handling",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27511A",
+                      "html": "https://www.ti.com/product/UCC27511A"
+                    }
+                  },
+                  {
+                    "part": "UCC27517A",
+                    "description": "4-A/4-A single-channel gate driver with 5-V UVLO and negative input voltage handling",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27517A",
+                      "html": "https://www.ti.com/product/UCC27517A"
+                    }
+                  },
+                  {
+                    "part": "UCC27624",
+                    "description": "30V VDD, 5A/5A dual-channel low-side driver with 4V UVLO and low propagation delay",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27624",
+                      "html": "https://www.ti.com/product/UCC27624"
+                    }
+                  },
+                  {
+                    "part": "UCC57108",
+                    "description": "Single-channel 30V VDD, 3A/3A low-side driver with DESAT protection and 8V UVLO",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC57108",
+                      "html": "https://www.ti.com/product/UCC57108"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD13381F4",
+                    "description": "12-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 180 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD13381F4",
+                      "html": "https://www.ti.com/product/CSD13381F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17484F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 128 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17484F4",
+                      "html": "https://www.ti.com/product/CSD17484F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17579Q3A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 14.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17579Q3A",
+                      "html": "https://www.ti.com/product/CSD17579Q3A"
+                    }
+                  },
+                  {
+                    "part": "CSD18514Q5A",
+                    "description": "40-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.9 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18514Q5A",
+                      "html": "https://www.ti.com/product/CSD18514Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD18532Q5B",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 3.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
+                      "html": "https://www.ti.com/product/CSD18532Q5B"
+                    }
+                  },
+                  {
+                    "part": "CSD19535KTT",
+                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
+                      "html": "https://www.ti.com/product/CSD19535KTT"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Analog temperature sensors",
+                "products": [
+                  {
+                    "part": "LM20",
+                    "description": "±1.5°C Analog Output Temperature Sensor",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM20",
+                      "html": "https://www.ti.com/product/LM20"
+                    }
+                  },
+                  {
+                    "part": "TMP20",
+                    "description": "Analog Out Temperature Sensor",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMP20",
+                      "html": "https://www.ti.com/product/TMP20"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Digital temperature sensors",
+                "products": [
+                  {
+                    "part": "LMT01",
+                    "description": "0.5°C Accurate 2-pin Temperature Sensor with a Pulse Train Interface",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMT01",
+                      "html": "https://www.ti.com/product/LMT01"
+                    }
+                  },
+                  {
+                    "part": "TMP102",
+                    "description": "2C digital temperature sensor, I2C/SMBus in 2.56mm2 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMP102",
+                      "html": "https://www.ti.com/product/TMP102"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Temperature switches",
+                "products": [
+                  {
+                    "part": "TMP302",
+                    "description": "Pin-Selectable Trip Point 1.4V-Capable Family of Temperature Switches",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMP302",
+                      "html": "https://www.ti.com/product/TMP302"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP21618",
+            "description": "Universal input reference design for 12-V lead acid battery charger",
+            "url": "https://www.ti.com/tool/PMP21618",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRZB3"
+            }
+          },
+          {
+            "name": "PMP23454",
+            "description": "Universal input, 430W power tool charger reference design",
+            "url": "https://www.ti.com/tool/PMP23454",
+            "links": {
+              "schematic": "https://www.ti.com/lit/zip/TIDMDK2"
+            }
+          },
+          {
+            "name": "PMP23464",
+            "description": "Universal input, 500W constant current and constant voltage e-bike charger reference design",
+            "url": "https://www.ti.com/tool/PMP23464",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDMD32"
+            }
+          },
+          {
+            "name": "PMP40766",
+            "description": "Universal input, 500-W CC/CV e-Bike charger reference design",
+            "url": "https://www.ti.com/tool/PMP40766",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDM793"
+            }
+          },
+          {
+            "name": "PMP41117",
+            "description": "65W dual-port USB Power Delivery charger with self-biasing GaN flyback converter reference design",
+            "url": "https://www.ti.com/tool/PMP41117",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDMDO7"
+            }
+          },
+          {
+            "name": "PMP41131",
+            "description": "Universal AC-input 45W low-profile USB power delivery charger reference design with integrated GaN",
+            "url": "https://www.ti.com/tool/PMP41131",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDME57"
+            }
+          },
+          {
+            "name": "PMP41163",
+            "description": "Universal AC input 65W low-profile AC/DC USB PD charger reference design with integrated GaN",
+            "url": "https://www.ti.com/tool/PMP41163",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/SLVRBQ2"
+            }
+          },
+          {
+            "name": "PMP8606",
+            "description": "300W Full Bridge Phase Shifted (FBPS) DC/DC Power Supply Reference Design",
+            "url": "https://www.ti.com/tool/PMP8606",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRBJ0"
+            }
+          },
+          {
+            "name": "PMP9750",
+            "description": "400VDC Input to 28V/9A Output Compact, High Efficiency CLL Resonant Converter Reference Design",
+            "url": "https://www.ti.com/tool/PMP9750",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIF7"
+            }
+          },
+          {
+            "name": "TIDA-00702",
+            "description": "60W, 24V High Efficiency Industrial Power Supply with Precision Voltage, Current and Power Limit",
+            "url": "https://www.ti.com/tool/TIDA-00702",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB51",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIU5"
+            }
+          },
+          {
+            "name": "TIDA-010080",
+            "description": "500-W, >94.5% efficiency analog control AC/DC reference design for 5G telecom rectifier",
+            "url": "https://www.ti.com/tool/TIDA-010080",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUET3",
+              "schematic": "https://www.ti.com/lit/zip/TIDM802"
+            }
+          },
+          {
+            "name": "TIDA-01159",
+            "description": "Compact, Half-Bridge, Reinforced Isolated Gate Drive Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01159",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCG2",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRP15"
+            }
+          },
+          {
+            "name": "TIDA-01558",
+            "description": "98% Efficiency Analog 24V to 36V, 500W Backup and 50W Charger Reference Design for DC UPS",
+            "url": "https://www.ti.com/tool/TIDA-01558",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDL9",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRUP7"
+            }
+          },
+          {
+            "name": "TIDM-PSFB-DCDC",
+            "description": "Phase-Shifted Full Bridge DC/DC Power Converter Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-PSFB-DCDC",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU248",
+              "schematic": "https://www.ti.com/lit/zip/TIDR455"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-19703",
+      "details": {
+        "title": "PFC power stage",
+        "description": "PFC stage is required to shape the input current of the power supply and to meet the power factor and current THD norms such as IEC61000-2-3. In addition, the PFC stage also enhances system performance by reducing RMS input current, facilitating power supply holdup and improving efficiency of downstream converters.",
+        "productGroups": [
+          {
+            "category": "Amplifiers",
+            "sections": [
+              {
+                "title": "Analog current-sense amplifiers",
+                "products": [
+                  {
+                    "part": "INA186",
+                    "description": "40-V, bidirectional, high-precision current sense amplifier with picoamp input bias & ENABLE",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA186",
+                      "html": "https://www.ti.com/product/INA186"
+                    }
+                  },
+                  {
+                    "part": "INA199",
+                    "description": "26V, bi-directional current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA199",
+                      "html": "https://www.ti.com/product/INA199"
+                    }
+                  },
+                  {
+                    "part": "INA213",
+                    "description": "26V, bi-directional, high-precision current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA213",
+                      "html": "https://www.ti.com/product/INA213"
+                    }
+                  },
+                  {
+                    "part": "INA2181",
+                    "description": "26V, dual channel, bi-directional, 350kHz current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA2181",
+                      "html": "https://www.ti.com/product/INA2181"
+                    }
+                  },
+                  {
+                    "part": "INA280",
+                    "description": "2.7-V to 120-V, 1.1-MHz, high-precision current sense amplifier in small (SC-70) package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA280",
+                      "html": "https://www.ti.com/product/INA280"
+                    }
+                  },
+                  {
+                    "part": "INA296A",
+                    "description": "-5-V to 110-V, bidirectional, 1.1-MHz 8-V/µs ultraprecise current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA296A",
+                      "html": "https://www.ti.com/product/INA296A"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Comparators",
+                "products": [
+                  {
+                    "part": "LM2903B",
+                    "description": "Dual industrial grade standard comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM2903B",
+                      "html": "https://www.ti.com/product/LM2903B"
+                    }
+                  },
+                  {
+                    "part": "LM339B",
+                    "description": "36-V, -40°C to 85°C quad standard comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM339B",
+                      "html": "https://www.ti.com/product/LM339B"
+                    }
+                  },
+                  {
+                    "part": "LM393B",
+                    "description": "Dual commercial grade standard comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM393B",
+                      "html": "https://www.ti.com/product/LM393B"
+                    }
+                  },
+                  {
+                    "part": "TL331",
+                    "description": "High Voltage Single Differential Comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TL331",
+                      "html": "https://www.ti.com/product/TL331"
+                    }
+                  },
+                  {
+                    "part": "TLV7031",
+                    "description": "Nanopower, small size comparator with push-pull output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV7031",
+                      "html": "https://www.ti.com/product/TLV7031"
+                    }
+                  },
+                  {
+                    "part": "TLV7042",
+                    "description": "Dual nanopower comparator with open-drain output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV7042",
+                      "html": "https://www.ti.com/product/TLV7042"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "General-purpose op amps",
+                "products": [
+                  {
+                    "part": "LM321LV",
+                    "description": "Single, 5.5-V, 1-MHz, 3-mV offset voltage operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM321LV",
+                      "html": "https://www.ti.com/product/LM321LV"
+                    }
+                  },
+                  {
+                    "part": "LM324B",
+                    "description": "Quad, 36V 1.2MHz 3mV offset voltage operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM324B",
+                      "html": "https://www.ti.com/product/LM324B"
+                    }
+                  },
+                  {
+                    "part": "LM358B",
+                    "description": "Dual, 36-V, 1.2-MHz, 3-mV offset voltage operational amplifier with -40°C to 85°C operation",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM358B",
+                      "html": "https://www.ti.com/product/LM358B"
+                    }
+                  },
+                  {
+                    "part": "OPA990",
+                    "description": "Single, 40-V, 1.1-MHz, low-power operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA990",
+                      "html": "https://www.ti.com/product/OPA990"
+                    }
+                  },
+                  {
+                    "part": "TLV9001",
+                    "description": "One-channel, 1-MHz rail-to-rail input and output 1.8-V to 5.5-V operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9001",
+                      "html": "https://www.ti.com/product/TLV9001"
+                    }
+                  },
+                  {
+                    "part": "TLV9152",
+                    "description": "Dual, 16-V, 4.5-MHz, low-power operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9152",
+                      "html": "https://www.ti.com/product/TLV9152"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Precision op amps (Vos<1mV)",
+                "products": [
+                  {
+                    "part": "OPA2237",
+                    "description": "Dual Single-Supply Operational Amplifiers MicroAmplifier&trade; Series",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA2237",
+                      "html": "https://www.ti.com/product/OPA2237"
+                    }
+                  },
+                  {
+                    "part": "OPA333",
+                    "description": "Micropower, 1.8-V, 17-µA zero-drift CMOS precision operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA333",
+                      "html": "https://www.ti.com/product/OPA333"
+                    }
+                  },
+                  {
+                    "part": "OPA376",
+                    "description": "Precision (0.025mV), low noise (7.5nV/rtHz), low quiescent current (760uA) op amp",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA376",
+                      "html": "https://www.ti.com/product/OPA376"
+                    }
+                  },
+                  {
+                    "part": "OPA4350",
+                    "description": "Quad, single-supply, rail-to-rail, high speed, low noise operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA4350",
+                      "html": "https://www.ti.com/product/OPA4350"
+                    }
+                  },
+                  {
+                    "part": "TLE2022",
+                    "description": "Dual Precision Low-Power Single Supply Operational Amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLE2022",
+                      "html": "https://www.ti.com/product/TLE2022"
+                    }
+                  },
+                  {
+                    "part": "TLV376",
+                    "description": "5.5-MHz, 100-µV offset, 8-nV/√Hz noise, 815-µA power, precision operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV376",
+                      "html": "https://www.ti.com/product/TLV376"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "UCC28051",
+                    "description": "Transition mode PFC controller with 12.5V/9.7V UVLO and IEC61000-3-2 compliance, -40°C to 105",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28051",
+                      "html": "https://www.ti.com/product/UCC28051"
+                    }
+                  },
+                  {
+                    "part": "UCC28056",
+                    "description": "6-pin high performance CRM/DCM PFC controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28056",
+                      "html": "https://www.ti.com/product/UCC28056"
+                    }
+                  },
+                  {
+                    "part": "UCC28070",
+                    "description": "Two-phase Interleaved continuous conduction mode (CCM) PFC controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28070",
+                      "html": "https://www.ti.com/product/UCC28070"
+                    }
+                  },
+                  {
+                    "part": "UCC28070-Q1",
+                    "description": "Automotive two-phase interleaved continuous conduction(CCM) mode PFC controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28070-Q1",
+                      "html": "https://www.ti.com/product/UCC28070-Q1"
+                    }
+                  },
+                  {
+                    "part": "UCC28180",
+                    "description": "18-kHz-250-kHz CCM PFC controller with enhanced startup & transient response",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28180",
+                      "html": "https://www.ti.com/product/UCC28180"
+                    }
+                  },
+                  {
+                    "part": "UCC29950",
+                    "description": "High Efficiency CCM PFC/LLC Combination controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC29950",
+                      "html": "https://www.ti.com/product/UCC29950"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Gallium nitride (GaN) power stages",
+                "products": [
+                  {
+                    "part": "LMG3410R150",
+                    "description": "600-V 150-mΩ GaN with integrated driver and overcurrent protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMG3410R150",
+                      "html": "https://www.ti.com/product/LMG3410R150"
+                    }
+                  },
+                  {
+                    "part": "LMG3411R070",
+                    "description": "600-V 70-mΩ GaN with integrated driver and cycle-by-cycle overcurrent protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMG3411R070",
+                      "html": "https://www.ti.com/product/LMG3411R070"
+                    }
+                  },
+                  {
+                    "part": "LMG3612",
+                    "description": "650V 120mΩ GaN FET with integrated driver and protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMG3612",
+                      "html": "https://www.ti.com/product/LMG3612"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Half-bridge drivers",
+                "products": [
+                  {
+                    "part": "LMG1210",
+                    "description": "1.5-A, 3-A, 200-V half bridge gate driver, 5-V UVLO and programmable dead-time for GaNFET and MOSFET",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMG1210",
+                      "html": "https://www.ti.com/product/LMG1210"
+                    }
+                  },
+                  {
+                    "part": "UCC27302A",
+                    "description": "120V 4.5A half-bridge driver with 5V UVLO, interlock, and enable options",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27302A",
+                      "html": "https://www.ti.com/product/UCC27302A"
+                    }
+                  },
+                  {
+                    "part": "UCC27734",
+                    "description": "700V 4A half-bridge gate driver with 8V UVLO and interlock",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27734",
+                      "html": "https://www.ti.com/product/UCC27734"
+                    }
+                  },
+                  {
+                    "part": "UCC27735",
+                    "description": "700V 4A half-bridge gate driver with 8V UVLO, interlock, and enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27735",
+                      "html": "https://www.ti.com/product/UCC27735"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Isolated gate drivers",
+                "products": [
+                  {
+                    "part": "UCC21330",
+                    "description": "4A/6A dual-channel basic isolated gate driver with disable, programmable deadtime",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC21330",
+                      "html": "https://www.ti.com/product/UCC21330"
+                    }
+                  },
+                  {
+                    "part": "UCC21550",
+                    "description": "4A/6A dual-channel reinforced isolated gate driver with disable, programmable deadtime",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC21550",
+                      "html": "https://www.ti.com/product/UCC21550"
+                    }
+                  },
+                  {
+                    "part": "UCC5320",
+                    "description": "4A single-channel basic/reinforced isolated gate driver, split output or emitter-referenced UVLO",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC5320",
+                      "html": "https://www.ti.com/product/UCC5320"
+                    }
+                  },
+                  {
+                    "part": "UCC5350",
+                    "description": "10A/10A single-channel basic/reinforced isolated gate driver with miller clamp or split output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC5350",
+                      "html": "https://www.ti.com/product/UCC5350"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Isolated power modules (integrated transformer)",
+                "products": [
+                  {
+                    "part": "DCH010505S",
+                    "description": "Miniature, 1W, 3kVDC Isolated DC/DC Converters",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DCH010505S",
+                      "html": "https://www.ti.com/product/DCH010505S"
+                    }
+                  },
+                  {
+                    "part": "UCC33420",
+                    "description": "5V/5V 1.5W 3kVrms isolated DC-DC module with integrated transformer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC33420",
+                      "html": "https://www.ti.com/product/UCC33420"
+                    }
+                  },
+                  {
+                    "part": "UCC33420-Q1",
+                    "description": "Automotive, 5V/5V 1.5W 3kVrms isolated DC-DC module with integrated transformer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC33420-Q1",
+                      "html": "https://www.ti.com/product/UCC33420-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Low-side drivers",
+                "products": [
+                  {
+                    "part": "UCC27444",
+                    "description": "20V VDD, 4A/4A dual-channel low-side driver with -5V input capability and enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27444",
+                      "html": "https://www.ti.com/product/UCC27444"
+                    }
+                  },
+                  {
+                    "part": "UCC27511A",
+                    "description": "4-A/8-A single-channel gate driver with 5-V UVLO, split outputs, 5-V IN handling",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27511A",
+                      "html": "https://www.ti.com/product/UCC27511A"
+                    }
+                  },
+                  {
+                    "part": "UCC27517A",
+                    "description": "4-A/4-A single-channel gate driver with 5-V UVLO and negative input voltage handling",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27517A",
+                      "html": "https://www.ti.com/product/UCC27517A"
+                    }
+                  },
+                  {
+                    "part": "UCC27624",
+                    "description": "30V VDD, 5A/5A dual-channel low-side driver with 4V UVLO and low propagation delay",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC27624",
+                      "html": "https://www.ti.com/product/UCC27624"
+                    }
+                  },
+                  {
+                    "part": "UCC57108",
+                    "description": "Single-channel 30V VDD, 3A/3A low-side driver with DESAT protection and 8V UVLO",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC57108",
+                      "html": "https://www.ti.com/product/UCC57108"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD13381F4",
+                    "description": "12-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 180 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD13381F4",
+                      "html": "https://www.ti.com/product/CSD13381F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17484F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 128 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17484F4",
+                      "html": "https://www.ti.com/product/CSD17484F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17579Q3A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 14.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17579Q3A",
+                      "html": "https://www.ti.com/product/CSD17579Q3A"
+                    }
+                  },
+                  {
+                    "part": "CSD18531Q5A",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.6 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18531Q5A",
+                      "html": "https://www.ti.com/product/CSD18531Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD18532Q5B",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 3.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
+                      "html": "https://www.ti.com/product/CSD18532Q5B"
+                    }
+                  },
+                  {
+                    "part": "CSD19535KTT",
+                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
+                      "html": "https://www.ti.com/product/CSD19535KTT"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Digital temperature sensors",
+                "products": [
+                  {
+                    "part": "LMT01",
+                    "description": "0.5°C Accurate 2-pin Temperature Sensor with a Pulse Train Interface",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMT01",
+                      "html": "https://www.ti.com/product/LMT01"
+                    }
+                  },
+                  {
+                    "part": "TMP102",
+                    "description": "2C digital temperature sensor, I2C/SMBus in 2.56mm2 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMP102",
+                      "html": "https://www.ti.com/product/TMP102"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP23454",
+            "description": "Universal input, 430W power tool charger reference design",
+            "url": "https://www.ti.com/tool/PMP23454",
+            "links": {
+              "schematic": "https://www.ti.com/lit/zip/TIDMDK2"
+            }
+          },
+          {
+            "name": "PMP23464",
+            "description": "Universal input, 500W constant current and constant voltage e-bike charger reference design",
+            "url": "https://www.ti.com/tool/PMP23464",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDMD32"
+            }
+          },
+          {
+            "name": "PMP40766",
+            "description": "Universal input, 500-W CC/CV e-Bike charger reference design",
+            "url": "https://www.ti.com/tool/PMP40766",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDM793"
+            }
+          },
+          {
+            "name": "TIDA-00701",
+            "description": "100W, 24V High Efficiency High PF Industrial Power Supply with Precision Current & Power Limit",
+            "url": "https://www.ti.com/tool/TIDA-00701",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUAN0",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRH06"
+            }
+          },
+          {
+            "name": "TIDA-00707",
+            "description": "1kW, Compact, 97.5% Efficiency, Digital PFC Reference Design for Telecom and Server PSU with E-Meter",
+            "url": "https://www.ti.com/tool/TIDA-00707",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBK8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRKO7"
+            }
+          },
+          {
+            "name": "TIDA-00779",
+            "description": "230-V, 3.5-kW PFC with >98% Efficiency, Optimized for BOM and Size Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00779",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBE1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRKA5"
+            }
+          },
+          {
+            "name": "TIDA-010047",
+            "description": "22-W/in3, 93.1% peak efficiency, 100-W USB-PD 3.0 AC/DC adapter reference design with Si MOSFET",
+            "url": "https://www.ti.com/tool/TIDA-010047",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUEM3",
+              "schematic": "https://www.ti.com/lit/zip/TIDRZC8"
+            }
+          },
+          {
+            "name": "TIDA-010080",
+            "description": "500-W, >94.5% efficiency analog control AC/DC reference design for 5G telecom rectifier",
+            "url": "https://www.ti.com/tool/TIDA-010080",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUET3",
+              "schematic": "https://www.ti.com/lit/zip/TIDM802"
+            }
+          },
+          {
+            "name": "TIDA-01623",
+            "description": "30-W/in3, 93.4% efficiency, 100-W AC/DC adapter reference design",
+            "url": "https://www.ti.com/tool/TIDA-01623",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDS8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRXG9"
+            }
+          },
+          {
+            "name": "TIDM-1000",
+            "description": "Vienna Rectifier-Based Three Phase Power Factor Correction Reference Design Using C2000 MCU",
+            "url": "https://www.ti.com/tool/TIDM-1000",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCJ0",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRP45"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-19705",
+      "details": {
+        "title": "Auxiliary power supply",
+        "description": "Auxiliary power supply generally consists of a low power high voltage DC/DC converter for developing multiple isolated or non-isolated rails used to power various subsystems in the end equipment such as PWM controllers, gate drivers, sense and feedback components and in some cases a FAN. It can be made of multiple stages where the output from the main DC/DC converter could be fed to further low voltage DC/DC converters or LDOs. A typical aspect of the auxiliary power supply is its low standby power which is important in improving overall system efficiency.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "UCC24612",
+                    "description": "High-frequency multi-mode synchronous rectifier controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC24612",
+                      "html": "https://www.ti.com/product/UCC24612"
+                    }
+                  },
+                  {
+                    "part": "UCC24624",
+                    "description": "High-frequency, dual synchronous rectifier controller for LLC converters",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC24624",
+                      "html": "https://www.ti.com/product/UCC24624"
+                    }
+                  },
+                  {
+                    "part": "UCC25661",
+                    "description": "Wide VIN and VOUT 750KHz LLC controller with high-voltage startup",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC25661",
+                      "html": "https://www.ti.com/product/UCC25661"
+                    }
+                  },
+                  {
+                    "part": "UCC25800-Q1",
+                    "description": "Ultra-low EMI transformer driver for isolated bias supplies",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC25800-Q1",
+                      "html": "https://www.ti.com/product/UCC25800-Q1"
+                    }
+                  },
+                  {
+                    "part": "UCC28750",
+                    "description": "Current-mode flyback controller with secondary-side regulation (SSR) for offline applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28750",
+                      "html": "https://www.ti.com/product/UCC28750"
+                    }
+                  },
+                  {
+                    "part": "UCC28C54",
+                    "description": "Industrial, 30-V, low-power current-mode PWM controller, 14.5-V/9-V UVLO, 50% duty cycle",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28C54",
+                      "html": "https://www.ti.com/product/UCC28C54"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "AC/DC converters",
+                "products": [
+                  {
+                    "part": "UCC28881",
+                    "description": "700-V Lowest Quiescent current off-line switcher",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28881",
+                      "html": "https://www.ti.com/product/UCC28881"
+                    }
+                  },
+                  {
+                    "part": "UCC28910",
+                    "description": "700V Flyback switcher with constant-voltage constant-current and primary-side control",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28910",
+                      "html": "https://www.ti.com/product/UCC28910"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "DC/DC controllers",
+                "products": [
+                  {
+                    "part": "LM5123-Q1",
+                    "description": "2.2MHz wide VIN low IQ synchronous boost controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5123-Q1",
+                      "html": "https://www.ti.com/product/LM5123-Q1"
+                    }
+                  },
+                  {
+                    "part": "LM51551",
+                    "description": "2.2-MHz wide VIN nonsynchronous boost, flyback, & SEPIC controller with hiccup",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM51551",
+                      "html": "https://www.ti.com/product/LM51551"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LMR33630",
+                    "description": "SIMPLE SWITCHER® 3.8V to 36V, 3A Synchronous Buck Converter With Ultra-Low EMI",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR33630",
+                      "html": "https://www.ti.com/product/LMR33630"
+                    }
+                  },
+                  {
+                    "part": "LMR51610",
+                    "description": "SIMPLE SWITCHER® power converter with 4.5V-to-65V 1A synchronous buck and 25µA quiescent current",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR51610",
+                      "html": "https://www.ti.com/product/LMR51610"
+                    }
+                  },
+                  {
+                    "part": "TLV61047",
+                    "description": "20VIN, 28VOUT, 2.2A non-synchronous boost converter with SOT23-5 DDC package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV61047",
+                      "html": "https://www.ti.com/product/TLV61047"
+                    }
+                  },
+                  {
+                    "part": "TPS561243",
+                    "description": "4.2V to 17V input voltage, 1A, 1.2MHz synchronous buck converter in SOT563 with Eco-mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS561243",
+                      "html": "https://www.ti.com/product/TPS561243"
+                    }
+                  },
+                  {
+                    "part": "TPS563252",
+                    "description": "3-V to 17-V input voltage, 3-A, 1.2-Mhz synchronous buck converter in SOT563",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS563252",
+                      "html": "https://www.ti.com/product/TPS563252"
+                    }
+                  },
+                  {
+                    "part": "TPS566231",
+                    "description": "3-V to 18-V input, 6-A synchronous step-down voltage regulator with pulse skip mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS566231",
+                      "html": "https://www.ti.com/product/TPS566231"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Isolated power modules (integrated transformer)",
+                "products": [
+                  {
+                    "part": "DCH010505S",
+                    "description": "Miniature, 1W, 3kVDC Isolated DC/DC Converters",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DCH010505S",
+                      "html": "https://www.ti.com/product/DCH010505S"
+                    }
+                  },
+                  {
+                    "part": "UCC33420",
+                    "description": "5V/5V 1.5W 3kVrms isolated DC-DC module with integrated transformer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC33420",
+                      "html": "https://www.ti.com/product/UCC33420"
+                    }
+                  },
+                  {
+                    "part": "UCC33420-Q1",
+                    "description": "Automotive, 5V/5V 1.5W 3kVrms isolated DC-DC module with integrated transformer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC33420-Q1",
+                      "html": "https://www.ti.com/product/UCC33420-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "TLV709",
+                    "description": "150-mA 30-V low-dropout (LDO) linear regulator with 3.2-μA supply current",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV709",
+                      "html": "https://www.ti.com/product/TLV709"
+                    }
+                  },
+                  {
+                    "part": "TLV742P",
+                    "description": "200-mA low-IQ low-dropout (LDO) voltage regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV742P",
+                      "html": "https://www.ti.com/product/TLV742P"
+                    }
+                  },
+                  {
+                    "part": "TLV758P",
+                    "description": "500-mA, low-IQ, high-accuracy, adjustable ultra-low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV758P",
+                      "html": "https://www.ti.com/product/TLV758P"
+                    }
+                  },
+                  {
+                    "part": "TLV773",
+                    "description": "300-mA high-PSRR low-IQ low-dropout regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV773",
+                      "html": "https://www.ti.com/product/TLV773"
+                    }
+                  },
+                  {
+                    "part": "TPS7E71",
+                    "description": "150mA, 30V, ultra-low-IQ, low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7E71",
+                      "html": "https://www.ti.com/product/TPS7E71"
+                    }
+                  },
+                  {
+                    "part": "TPS7E81",
+                    "description": "40V 150mA low-IQ (2.8µA) low-dropout (LDO) regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7E81",
+                      "html": "https://www.ti.com/product/TPS7E81"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD13381F4",
+                    "description": "12-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 180 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD13381F4",
+                      "html": "https://www.ti.com/product/CSD13381F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17484F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 128 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17484F4",
+                      "html": "https://www.ti.com/product/CSD17484F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17579Q3A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 14.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17579Q3A",
+                      "html": "https://www.ti.com/product/CSD17579Q3A"
+                    }
+                  },
+                  {
+                    "part": "CSD18514Q5A",
+                    "description": "40-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.9 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18514Q5A",
+                      "html": "https://www.ti.com/product/CSD18514Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD18532Q5B",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 3.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
+                      "html": "https://www.ti.com/product/CSD18532Q5B"
+                    }
+                  },
+                  {
+                    "part": "CSD19535KTT",
+                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
+                      "html": "https://www.ti.com/product/CSD19535KTT"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Power modules (integrated inductor)",
+                "products": [
+                  {
+                    "part": "PTH08080W",
+                    "description": "2.25 A, 4.5-V to 18-V Input Wide Adjust Miniature Power Module",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/PTH08080W",
+                      "html": "https://www.ti.com/product/PTH08080W"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Shunt voltage references",
+                "products": [
+                  {
+                    "part": "LM4060",
+                    "description": "20ppm/°C maximum drift high-precision shunt voltage reference",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM4060",
+                      "html": "https://www.ti.com/product/LM4060"
+                    }
+                  },
+                  {
+                    "part": "LMV431",
+                    "description": "1.5%, low-voltage (1.24-V) adjustable precision shunt regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMV431",
+                      "html": "https://www.ti.com/product/LMV431"
+                    }
+                  },
+                  {
+                    "part": "TL431",
+                    "description": "Adjustable precision shunt regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TL431",
+                      "html": "https://www.ti.com/product/TL431"
+                    }
+                  },
+                  {
+                    "part": "TLA431",
+                    "description": "All-capacitor stable precision programmable reference with KRA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA431",
+                      "html": "https://www.ti.com/product/TLA431"
+                    }
+                  },
+                  {
+                    "part": "TLA432",
+                    "description": "All-capacitor stable precision programmable reference with RKA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA432",
+                      "html": "https://www.ti.com/product/TLA432"
+                    }
+                  },
+                  {
+                    "part": "TLV431A",
+                    "description": "1% accuracy, low-voltage, adjustable precision shunt regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV431A",
+                      "html": "https://www.ti.com/product/TLV431A"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP15002",
+            "description": "Universal AC Input to 5V/3A Output Reference Design DOE6 and COC V5 Tier 2 Compliant",
+            "url": "https://www.ti.com/tool/PMP15002",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNL1"
+            }
+          },
+          {
+            "name": "PMP23464",
+            "description": "Universal input, 500W constant current and constant voltage e-bike charger reference design",
+            "url": "https://www.ti.com/tool/PMP23464",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDMD32"
+            }
+          },
+          {
+            "name": "PMP40766",
+            "description": "Universal input, 500-W CC/CV e-Bike charger reference design",
+            "url": "https://www.ti.com/tool/PMP40766",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDM793"
+            }
+          },
+          {
+            "name": "TIDA-00709",
+            "description": "36W, Universal Input, >90% Efficiency, Dual Output Aux Supply Ref Design for PSU",
+            "url": "https://www.ti.com/tool/TIDA-00709",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC68",
+              "schematic": "https://www.ti.com/lit/pdf/TIDROE3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-19706",
+      "details": {
+        "title": "Signal isolation stage",
+        "description": "This subsystem transfers sense and control signals across the primary to secondary isolation barrier. It can be implemented using digital isolators, isolated amplifiers and optocouplers",
+        "productGroups": [
+          {
+            "category": "Isolation",
+            "sections": [
+              {
+                "title": "Digital isolators",
+                "products": [
+                  {
+                    "part": "ISO6420",
+                    "description": "Robust EMC, reinforced/Basic 2-channel, 2/0, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6420",
+                      "html": "https://www.ti.com/product/ISO6420"
+                    }
+                  },
+                  {
+                    "part": "ISO6421",
+                    "description": "Robust EMC, reinforced/Basic 2-channel, 1/1, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6421",
+                      "html": "https://www.ti.com/product/ISO6421"
+                    }
+                  },
+                  {
+                    "part": "ISO6440",
+                    "description": "Robust EMC, reinforced/Basic 4-channel, 4/0, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6440",
+                      "html": "https://www.ti.com/product/ISO6440"
+                    }
+                  },
+                  {
+                    "part": "ISO6441",
+                    "description": "Robust EMC, reinforced/Basic 4-channel, 3/1, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6441",
+                      "html": "https://www.ti.com/product/ISO6441"
+                    }
+                  },
+                  {
+                    "part": "ISO6442",
+                    "description": "Robust EMC, reinforced/Basic 4-channel, 2/2, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6442",
+                      "html": "https://www.ti.com/product/ISO6442"
+                    }
+                  },
+                  {
+                    "part": "ISO7760",
+                    "description": "Reinforced 6-channel, 6/0, digital isolator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO7760",
+                      "html": "https://www.ti.com/product/ISO7760"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Isolated amplifiers",
+                "products": [
+                  {
+                    "part": "AMC0300D",
+                    "description": "Precision ±250mV-input reinforced isolated amplifier with differential output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/AMC0300D",
+                      "html": "https://www.ti.com/product/AMC0300D"
+                    }
+                  },
+                  {
+                    "part": "AMC1211-Q1",
+                    "description": "2-V input, precision voltage sensing basic isolated amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/AMC1211-Q1",
+                      "html": "https://www.ti.com/product/AMC1211-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "UCD3138A",
+                    "description": "UCD3138A Highly Integrated Digital Controller for Isolated Power",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCD3138A",
+                      "html": "https://www.ti.com/product/UCD3138A"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00912",
+            "description": "Shunt-Based High Current Measurement (200-A) Reference Design with Reinforced Isolation Amplifier",
+            "url": "https://www.ti.com/tool/TIDA-00912",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBV1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRM07"
+            }
+          },
+          {
+            "name": "TIDA-01159",
+            "description": "Compact, Half-Bridge, Reinforced Isolated Gate Drive Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01159",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCG2",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRP15"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-19707",
+      "details": {
+        "title": "Battery profiler & control unit",
+        "description": "The battery profiler subsystem implements a multi step charging profile for the battery. It senses the battery voltage, current and temperature and controls the operation of the isolated DC/DC power stage to maintain the charging voltage and current. In some systems, this MCU also generates the necessary PWM signals to drive the isolated DC/DC power stage. MCU is also used for external communication.",
+        "productGroups": [
+          {
+            "category": "Amplifiers",
+            "sections": [
+              {
+                "title": "Analog current-sense amplifiers",
+                "products": [
+                  {
+                    "part": "INA186",
+                    "description": "40-V, bidirectional, high-precision current sense amplifier with picoamp input bias & ENABLE",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA186",
+                      "html": "https://www.ti.com/product/INA186"
+                    }
+                  },
+                  {
+                    "part": "INA199",
+                    "description": "26V, bi-directional current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA199",
+                      "html": "https://www.ti.com/product/INA199"
+                    }
+                  },
+                  {
+                    "part": "INA213",
+                    "description": "26V, bi-directional, high-precision current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA213",
+                      "html": "https://www.ti.com/product/INA213"
+                    }
+                  },
+                  {
+                    "part": "INA2181",
+                    "description": "26V, dual channel, bi-directional, 350kHz current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA2181",
+                      "html": "https://www.ti.com/product/INA2181"
+                    }
+                  },
+                  {
+                    "part": "INA280",
+                    "description": "2.7-V to 120-V, 1.1-MHz, high-precision current sense amplifier in small (SC-70) package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA280",
+                      "html": "https://www.ti.com/product/INA280"
+                    }
+                  },
+                  {
+                    "part": "INA296A",
+                    "description": "-5-V to 110-V, bidirectional, 1.1-MHz 8-V/µs ultraprecise current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA296A",
+                      "html": "https://www.ti.com/product/INA296A"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Comparators",
+                "products": [
+                  {
+                    "part": "LM2903B",
+                    "description": "Dual industrial grade standard comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM2903B",
+                      "html": "https://www.ti.com/product/LM2903B"
+                    }
+                  },
+                  {
+                    "part": "LM339B",
+                    "description": "36-V, -40°C to 85°C quad standard comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM339B",
+                      "html": "https://www.ti.com/product/LM339B"
+                    }
+                  },
+                  {
+                    "part": "LM393B",
+                    "description": "Dual commercial grade standard comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM393B",
+                      "html": "https://www.ti.com/product/LM393B"
+                    }
+                  },
+                  {
+                    "part": "TL331",
+                    "description": "High Voltage Single Differential Comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TL331",
+                      "html": "https://www.ti.com/product/TL331"
+                    }
+                  },
+                  {
+                    "part": "TLV7031",
+                    "description": "Nanopower, small size comparator with push-pull output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV7031",
+                      "html": "https://www.ti.com/product/TLV7031"
+                    }
+                  },
+                  {
+                    "part": "TLV7042",
+                    "description": "Dual nanopower comparator with open-drain output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV7042",
+                      "html": "https://www.ti.com/product/TLV7042"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "General-purpose op amps",
+                "products": [
+                  {
+                    "part": "LM321LV",
+                    "description": "Single, 5.5-V, 1-MHz, 3-mV offset voltage operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM321LV",
+                      "html": "https://www.ti.com/product/LM321LV"
+                    }
+                  },
+                  {
+                    "part": "LM324B",
+                    "description": "Quad, 36V 1.2MHz 3mV offset voltage operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM324B",
+                      "html": "https://www.ti.com/product/LM324B"
+                    }
+                  },
+                  {
+                    "part": "LM358B",
+                    "description": "Dual, 36-V, 1.2-MHz, 3-mV offset voltage operational amplifier with -40°C to 85°C operation",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM358B",
+                      "html": "https://www.ti.com/product/LM358B"
+                    }
+                  },
+                  {
+                    "part": "OPA990",
+                    "description": "Single, 40-V, 1.1-MHz, low-power operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA990",
+                      "html": "https://www.ti.com/product/OPA990"
+                    }
+                  },
+                  {
+                    "part": "TLV9001",
+                    "description": "One-channel, 1-MHz rail-to-rail input and output 1.8-V to 5.5-V operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9001",
+                      "html": "https://www.ti.com/product/TLV9001"
+                    }
+                  },
+                  {
+                    "part": "TLV9152",
+                    "description": "Dual, 16-V, 4.5-MHz, low-power operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9152",
+                      "html": "https://www.ti.com/product/TLV9152"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Logic & voltage translation",
+            "sections": [
+              {
+                "title": "Inverting buffers & drivers",
+                "products": [
+                  {
+                    "part": "SN74AUP2G240",
+                    "description": "2-ch, 0.8-V to 3.6-V low power inverters with 3-state outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AUP2G240",
+                      "html": "https://www.ti.com/product/SN74AUP2G240"
+                    }
+                  },
+                  {
+                    "part": "SN74HC14",
+                    "description": "6-ch, 2-V to 6-V inverters with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74HC14",
+                      "html": "https://www.ti.com/product/SN74HC14"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G14",
+                    "description": "Single 1.65-V to 5.5-V inverter with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G14",
+                      "html": "https://www.ti.com/product/SN74LVC1G14"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1GU04",
+                    "description": "Single 1.65-V to 5.5-V inverter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1GU04",
+                      "html": "https://www.ti.com/product/SN74LVC1GU04"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "NAND gates",
+                "products": [
+                  {
+                    "part": "SN74HCS03",
+                    "description": "Schmitt-trigger inputs quadruple 2-input positive-NAND gates with open-drain outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74HCS03",
+                      "html": "https://www.ti.com/product/SN74HCS03"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC2G132",
+                    "description": "2-ch, 2-input, 1.65-V to 5.5-V NAND gates with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC2G132",
+                      "html": "https://www.ti.com/product/SN74LVC2G132"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Microcontrollers (MCUs) & processors",
+            "sections": [
+              {
+                "title": "General-purpose MCUs",
+                "products": [
+                  {
+                    "part": "MSPM0C1103",
+                    "description": "24MHz Arm® Cortex®-M0+ MCU with 8KB flash, 1KB SRAM, 12-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0C1103",
+                      "html": "https://www.ti.com/product/MSPM0C1103"
+                    }
+                  },
+                  {
+                    "part": "MSPM0C1104",
+                    "description": "24MHz Arm® Cortex®-M0+ MCU with 16KB flash, 1KB SRAM, 12-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0C1104",
+                      "html": "https://www.ti.com/product/MSPM0C1104"
+                    }
+                  },
+                  {
+                    "part": "MSPM0G1107",
+                    "description": "80MHz Arm® Cortex®-M0+ MCU with 128KB flash 32KB SRAM 2x12-bit 4Msps ADC, op-amp",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0G1107",
+                      "html": "https://www.ti.com/product/MSPM0G1107"
+                    }
+                  },
+                  {
+                    "part": "MSPM0G1506",
+                    "description": "80MHz Arm® Cortex®-M0+ MCU with 64KB flash 32KB SRAM 2x4Msps ADC, 12-bit DAC, 3xCOMP, 2xOPA, MATHACL",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0G1506",
+                      "html": "https://www.ti.com/product/MSPM0G1506"
+                    }
+                  },
+                  {
+                    "part": "MSPM0G1518",
+                    "description": "80 MHz ARM® Cortex®-M0+ MCU with dual-bank 256kB flash, 128kB SRAM, 2xADC, DAC, 3xCOMP",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0G1518",
+                      "html": "https://www.ti.com/product/MSPM0G1518"
+                    }
+                  },
+                  {
+                    "part": "MSPM0G5117",
+                    "description": "80MHz Arm® Cortex®-M0+ MCU with dual-bank 128kB flash, 32kB SRAM, USB2.0-FS, I2S/TDM, ADC, COMP",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0G5117",
+                      "html": "https://www.ti.com/product/MSPM0G5117"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Low-power MCUs",
+                "products": [
+                  {
+                    "part": "MSPM0L1105",
+                    "description": "32-MHz Arm® Cortex®-M0+ MCU with 32-KB flash, 4-KB SRAM, 12-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L1105",
+                      "html": "https://www.ti.com/product/MSPM0L1105"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L1305",
+                    "description": "32-MHz Arm® Cortex®-M0+ MCU with 32-KB flash, 4-KB SRAM, 12-bit ADC, comparator, OPA",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L1305",
+                      "html": "https://www.ti.com/product/MSPM0L1305"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L1306",
+                    "description": "32-MHz Arm® Cortex®-M0+ MCU with 64-KB flash, 4-KB SRAM, 12-bit ADC, comparator, OPA",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L1306",
+                      "html": "https://www.ti.com/product/MSPM0L1306"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Real-time digital power MCUs",
+                "products": [
+                  {
+                    "part": "TMS320F280039C",
+                    "description": "C2000™ 32-bit MCU 120-MHz 384-KB flash, FPU, TMU with CLA, CLB, AES and CAN-FD",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280039C",
+                      "html": "https://www.ti.com/product/TMS320F280039C"
+                    }
+                  },
+                  {
+                    "part": "TMS320F28P550SJ",
+                    "description": "C2000™ 32-bit MCU with 150MHz 1.1MB flash C28x + CLA, five ADCs, CLB, AES and NPU",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28P550SJ",
+                      "html": "https://www.ti.com/product/TMS320F28P550SJ"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Real-time motor control & automation MCUs",
+                "products": [
+                  {
+                    "part": "F28E120SC",
+                    "description": "C2000™ 32-bit MCU with 160 MHz, 128-KB flash, FPU, PGA",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/F28E120SC",
+                      "html": "https://www.ti.com/product/F28E120SC"
+                    }
+                  },
+                  {
+                    "part": "TMS320F2800132",
+                    "description": "C2000™ 32-bit MCU with 100 MHz, 64-KB flash, FPU, TMU, six PWM and zero CAN",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F2800132",
+                      "html": "https://www.ti.com/product/TMS320F2800132"
+                    }
+                  },
+                  {
+                    "part": "TMS320F2800133",
+                    "description": "C2000™ 32-bit MCU with 120 MHz, 64-KB flash, FPU and TMU",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F2800133",
+                      "html": "https://www.ti.com/product/TMS320F2800133"
+                    }
+                  },
+                  {
+                    "part": "TMS320F280025",
+                    "description": "C2000™ 32-bit MCU with 100-MHz, FPU, TMU, 128-kb flash",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280025",
+                      "html": "https://www.ti.com/product/TMS320F280025"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "UCC28051",
+                    "description": "Transition mode PFC controller with 12.5V/9.7V UVLO and IEC61000-3-2 compliance, -40°C to 105",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28051",
+                      "html": "https://www.ti.com/product/UCC28051"
+                    }
+                  },
+                  {
+                    "part": "UCC28056",
+                    "description": "6-pin high performance CRM/DCM PFC controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28056",
+                      "html": "https://www.ti.com/product/UCC28056"
+                    }
+                  },
+                  {
+                    "part": "UCC28070",
+                    "description": "Two-phase Interleaved continuous conduction mode (CCM) PFC controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28070",
+                      "html": "https://www.ti.com/product/UCC28070"
+                    }
+                  },
+                  {
+                    "part": "UCC28070-Q1",
+                    "description": "Automotive two-phase interleaved continuous conduction(CCM) mode PFC controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28070-Q1",
+                      "html": "https://www.ti.com/product/UCC28070-Q1"
+                    }
+                  },
+                  {
+                    "part": "UCC28180",
+                    "description": "18-kHz-250-kHz CCM PFC controller with enhanced startup & transient response",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28180",
+                      "html": "https://www.ti.com/product/UCC28180"
+                    }
+                  },
+                  {
+                    "part": "UCC29950",
+                    "description": "High Efficiency CCM PFC/LLC Combination controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC29950",
+                      "html": "https://www.ti.com/product/UCC29950"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD13381F4",
+                    "description": "12-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 180 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD13381F4",
+                      "html": "https://www.ti.com/product/CSD13381F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17484F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 128 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17484F4",
+                      "html": "https://www.ti.com/product/CSD17484F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17579Q3A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 14.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17579Q3A",
+                      "html": "https://www.ti.com/product/CSD17579Q3A"
+                    }
+                  },
+                  {
+                    "part": "CSD18531Q5A",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.6 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18531Q5A",
+                      "html": "https://www.ti.com/product/CSD18531Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD18532Q5B",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 3.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
+                      "html": "https://www.ti.com/product/CSD18532Q5B"
+                    }
+                  },
+                  {
+                    "part": "CSD19535KTT",
+                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
+                      "html": "https://www.ti.com/product/CSD19535KTT"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Shunt voltage references",
+                "products": [
+                  {
+                    "part": "LM4060",
+                    "description": "20ppm/°C maximum drift high-precision shunt voltage reference",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM4060",
+                      "html": "https://www.ti.com/product/LM4060"
+                    }
+                  },
+                  {
+                    "part": "LMV431",
+                    "description": "1.5%, low-voltage (1.24-V) adjustable precision shunt regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMV431",
+                      "html": "https://www.ti.com/product/LMV431"
+                    }
+                  },
+                  {
+                    "part": "TL431",
+                    "description": "Adjustable precision shunt regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TL431",
+                      "html": "https://www.ti.com/product/TL431"
+                    }
+                  },
+                  {
+                    "part": "TLA431",
+                    "description": "All-capacitor stable precision programmable reference with KRA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA431",
+                      "html": "https://www.ti.com/product/TLA431"
+                    }
+                  },
+                  {
+                    "part": "TLA432",
+                    "description": "All-capacitor stable precision programmable reference with RKA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA432",
+                      "html": "https://www.ti.com/product/TLA432"
+                    }
+                  },
+                  {
+                    "part": "TLV431A",
+                    "description": "1% accuracy, low-voltage, adjustable precision shunt regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV431A",
+                      "html": "https://www.ti.com/product/TLV431A"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "eFuses (integrated hot swaps)",
+                "products": [
+                  {
+                    "part": "TPS1663",
+                    "description": "4.5-V to 60-V, 31mΩ, 0.6-6A eFuse with output power limiting",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS1663",
+                      "html": "https://www.ti.com/product/TPS1663"
+                    }
+                  },
+                  {
+                    "part": "TPS25946",
+                    "description": "2.7-V to 23-V, 5.5-A, 28-mΩ eFuse with bi-directional current support",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS25946",
+                      "html": "https://www.ti.com/product/TPS25946"
+                    }
+                  },
+                  {
+                    "part": "TPS2597",
+                    "description": "2.7-V–23-V, 7-A, 9.8-mΩ eFuse with accurate current monitor and transient overcurrent blanking",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2597",
+                      "html": "https://www.ti.com/product/TPS2597"
+                    }
+                  },
+                  {
+                    "part": "TPS25981",
+                    "description": "2.7-V to 16-V, 10-A, 6-mΩ eFuse with transient overcurrent blanking timer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS25981",
+                      "html": "https://www.ti.com/product/TPS25981"
+                    }
+                  },
+                  {
+                    "part": "TPS25983",
+                    "description": "2.7V to 26V, 2.7mΩ 20A integrated hot-swap eFuse with current monitor and blocking FET drive",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS25983",
+                      "html": "https://www.ti.com/product/TPS25983"
+                    }
+                  },
+                  {
+                    "part": "TPS2640",
+                    "description": "42-V, 2-A industrial eFuse with integrated reverse input polarity protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2640",
+                      "html": "https://www.ti.com/product/TPS2640"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01141",
+            "description": "Shunt-Based, <1% Accurate, ±100A, High-Side, Bi-directional Current Measurement Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01141",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCD7",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRP25"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-19709",
+      "details": {
+        "title": "Wired interface",
+        "description": "Wired communication features like CAN, RS485, PMBus monitor and control the end equipment. The communication interface can either be isolated or non-isolated and can have a protocol stack execute on the host MCU.",
+        "productGroups": [
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "RS-232 transceivers",
+                "products": [
+                  {
+                    "part": "MAX3221",
+                    "description": "3- to 5.5-V single channel 250kbps RS-232 line driver/receiver with +/-15-kV ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MAX3221",
+                      "html": "https://www.ti.com/product/MAX3221"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "RS-485 & RS-422 transceivers",
+                "products": [
+                  {
+                    "part": "THVD1410",
+                    "description": "3.3-V to 5-V RS-485 transceiver with ±18-kV IEC ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/THVD1410",
+                      "html": "https://www.ti.com/product/THVD1410"
+                    }
+                  },
+                  {
+                    "part": "THVD1424",
+                    "description": "RS-485 transceiver with slew-rate control, integrated switchable termination and duplex switching",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/THVD1424",
+                      "html": "https://www.ti.com/product/THVD1424"
+                    }
+                  },
+                  {
+                    "part": "THVD2450",
+                    "description": "±70-V fault-protected 3.3-V to 5-V RS-485 transceiver with IEC ESD",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/THVD2450",
+                      "html": "https://www.ti.com/product/THVD2450"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "USB port protection ICs",
+                "products": [
+                  {
+                    "part": "TPD2S300",
+                    "description": "USB Type-C&trade; short-to-VBUS & IEC ESD protector for CC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD2S300",
+                      "html": "https://www.ti.com/product/TPD2S300"
+                    }
+                  },
+                  {
+                    "part": "TPD4S480",
+                    "description": "USB Type-C™ 48V EPR port protector with short-to-VBUS overvoltage and IEC ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD4S480",
+                      "html": "https://www.ti.com/product/TPD4S480"
+                    }
+                  },
+                  {
+                    "part": "TPD6S300A",
+                    "description": "USB Type-C® port protector: short-to-VBUS overvoltage and 6ch ESD protection with improved OVP",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD6S300A",
+                      "html": "https://www.ti.com/product/TPD6S300A"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Isolation",
+            "sections": [
+              {
+                "title": "Digital isolators",
+                "products": [
+                  {
+                    "part": "ISO6420",
+                    "description": "Robust EMC, reinforced/Basic 2-channel, 2/0, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6420",
+                      "html": "https://www.ti.com/product/ISO6420"
+                    }
+                  },
+                  {
+                    "part": "ISO6421",
+                    "description": "Robust EMC, reinforced/Basic 2-channel, 1/1, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6421",
+                      "html": "https://www.ti.com/product/ISO6421"
+                    }
+                  },
+                  {
+                    "part": "ISO6440",
+                    "description": "Robust EMC, reinforced/Basic 4-channel, 4/0, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6440",
+                      "html": "https://www.ti.com/product/ISO6440"
+                    }
+                  },
+                  {
+                    "part": "ISO6441",
+                    "description": "Robust EMC, reinforced/Basic 4-channel, 3/1, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6441",
+                      "html": "https://www.ti.com/product/ISO6441"
+                    }
+                  },
+                  {
+                    "part": "ISO6442",
+                    "description": "Robust EMC, reinforced/Basic 4-channel, 2/2, digital isolator with 250kV/us CMTI, 150Mbps",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO6442",
+                      "html": "https://www.ti.com/product/ISO6442"
+                    }
+                  },
+                  {
+                    "part": "ISO7760",
+                    "description": "Reinforced 6-channel, 6/0, digital isolator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO7760",
+                      "html": "https://www.ti.com/product/ISO7760"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "I2C isolators",
+                "products": [
+                  {
+                    "part": "ISO1541",
+                    "description": "2.5-kVrms, isolated unidirectional clock, bidirectional I2C isolator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO1541",
+                      "html": "https://www.ti.com/product/ISO1541"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Isolated CAN transceivers",
+                "products": [
+                  {
+                    "part": "ISO1042",
+                    "description": "Isolated CAN transceiver with 70-V bus fault protection & flexible data rate",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO1042",
+                      "html": "https://www.ti.com/product/ISO1042"
+                    }
+                  },
+                  {
+                    "part": "ISO1044",
+                    "description": "Isolated CAN FD transceiver in small package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO1044",
+                      "html": "https://www.ti.com/product/ISO1044"
+                    }
+                  },
+                  {
+                    "part": "ISO1050",
+                    "description": "Isolated 5-V CAN transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO1050",
+                      "html": "https://www.ti.com/product/ISO1050"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Isolated RS-485 transceivers",
+                "products": [
+                  {
+                    "part": "ISO1410",
+                    "description": "EMC protected, 500-Kbps, half-duplex, 5-kVrms isolated RS-485 & RS-422 transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO1410",
+                      "html": "https://www.ti.com/product/ISO1410"
+                    }
+                  },
+                  {
+                    "part": "ISO3082",
+                    "description": "200-Kbps, half-duplex, 2.5-kVrms isolated RS-485 & RS-422 transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO3082",
+                      "html": "https://www.ti.com/product/ISO3082"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Passive and discrete",
+            "sections": [
+              {
+                "title": "ESD protection diodes",
+                "products": [
+                  {
+                    "part": "ESD351",
+                    "description": "1.8-pF, 3.3V, ±30-kV ESD protection diode with 6.5-V, 16-A TLP clamping in 0402 package for USB 2.0",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ESD351",
+                      "html": "https://www.ti.com/product/ESD351"
+                    }
+                  },
+                  {
+                    "part": "ESD751",
+                    "description": "1.6-pF ±24-V ±22-kV ESD protection diode for USB power delivery",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ESD751",
+                      "html": "https://www.ti.com/product/ESD751"
+                    }
+                  },
+                  {
+                    "part": "TPD2EUSB30",
+                    "description": "Dual 0.7-pF, 5.5-V ±8-kV ESD protection diode with 5-A surge rating for USB 3.0",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD2EUSB30",
+                      "html": "https://www.ti.com/product/TPD2EUSB30"
+                    }
+                  },
+                  {
+                    "part": "TPD2S017",
+                    "description": "2 channel 5.5-V, 1-pF, ±11kV ESD protection diode with low clamping and EMI filtering",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD2S017",
+                      "html": "https://www.ti.com/product/TPD2S017"
+                    }
+                  },
+                  {
+                    "part": "TPD4E05U06",
+                    "description": "Quad 0.5-pF, 5.5-V, ±12-kV ESD protection diode for USB, HDMI & High Speed Interfaces",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD4E05U06",
+                      "html": "https://www.ti.com/product/TPD4E05U06"
+                    }
+                  },
+                  {
+                    "part": "TPD4E1U06",
+                    "description": "Quad 0.8-pF, 5.5-V, ±15-kV ESD protection diode in SOT-23 & SC70 packages",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD4E1U06",
+                      "html": "https://www.ti.com/product/TPD4E1U06"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "TVS diodes",
+                "products": [
+                  {
+                    "part": "TVS3300",
+                    "description": "33V flat-clamp surge protection device",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TVS3300",
+                      "html": "https://www.ti.com/product/TVS3300"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "UCD3138A",
+                    "description": "UCD3138A Highly Integrated Digital Controller for Isolated Power",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCD3138A",
+                      "html": "https://www.ti.com/product/UCD3138A"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00629",
+            "description": "IEC 61000 ESD, EFT, and Surge Protected CAN Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00629",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB36",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJO1"
+            }
+          },
+          {
+            "name": "TIDA-01093",
+            "description": "Industrial Battery Management Module for 20S Applications Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01093",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC43",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNC5"
+            }
+          },
+          {
+            "name": "TIDA-01281",
+            "description": "Communication Module Reference Design for Functional Isolated RS-485, CAN and I2C Data Transmission",
+            "url": "https://www.ti.com/tool/TIDA-01281",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCN2",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRPC0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-19708",
+      "details": {
+        "title": "Reverse battery protection",
+        "description": "This subsystem implements the battery reverse polarity protection, and is responsible for preventing any damage to the board if the battery is accidentally connected in reverse",
+        "productGroups": [
+          {
+            "category": "Logic & voltage translation",
+            "sections": [
+              {
+                "title": "AND gates",
+                "products": [
+                  {
+                    "part": "SN74AHC08",
+                    "description": "4-ch, 2-input 2-V to 5.5-V high-speed (9 ns) AND gate",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AHC08",
+                      "html": "https://www.ti.com/product/SN74AHC08"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G08",
+                    "description": "1-ch, 2-input 1.65-V to 5.5-V 32 mA drive strength AND gate",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G08",
+                      "html": "https://www.ti.com/product/SN74LVC1G08"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "D-type flip-flops",
+                "products": [
+                  {
+                    "part": "SN74AUP1G79",
+                    "description": "Low-Power Single Positive-Edge-Triggered D-Type Flip-Flop",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AUP1G79",
+                      "html": "https://www.ti.com/product/SN74AUP1G79"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Inverting buffers & drivers",
+                "products": [
+                  {
+                    "part": "SN74AUP2G240",
+                    "description": "2-ch, 0.8-V to 3.6-V low power inverters with 3-state outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AUP2G240",
+                      "html": "https://www.ti.com/product/SN74AUP2G240"
+                    }
+                  },
+                  {
+                    "part": "SN74HC14",
+                    "description": "6-ch, 2-V to 6-V inverters with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74HC14",
+                      "html": "https://www.ti.com/product/SN74HC14"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G14",
+                    "description": "Single 1.65-V to 5.5-V inverter with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G14",
+                      "html": "https://www.ti.com/product/SN74LVC1G14"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1GU04",
+                    "description": "Single 1.65-V to 5.5-V inverter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1GU04",
+                      "html": "https://www.ti.com/product/SN74LVC1GU04"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "NAND gates",
+                "products": [
+                  {
+                    "part": "SN74HCS03",
+                    "description": "Schmitt-trigger inputs quadruple 2-input positive-NAND gates with open-drain outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74HCS03",
+                      "html": "https://www.ti.com/product/SN74HCS03"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC2G132",
+                    "description": "2-ch, 2-input, 1.65-V to 5.5-V NAND gates with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC2G132",
+                      "html": "https://www.ti.com/product/SN74LVC2G132"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Noninverting buffers & drivers",
+                "products": [
+                  {
+                    "part": "SN74LV541A",
+                    "description": "Eight-channel, 2-V to 5.5-V buffers with tri-state outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LV541A",
+                      "html": "https://www.ti.com/product/SN74LV541A"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G07",
+                    "description": "Single 1.65-V to 5.5-V buffer with open-drain outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G07",
+                      "html": "https://www.ti.com/product/SN74LVC1G07"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G17",
+                    "description": "Single 1.65-V to 5.5-V buffer with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G17",
+                      "html": "https://www.ti.com/product/SN74LVC1G17"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC2G34",
+                    "description": "2-ch, 1.65-V to 5.5-V buffers",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC2G34",
+                      "html": "https://www.ti.com/product/SN74LVC2G34"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "OR gates",
+                "products": [
+                  {
+                    "part": "SN74LVC1G332",
+                    "description": "1-ch, 3-input 1.65-V to 5.5-V 32-mA drive strength OR gate",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G332",
+                      "html": "https://www.ti.com/product/SN74LVC1G332"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Shift registers",
+                "products": [
+                  {
+                    "part": "SN74HCS595",
+                    "description": "8-bit shift register with Schmitt-trigger inputs and 3-state output registers",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74HCS595",
+                      "html": "https://www.ti.com/product/SN74HCS595"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Voltage translators",
+                "products": [
+                  {
+                    "part": "SN74AXC4T245",
+                    "description": "4-bit dual-supply bus transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AXC4T245",
+                      "html": "https://www.ti.com/product/SN74AXC4T245"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD13381F4",
+                    "description": "12-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 180 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD13381F4",
+                      "html": "https://www.ti.com/product/CSD13381F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17484F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 128 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17484F4",
+                      "html": "https://www.ti.com/product/CSD17484F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17579Q3A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 14.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17579Q3A",
+                      "html": "https://www.ti.com/product/CSD17579Q3A"
+                    }
+                  },
+                  {
+                    "part": "CSD18532Q5B",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 3.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
+                      "html": "https://www.ti.com/product/CSD18532Q5B"
+                    }
+                  },
+                  {
+                    "part": "CSD19535KTT",
+                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
+                      "html": "https://www.ti.com/product/CSD19535KTT"
+                    }
+                  },
+                  {
+                    "part": "CSD25481F4",
+                    "description": "-20-V, P channel NexFET™ power MOSFET, single LGA 0.6 mm x 1 mm, 105 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD25481F4",
+                      "html": "https://www.ti.com/product/CSD25481F4"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP9498",
+            "description": "Automotive Reverse Battery Protection Reference Design with Overcurrent and Overvoltage Shutoff",
+            "url": "https://www.ti.com/tool/PMP9498",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIA8"
+            }
+          },
+          {
+            "name": "TIDA-00992",
+            "description": "Automotive Reverse Polarity Protection Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00992",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC42",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNE8"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

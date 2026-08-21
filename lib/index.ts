@@ -6,7 +6,7 @@ export {
   type SysBlockJsonNode,
   type SysBlockJsonProduct,
 } from "./create-sysblock-definition-from-json"
-export { machineVisionCamera, machineVisionCameraSource } from "./diagrams/machine-vision-camera"
+export * from "./generated/catalog"
 export type {
   SysBlockDefinition,
   SysBlockDetails,

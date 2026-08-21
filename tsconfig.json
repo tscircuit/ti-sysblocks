@@ -15,7 +15,18 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vite/client"]
+    "types": ["bun", "vite/client"],
+    "paths": {
+      "lib/*": ["./lib/*"],
+      "tests/*": ["./tests/*"]
+    }
   },
-  "include": ["src", "demo", "vite.config.ts", "vite.lib.config.ts"]
+  "include": [
+    "lib",
+    "pages",
+    "scripts",
+    "tests",
+    "cosmos.decorator.tsx",
+    "vite.config.ts"
+  ]
 }

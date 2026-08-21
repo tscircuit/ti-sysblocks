@@ -24,6 +24,10 @@ export interface SysBlockReferenceDesign {
   name: string
   description: string
   url: string
+  links?: {
+    designGuide?: string
+    schematic?: string
+  }
 }
 
 export interface SysBlockDetails {
@@ -38,6 +42,7 @@ export interface SysBlockDefinition {
   title: string
   svg: string
   defaultSelected: string
+  sourceUrl?: string
   blocks: Record<string, SysBlockDetails>
 }
 

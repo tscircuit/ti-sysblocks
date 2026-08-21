@@ -33,6 +33,7 @@ export interface SysBlockJsonNode {
 
 export interface SysBlockDiagramJson {
   title: string
+  sourceUrl?: string
   defaultSelected: string
   nodes: SysBlockJsonNode[]
 }
@@ -46,6 +47,7 @@ export function createSysBlockDefinitionFromJson(
   return defineSysBlockDiagram({
     id,
     title: source.title,
+    sourceUrl: source.sourceUrl,
     svg,
     defaultSelected: source.defaultSelected,
     blocks: Object.fromEntries(

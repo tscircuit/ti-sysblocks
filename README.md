@@ -24,13 +24,30 @@ export function CameraDiagram() {
 }
 ```
 
-## Add another TI diagram
+## Diagram catalog
 
-1. Copy the diagram-only SVG into `src/diagrams/`.
-2. Give each selectable SVG group a stable `id`, such as `<g id="sensing">`.
-3. Add a JSON file whose node IDs match those SVG group IDs.
-4. Combine the two files with `createSysBlockDefinitionFromJson`.
-5. Export the definition from `src/index.ts` and add it to the demo.
+The catalog follows the [tscircuit handbook's visualizer convention](https://github.com/tscircuit/handbook/blob/main/guides/bootstrapping-repos.md): each diagram is a separate `pages/*.page.tsx` Cosmos page.
+
+```sh
+bun install
+bun run start
+```
+
+Cosmos lists every solution and variant independently in its sidebar. The initial catalog converts five TI solution pages into ten diagram pages:
+
+- Machine vision camera
+- Drive line components (three variants)
+- Central inverter
+- Battery charger (three variants)
+- Thermostat (two variants)
+
+## Add another TI solution
+
+1. Add its `{ slug, title }` entry to `solutions` in `scripts/generate-ti-diagrams.ts`.
+2. Run `bun run generate`.
+3. Run `bun run build` to validate SVG group IDs and typecheck the catalog.
+
+The generator reads TI's embedded solution model, preserves its original SVG geometry, converts products and documents to the JSON format, assigns stable interactive SVG group IDs, and creates one Cosmos page per variant.
 
 The important mapping is:
 
@@ -49,7 +66,7 @@ import { createSysBlockDefinitionFromJson } from "../create-sysblock-definition-
 export const newDiagram = createSysBlockDefinitionFromJson("new-diagram", svg, json)
 ```
 
-`npm run validate:diagrams` verifies that the selectable IDs in each JSON file exist as SVG group IDs.
+`bun run validate:diagrams` verifies that every selectable JSON node has a matching SVG group ID.
 
 ## Definition shape
 
@@ -93,9 +110,10 @@ const definition = defineSysBlockDiagram({
 ## Development
 
 ```sh
-npm install
-npm run dev
-npm run build
+bun install
+bun run start
+bun run build
+bun run build:site
 ```
 
 ## License

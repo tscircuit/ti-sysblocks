@@ -1,0 +1,501 @@
+{
+  "title": "Drive line components — Torque converter",
+  "sourceUrl": "https://www.ti.com/solution/drive-line-components",
+  "defaultSelected": "subsystemid-28492",
+  "nodes": [
+    {
+      "id": "subsystemid-28492",
+      "details": {
+        "title": "Proportional solenoid driver",
+        "description": "The high side driver is used to drive the proportional solenoid. These high side drivers have current sense, overvoltage and current protections built in.",
+        "productGroups": [
+          {
+            "category": "Motor drivers",
+            "sections": [
+              {
+                "title": "BLDC drivers",
+                "products": [
+                  {
+                    "part": "DRV8305-Q1",
+                    "description": "Automotive 12-V battery 3-phase smart gate driver (grade 0 & grade 1)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8305-Q1",
+                      "html": "https://www.ti.com/product/DRV8305-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "High-side switches",
+                "products": [
+                  {
+                    "part": "TPS1HC100-Q1",
+                    "description": "Automotive, 100-mΩ, 2.5-A, one-channel smart high-side switch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS1HC100-Q1",
+                      "html": "https://www.ti.com/product/TPS1HC100-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01506",
+            "description": "Reference Design for Automotive, Proportional-Solenoid Current Sensor",
+            "url": "https://www.ti.com/tool/TIDA-01506",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDF9",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRUY6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-28495",
+      "details": {
+        "title": "Temperature sensor",
+        "description": "The temperature sensor on a TCU board monitors the temperature of peripherals on the board for compensation and control algorithms.",
+        "productGroups": [
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Analog temperature sensors",
+                "products": [
+                  {
+                    "part": "LMT86-Q1",
+                    "description": "Automotive Grade, 2.2V-Capable, 10 uA Analog Output Temperature Sensor",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMT86-Q1",
+                      "html": "https://www.ti.com/product/LMT86-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00901",
+            "description": "Automotive 12-V, 200-W (20-A) BLDC Motor Drive Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00901",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBP9",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRLJ1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-28496",
+      "details": {
+        "title": "Wired interface",
+        "description": "A CAN/LIN interface connects the control unit with other systems on the board.",
+        "productGroups": [
+          {
+            "category": "Passive and discrete",
+            "sections": [
+              {
+                "title": "ESD protection diodes",
+                "products": [
+                  {
+                    "part": "TPD4E001-Q1",
+                    "description": "Automotive Quad 1.5-pF, 5.5-V, ±8-kV ESD protection diode with VCC pin for USB 2.0",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD4E001-Q1",
+                      "html": "https://www.ti.com/product/TPD4E001-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01255",
+            "description": "Automotive Reinforced Isolation CAN Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01255",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCN0",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRQS8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-28488",
+      "details": {
+        "title": "Input protection",
+        "description": "Reverse battery and overvoltage protection are the key functions to prevent the wrong polarity connection of the battery and overvolatge events from the battery and external sources. Protection stage protects the downstream circuitry from being damaged due to these effects..",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Ideal diode & ORing controllers",
+                "products": [
+                  {
+                    "part": "LM5050-1-Q1",
+                    "description": "Automotive, 5-V to 75-V&nbsp;400-uA IQ ORing FET controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5050-1-Q1",
+                      "html": "https://www.ti.com/product/LM5050-1-Q1"
+                    }
+                  },
+                  {
+                    "part": "LM74610-Q1",
+                    "description": "0.48-V to 42-V, zero IQ automotive ideal diode controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM74610-Q1",
+                      "html": "https://www.ti.com/product/LM74610-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP10737",
+            "description": "Reverse Polarity and Overvoltage Protection Reference Design for Automotive Systems",
+            "url": "https://www.ti.com/tool/PMP10737",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIF2"
+            }
+          },
+          {
+            "name": "PMP9498",
+            "description": "Automotive Reverse Battery Protection Reference Design with Overcurrent and Overvoltage Shutoff",
+            "url": "https://www.ti.com/tool/PMP9498",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIA8"
+            }
+          },
+          {
+            "name": "TIDA-00992",
+            "description": "Automotive Reverse Polarity Protection Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00992",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC42",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNE8"
+            }
+          },
+          {
+            "name": "TIDA-01167",
+            "description": "Automotive 12-V/24-V Battery Input Protection Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01167",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC41",
+              "schematic": "https://www.ti.com/lit/pdf/TIDROP5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-28487",
+      "details": {
+        "title": "Digital processing",
+        "description": "Digital processing is a control system which takes inputs from different types of sensors. Based on the sensory information, it controls several motors, solenoids and other peripherals.",
+        "productGroups": [
+          {
+            "category": "Microcontrollers (MCUs) & processors",
+            "sections": [
+              {
+                "title": "Automotive powertrain, zonal & chassis control MCUs",
+                "products": [
+                  {
+                    "part": "TMS570LS0432",
+                    "description": "16/32 Bit RISC Flash MCU, Arm Cortex-R4, Auto Q-100",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS570LS0432",
+                      "html": "https://www.ti.com/product/TMS570LS0432"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-28489",
+      "details": {
+        "title": "Linear regulator",
+        "description": "Tracking LDO keeps track of power failures on the power lines which goes from the transmission control unit to remote systems.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "TPS709-Q1",
+                    "description": "Automotive 150-mA, 30-V, ultra-low-IQ, low-dropout voltage regulator with reverse current protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS709-Q1",
+                      "html": "https://www.ti.com/product/TPS709-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS763-Q1",
+                    "description": "Automotive 150mA, 10V, low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS763-Q1",
+                      "html": "https://www.ti.com/product/TPS763-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS7A16",
+                    "description": "100-mA, 60-V, ultra-low-IQ, low-dropout (LDO) voltage regulator with power good and enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A16",
+                      "html": "https://www.ti.com/product/TPS7A16"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-28490",
+      "details": {
+        "title": "MUX",
+        "description": "MUX redirects information from different sensors to the microcontroller.",
+        "productGroups": [],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-28491",
+      "details": {
+        "title": "On/off solenoid driver",
+        "description": "A low side driver is typically used to drive the on/off solenoid. On/off solenoids drive the gear controller in a valve configuration.",
+        "productGroups": [
+          {
+            "category": "Motor drivers",
+            "sections": [
+              {
+                "title": "BLDC drivers",
+                "products": [
+                  {
+                    "part": "DRV8305-Q1",
+                    "description": "Automotive 12-V battery 3-phase smart gate driver (grade 0 & grade 1)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8305-Q1",
+                      "html": "https://www.ti.com/product/DRV8305-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "High-side switches",
+                "products": [
+                  {
+                    "part": "TPS1HC100-Q1",
+                    "description": "Automotive, 100-mΩ, 2.5-A, one-channel smart high-side switch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS1HC100-Q1",
+                      "html": "https://www.ti.com/product/TPS1HC100-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-28493",
+      "details": {
+        "title": "System basis chip (SBC)",
+        "description": "A system basis chip is a high performance power supply controller that integrates digital interfaces, watchdogs and other diagnostic features. Usually buck, four-switch buck-boost or boost topologies are used. It has fixed and variable LDOs to support variable MCUs and other peripherals on board.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LM53600-Q1",
+                    "description": "Automotive 3.5-V to 36-V, 650-mA synchronous 2.1-MHz step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM53600-Q1",
+                      "html": "https://www.ti.com/product/LM53600-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "TPS709-Q1",
+                    "description": "Automotive 150-mA, 30-V, ultra-low-IQ, low-dropout voltage regulator with reverse current protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS709-Q1",
+                      "html": "https://www.ti.com/product/TPS709-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS763-Q1",
+                    "description": "Automotive 150mA, 10V, low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS763-Q1",
+                      "html": "https://www.ti.com/product/TPS763-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS7A16",
+                    "description": "100-mA, 60-V, ultra-low-IQ, low-dropout (LDO) voltage regulator with power good and enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A16",
+                      "html": "https://www.ti.com/product/TPS7A16"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Multi-channel ICs (PMICs)",
+                "products": [
+                  {
+                    "part": "TPS65381A-Q1",
+                    "description": "Multi-rail power supply (PMIC) for microcontrollers in safety applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS65381A-Q1",
+                      "html": "https://www.ti.com/product/TPS65381A-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Shunt voltage references",
+                "products": [
+                  {
+                    "part": "LM4060",
+                    "description": "20ppm/°C maximum drift high-precision shunt voltage reference",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM4060",
+                      "html": "https://www.ti.com/product/LM4060"
+                    }
+                  },
+                  {
+                    "part": "TLA432",
+                    "description": "All-capacitor stable precision programmable reference with RKA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA432",
+                      "html": "https://www.ti.com/product/TLA432"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-28494",
+      "details": {
+        "title": "Solenoid position sensor",
+        "description": "For a proportional solenoid, accurate positioning information is critical as the solenoid movement needs to be very accurate. In general, Hall or inductive type position sensing technology is used here.",
+        "productGroups": [
+          {
+            "category": "Amplifiers",
+            "sections": [
+              {
+                "title": "Analog current-sense amplifiers",
+                "products": [
+                  {
+                    "part": "INA240-Q1",
+                    "description": "AEC-Q100, -4 to 80V, bi-directional, ultra-precise current sense amplifier w/ enhanced pwm rejection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA240-Q1",
+                      "html": "https://www.ti.com/product/INA240-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Hall-effect latches & switches",
+                "products": [
+                  {
+                    "part": "DRV5013",
+                    "description": "High voltage (up to 38V), high bandwidth (30kHz) Hall-effect latch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV5013",
+                      "html": "https://www.ti.com/product/DRV5013"
+                    }
+                  },
+                  {
+                    "part": "DRV5013-Q1",
+                    "description": "Automotive, high voltage (up to 38V), high bandwidth (30-kHz) Hall effect latch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV5013-Q1",
+                      "html": "https://www.ti.com/product/DRV5013-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01506",
+            "description": "Reference Design for Automotive, Proportional-Solenoid Current Sensor",
+            "url": "https://www.ti.com/tool/TIDA-01506",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDF9",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRUY6"
+            }
+          },
+          {
+            "name": "TIDA-020023",
+            "description": "Automotive proportional solenoid drive with highly accurate current sensor reference design",
+            "url": "https://www.ti.com/tool/TIDA-020023",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUEO6",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRZJ6"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,4 +1,9 @@
 node_modules
 dist
+cosmos-export
+.cosmos
+.vercel
+.cursor
+bun.lock
 .DS_Store
 *.log

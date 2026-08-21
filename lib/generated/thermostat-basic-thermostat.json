@@ -1,0 +1,1967 @@
+{
+  "title": "Thermostat — Basic thermostat",
+  "sourceUrl": "https://www.ti.com/solution/thermostat",
+  "defaultSelected": "subsystemid-20477",
+  "nodes": [
+    {
+      "id": "subsystemid-20879",
+      "details": {
+        "title": "Signal isolation",
+        "description": "Signal isolation is needed to interface the system to service signals and to monitor the AC power source. Optocouplers, n-channel MOSFETs, and p-channel MOSFETs are generally used for signal isolation.",
+        "productGroups": [
+          {
+            "category": "Isolation",
+            "sections": [
+              {
+                "title": "Isolated RS-485 transceivers",
+                "products": [
+                  {
+                    "part": "ISO3082",
+                    "description": "200-Kbps, half-duplex, 2.5-kVrms isolated RS-485 & RS-422 transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO3082",
+                      "html": "https://www.ti.com/product/ISO3082"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00751",
+            "description": "Solid State Relay 24V AC Switch with Galvanic Isolation Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00751",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB92",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJJ8"
+            }
+          },
+          {
+            "name": "TIDA-01065",
+            "description": "Isolated Self-Powered AC Solid State Relay with MOSFETs Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01065",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC91",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRQ94"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-20477",
+      "details": {
+        "title": "Non-isolated AC/DC power supply",
+        "description": "Thermostats are generally powered from an existing 24V AC power source. A bridge rectifier and a FET can be used to create a DC voltage from an AC power source. E-fuses can also be used in place of traditional fuses for added current protection.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC converters",
+                "products": [
+                  {
+                    "part": "UCC28881",
+                    "description": "700-V Lowest Quiescent current off-line switcher",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28881",
+                      "html": "https://www.ti.com/product/UCC28881"
+                    }
+                  },
+                  {
+                    "part": "UCC28910",
+                    "description": "700V Flyback switcher with constant-voltage constant-current and primary-side control",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28910",
+                      "html": "https://www.ti.com/product/UCC28910"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LMR36502",
+                    "description": "3-V to 65-V, 150-mA ultra-small synchronous buck converter with 6 μA IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR36502",
+                      "html": "https://www.ti.com/product/LMR36502"
+                    }
+                  },
+                  {
+                    "part": "LMR43610",
+                    "description": "3-V to 36-V, 1-A low-EMI synchronous buck regulator with low IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR43610",
+                      "html": "https://www.ti.com/product/LMR43610"
+                    }
+                  },
+                  {
+                    "part": "LMR51610",
+                    "description": "SIMPLE SWITCHER® power converter with 4.5V-to-65V 1A synchronous buck and 25µA quiescent current",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR51610",
+                      "html": "https://www.ti.com/product/LMR51610"
+                    }
+                  },
+                  {
+                    "part": "TPS561243",
+                    "description": "4.2V to 17V input voltage, 1A, 1.2MHz synchronous buck converter in SOT563 with Eco-mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS561243",
+                      "html": "https://www.ti.com/product/TPS561243"
+                    }
+                  },
+                  {
+                    "part": "TPS628502-Q1",
+                    "description": "2.7-V to 6-V, 2-A automotive step-down converter in SOT583 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS628502-Q1",
+                      "html": "https://www.ti.com/product/TPS628502-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS62A01",
+                    "description": "2.5V-to-5.5V input, 1A output high-efficiency step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62A01",
+                      "html": "https://www.ti.com/product/TPS62A01"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD17483F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6 mm, 260 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17483F4",
+                      "html": "https://www.ti.com/product/CSD17483F4"
+                    }
+                  },
+                  {
+                    "part": "CSD18541F5",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single LGA 1.5 mm x 0.8mm, 65 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18541F5",
+                      "html": "https://www.ti.com/product/CSD18541F5"
+                    }
+                  },
+                  {
+                    "part": "CSD19537Q3",
+                    "description": "100-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 14.5 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD19537Q3",
+                      "html": "https://www.ti.com/product/CSD19537Q3"
+                    }
+                  },
+                  {
+                    "part": "CSD87502Q2",
+                    "description": "30-V, N channel NexFET™ power MOSFET, dual SON 2 mm x 2, 42 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD87502Q2",
+                      "html": "https://www.ti.com/product/CSD87502Q2"
+                    }
+                  },
+                  {
+                    "part": "CSD88539ND",
+                    "description": "60-V, N channel NexFET™ power MOSFET, dual SO-8, 28 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD88539ND",
+                      "html": "https://www.ti.com/product/CSD88539ND"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Series voltage references",
+                "products": [
+                  {
+                    "part": "REF1930",
+                    "description": "3-V Vref, dual-output Vref & Vref/2 voltage reference",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/REF1930",
+                      "html": "https://www.ti.com/product/REF1930"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Shunt voltage references",
+                "products": [
+                  {
+                    "part": "ATL431LI",
+                    "description": "Low-IQ programmable shunt regulator offered in an ultra-small DQN package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ATL431LI",
+                      "html": "https://www.ti.com/product/ATL431LI"
+                    }
+                  },
+                  {
+                    "part": "LMV431A",
+                    "description": "1%, low-voltage (1.24-V) adjustable precision shunt regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMV431A",
+                      "html": "https://www.ti.com/product/LMV431A"
+                    }
+                  },
+                  {
+                    "part": "TLVH432",
+                    "description": "1.5% low-voltage wide-operating current adjustable precision shunt regulator (reverse pinout)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLVH432",
+                      "html": "https://www.ti.com/product/TLVH432"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "eFuses (integrated hot swaps)",
+                "products": [
+                  {
+                    "part": "TPS2662",
+                    "description": "4.5-V to 60-V, 478mΩ, 0.025-0.88A eFuse with integrated input and output reverse polarity protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2662",
+                      "html": "https://www.ti.com/product/TPS2662"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP10856",
+            "description": "18-30VAC Input, 24V/1A Flyback Reference Design",
+            "url": "https://www.ti.com/tool/PMP10856",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRE63"
+            }
+          },
+          {
+            "name": "PMP22504",
+            "description": "12-VAC to 28-VAC, 7.5-W to 25-W ideal diode full-bridge rectifier reference design",
+            "url": "https://www.ti.com/tool/PMP22504",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDM674"
+            }
+          },
+          {
+            "name": "PMP23445",
+            "description": "120Vac to 3.3Vdc, 0.5A coupled-inductor buck converter reference design",
+            "url": "https://www.ti.com/tool/PMP23445",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDMCF3"
+            }
+          },
+          {
+            "name": "TIDA-00896",
+            "description": "LDO Regulator Post AC/DC Rectifier Ripple Cleaner Reference Design for Industrial Applications",
+            "url": "https://www.ti.com/tool/TIDA-00896",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB95",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRKA2"
+            }
+          },
+          {
+            "name": "TIDA-010932",
+            "description": "24-VAC power stage reference design with battery backup",
+            "url": "https://www.ti.com/tool/TIDA-010932",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUF26",
+              "schematic": "https://www.ti.com/lit/pdf/TIDMBO3"
+            }
+          },
+          {
+            "name": "TIDA-01358",
+            "description": "24-V AC Power Stage With Wide Vin Converter and Battery Backup Reference Design for Smart Thermostat",
+            "url": "https://www.ti.com/tool/TIDA-01358",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCE1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRPC5"
+            }
+          },
+          {
+            "name": "TIDA-01395",
+            "description": "24-V AC Power Stage With Wide Vin Converter and Battery Gauge Reference Design for Smart Thermostat",
+            "url": "https://www.ti.com/tool/TIDA-01395",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCW0",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRQ89"
+            }
+          },
+          {
+            "name": "TIDA-01574",
+            "description": "Power Stage Reference Design for Power Stealing Thermostat",
+            "url": "https://www.ti.com/tool/TIDA-01574",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDV2",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRVD0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-22642",
+      "details": {
+        "title": "Clocking",
+        "description": "A clock generator with support for spread-spectrum clocking (SCC) may be used to reduce electro-magnetic interference (EMI). A real-time clock (RTC) can be used to keep track of time during system power loss.",
+        "productGroups": [
+          {
+            "category": "Clocks & timing",
+            "sections": [
+              {
+                "title": "Real-time clocks (RTCs) & timers",
+                "products": [
+                  {
+                    "part": "LMC555",
+                    "description": "World’s smallest 555 timer with low power, high accuracy and a Fmax of 3MHz",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMC555",
+                      "html": "https://www.ti.com/product/LMC555"
+                    }
+                  },
+                  {
+                    "part": "NA555",
+                    "description": "Precision Timers",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/NA555",
+                      "html": "https://www.ti.com/product/NA555"
+                    }
+                  },
+                  {
+                    "part": "TPL5100",
+                    "description": "Nano-powered programmable timer with power gating functionality and MOS driver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL5100",
+                      "html": "https://www.ti.com/product/TPL5100"
+                    }
+                  },
+                  {
+                    "part": "TPL5110",
+                    "description": "Nano-powered system timer with MOS driver and manual MOSFET power ON",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL5110",
+                      "html": "https://www.ti.com/product/TPL5110"
+                    }
+                  },
+                  {
+                    "part": "TPL5111",
+                    "description": "Ultra low power system timer (35 nA) for power gating in duty cycled applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL5111",
+                      "html": "https://www.ti.com/product/TPL5111"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-21282",
+      "details": {
+        "title": "Relay system",
+        "description": "The relay system allows the thermostat to operate the HVAC system. A mechanical relay system provides the lowest cost solution, but generates loud clicking noises and has physical contacts that wear out. A solid-state relay (SSR) system performs the same function without the use of mechanical parts. A digital SSR system consisting of control logic and MOSFET switches provides a low-footprint and low-BOM-count solution.",
+        "productGroups": [
+          {
+            "category": "Logic & voltage translation",
+            "sections": [
+              {
+                "title": "AND gates",
+                "products": [
+                  {
+                    "part": "SN74AUP2G08",
+                    "description": "2-ch, 2-input 0.8-V to 3.6-V low power (< 1uA) AND gate",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AUP2G08",
+                      "html": "https://www.ti.com/product/SN74AUP2G08"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G08",
+                    "description": "1-ch, 2-input 1.65-V to 5.5-V 32 mA drive strength AND gate",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G08",
+                      "html": "https://www.ti.com/product/SN74LVC1G08"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "D-type flip-flops",
+                "products": [
+                  {
+                    "part": "SN74AUP1G74",
+                    "description": "Low-Power Single Positive-Edge-Triggered D-Type Flip-Flop",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AUP1G74",
+                      "html": "https://www.ti.com/product/SN74AUP1G74"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G74",
+                    "description": "Single Positive-Edge-Triggered D-Type Flip-Flop With Clear and Preset",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G74",
+                      "html": "https://www.ti.com/product/SN74LVC1G74"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Inverting buffers & drivers",
+                "products": [
+                  {
+                    "part": "CD4069UB",
+                    "description": "6-ch, 3-V to 18-V inverters",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CD4069UB",
+                      "html": "https://www.ti.com/product/CD4069UB"
+                    }
+                  },
+                  {
+                    "part": "SN74AUP1G14",
+                    "description": "Single 0.8-V to 3.6-V low power inverter with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AUP1G14",
+                      "html": "https://www.ti.com/product/SN74AUP1G14"
+                    }
+                  },
+                  {
+                    "part": "SN74AUP3G14",
+                    "description": "3-ch, 0.8-V to 3.6-V low power inverters with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AUP3G14",
+                      "html": "https://www.ti.com/product/SN74AUP3G14"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G04",
+                    "description": "Single 1.65-V to 5.5-V inverter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G04",
+                      "html": "https://www.ti.com/product/SN74LVC1G04"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "JK flip-flops",
+                "products": [
+                  {
+                    "part": "SN74HC112",
+                    "description": "Dual J-K Negative-Edge-Triggered Flip-Flops With Clear and Preset",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74HC112",
+                      "html": "https://www.ti.com/product/SN74HC112"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Noninverting buffers & drivers",
+                "products": [
+                  {
+                    "part": "SN74AUP1G17",
+                    "description": "Single 0.8-V to 3.6-V low power buffer with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AUP1G17",
+                      "html": "https://www.ti.com/product/SN74AUP1G17"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G07",
+                    "description": "Single 1.65-V to 5.5-V buffer with open-drain outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G07",
+                      "html": "https://www.ti.com/product/SN74LVC1G07"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G125",
+                    "description": "Single 1.65-V to 5.5-V buffer with 3-state outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G125",
+                      "html": "https://www.ti.com/product/SN74LVC1G125"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Low-side switches",
+                "products": [
+                  {
+                    "part": "TPL7407LA",
+                    "description": "30-V, 7-ch NMOS array low-side driver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL7407LA",
+                      "html": "https://www.ti.com/product/TPL7407LA"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD17382F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6mm, 67 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17382F4",
+                      "html": "https://www.ti.com/product/CSD17382F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17483F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6 mm, 260 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17483F4",
+                      "html": "https://www.ti.com/product/CSD17483F4"
+                    }
+                  },
+                  {
+                    "part": "CSD18541F5",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single LGA 1.5 mm x 0.8mm, 65 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18541F5",
+                      "html": "https://www.ti.com/product/CSD18541F5"
+                    }
+                  },
+                  {
+                    "part": "CSD19537Q3",
+                    "description": "100-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 14.5 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD19537Q3",
+                      "html": "https://www.ti.com/product/CSD19537Q3"
+                    }
+                  },
+                  {
+                    "part": "CSD19538Q2",
+                    "description": "100-V, N channel NexFET™ power MOSFET, single SON 2 mm x 2 mm, 59 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD19538Q2",
+                      "html": "https://www.ti.com/product/CSD19538Q2"
+                    }
+                  },
+                  {
+                    "part": "CSD87502Q2",
+                    "description": "30-V, N channel NexFET™ power MOSFET, dual SON 2 mm x 2, 42 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD87502Q2",
+                      "html": "https://www.ti.com/product/CSD87502Q2"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00377",
+            "description": "Self-Powered AC Solid State Relay with MOSFETs Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00377",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBR5",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNE3"
+            }
+          },
+          {
+            "name": "TIDA-00751",
+            "description": "Solid State Relay 24V AC Switch with Galvanic Isolation Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00751",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB92",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJJ8"
+            }
+          },
+          {
+            "name": "TIDA-010085",
+            "description": "24-VAC multi-channel solid state relay reference design using digital isolator",
+            "url": "https://www.ti.com/tool/TIDA-010085",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUEZ1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDM822"
+            }
+          },
+          {
+            "name": "TIDA-01064",
+            "description": "Low BOM Cost AC Solid State Relay with MOSFETs Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01064",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC87",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNN9"
+            }
+          },
+          {
+            "name": "TIDA-01065",
+            "description": "Isolated Self-Powered AC Solid State Relay with MOSFETs Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01065",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC91",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRQ94"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-21229",
+      "details": {
+        "title": "Temperature sensor",
+        "description": "Ambient temperature measurement can be accomplished in one of multiple ways in a thermostat design. A digital output device with integrated humidity and temperature sensor can be an option for designs requiring both sets of data. An analog output temperature sensor provides a low-cost solution if an analog-to-digital converter is available on the system microcontroller, or as a discrete solution. Finally, a thermistor with a corresponding operational amplifier can be a choice for designs only requiring temperature data, although accuracy will often not be as high as other solutions.",
+        "productGroups": [
+          {
+            "category": "Data converters",
+            "sections": [
+              {
+                "title": "Precision ADCs",
+                "products": [
+                  {
+                    "part": "ADS114S08",
+                    "description": "16-bit, 4-kSPS, 12-ch delta-sigma ADC with PGA and voltage reference for sensor measurement",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS114S08",
+                      "html": "https://www.ti.com/product/ADS114S08"
+                    }
+                  },
+                  {
+                    "part": "ADS7142",
+                    "description": "12-bit 140-kSPS 2-ch nanopower SAR ADC with 1.8-V operation in 1.5-mm x 2-mm QFN package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS7142",
+                      "html": "https://www.ti.com/product/ADS7142"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Digital temperature sensors",
+                "products": [
+                  {
+                    "part": "TMP116",
+                    "description": "0.2C digital temperature sensor, 64-bit non-volatile memory",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMP116",
+                      "html": "https://www.ti.com/product/TMP116"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Humidity sensors",
+                "products": [
+                  {
+                    "part": "HDC3020",
+                    "description": "0.5% RH digital humidity sensor, 0.19% long-term drift, 400 nA, 4-sec response time, NIST traceable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/HDC3020",
+                      "html": "https://www.ti.com/product/HDC3020"
+                    }
+                  },
+                  {
+                    "part": "HDC3021-Q1",
+                    "description": "Automotive 0.5% RH digital humidity sensor with removable tape cover",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/HDC3021-Q1",
+                      "html": "https://www.ti.com/product/HDC3021-Q1"
+                    }
+                  },
+                  {
+                    "part": "HDC3022",
+                    "description": "0.5% RH digital humidity sensor with permanent IP67 filter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/HDC3022",
+                      "html": "https://www.ti.com/product/HDC3022"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00374",
+            "description": "Humidity & Temp Sensor Node for Star Networks Enabling 10+ Year Coin Cell Battery Life Ref Design",
+            "url": "https://www.ti.com/tool/TIDA-00374",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU797",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRD83"
+            }
+          },
+          {
+            "name": "TIDA-00484",
+            "description": "Humidity & Temp Sensor Node for Sub-1GHz Star Networks Enabling 10+ Year Coin Cell Battery Life",
+            "url": "https://www.ti.com/tool/TIDA-00484",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU995",
+              "schematic": "https://www.ti.com/lit/pdf/TIDREY5"
+            }
+          },
+          {
+            "name": "TIDA-01477",
+            "description": "Humidity & Temperature Sensor Node Reference Design Enabling Sub-1 GHz and Sensor-to-Cloud Networks",
+            "url": "https://www.ti.com/tool/TIDA-01477",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDG5",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRU91"
+            }
+          },
+          {
+            "name": "TIDA-01596",
+            "description": "Smart Thermostat Localized Heat Compensation for Ambient Temperature Sensing Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01596",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDO1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRVK2"
+            }
+          },
+          {
+            "name": "TIDA-01625",
+            "description": "Low Power Humidity and Temperature Digital Meter Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01625",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDW5",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRWQ3"
+            }
+          },
+          {
+            "name": "TIDA-01626",
+            "description": "Low Power Temperature Digital Meter Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01626",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDW6",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRWQ8"
+            }
+          },
+          {
+            "name": "TIDM-FRAM-THERMOSTAT",
+            "description": "Thermostat Implementation with MSP430 Microcontroller Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-FRAM-THERMOSTAT",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU516",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRAX7"
+            }
+          },
+          {
+            "name": "TIDM-KNXTHERMOSTAT",
+            "description": "Wired KNX Thermostat Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-KNXTHERMOSTAT",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB27",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRKI3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-20436",
+      "details": {
+        "title": "Digital processing",
+        "description": "A thermostat uses a microcontroller to perform functions such as temperature monitoring, relay control and keypad monitoring. The design can use a dedicated microcontroller or a single system-on-chip solution which combines the microcontroller and radio on a single device.",
+        "productGroups": [
+          {
+            "category": "Clocks & timing",
+            "sections": [
+              {
+                "title": "Real-time clocks (RTCs) & timers",
+                "products": [
+                  {
+                    "part": "LMC555",
+                    "description": "World’s smallest 555 timer with low power, high accuracy and a Fmax of 3MHz",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMC555",
+                      "html": "https://www.ti.com/product/LMC555"
+                    }
+                  },
+                  {
+                    "part": "NA555",
+                    "description": "Precision Timers",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/NA555",
+                      "html": "https://www.ti.com/product/NA555"
+                    }
+                  },
+                  {
+                    "part": "TPL5100",
+                    "description": "Nano-powered programmable timer with power gating functionality and MOS driver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL5100",
+                      "html": "https://www.ti.com/product/TPL5100"
+                    }
+                  },
+                  {
+                    "part": "TPL5110",
+                    "description": "Nano-powered system timer with MOS driver and manual MOSFET power ON",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL5110",
+                      "html": "https://www.ti.com/product/TPL5110"
+                    }
+                  },
+                  {
+                    "part": "TPL5111",
+                    "description": "Ultra low power system timer (35 nA) for power gating in duty cycled applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL5111",
+                      "html": "https://www.ti.com/product/TPL5111"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Data converters",
+            "sections": [
+              {
+                "title": "Precision ADCs",
+                "products": [
+                  {
+                    "part": "ADS114S08",
+                    "description": "16-bit, 4-kSPS, 12-ch delta-sigma ADC with PGA and voltage reference for sensor measurement",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS114S08",
+                      "html": "https://www.ti.com/product/ADS114S08"
+                    }
+                  },
+                  {
+                    "part": "ADS7142",
+                    "description": "12-bit 140-kSPS 2-ch nanopower SAR ADC with 1.8-V operation in 1.5-mm x 2-mm QFN package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS7142",
+                      "html": "https://www.ti.com/product/ADS7142"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "I2C & SPI general-purpose I/Os (GPIOs)",
+                "products": [
+                  {
+                    "part": "TCA6408A",
+                    "description": "8-bit translating 1.65- to 5.5-V I2C/SMBus I/O expander with interrupt, reset & config registers",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCA6408A",
+                      "html": "https://www.ti.com/product/TCA6408A"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Microcontrollers (MCUs) & processors",
+            "sections": [
+              {
+                "title": "General-purpose MCUs",
+                "products": [
+                  {
+                    "part": "MSPM0G1218",
+                    "description": "80MHz Arm® Cortex®-M0+ MCU with dual-bank 256KB flash, 32KB SRAM, 2xADCs, 2x COMPs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0G1218",
+                      "html": "https://www.ti.com/product/MSPM0G1218"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Low-power MCUs",
+                "products": [
+                  {
+                    "part": "MSP430F5528",
+                    "description": "25 MHz MCU with 128KB Flash, 8KB SRAM, 12-bit ADC, comparator, DMA, UART/SPI/I2C, USB, HW multiplier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F5528",
+                      "html": "https://www.ti.com/product/MSP430F5528"
+                    }
+                  },
+                  {
+                    "part": "MSP430FR4133",
+                    "description": "16 MHz MCU with 16KB FRAM, 2KB SRAM, 10-bit ADC, LCD, UART/SPI/I2C, IR logic, timer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR4133",
+                      "html": "https://www.ti.com/product/MSP430FR4133"
+                    }
+                  },
+                  {
+                    "part": "MSP430FR5969",
+                    "description": "16 MHz MCU with 64KB FRAM, 2KB SRAM, AES, 12-bit ADC, comparator, DMA, UART/SPI/I2C, timer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR5969",
+                      "html": "https://www.ti.com/product/MSP430FR5969"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L1306",
+                    "description": "32-MHz Arm® Cortex®-M0+ MCU with 64-KB flash, 4-KB SRAM, 12-bit ADC, comparator, OPA",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L1306",
+                      "html": "https://www.ti.com/product/MSPM0L1306"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L2228",
+                    "description": "32MHz Arm® Cortex®-M0+ MCU with 256KB dual-bank flash, 32KB SRAM, 12-bit ADC, COMP, LCD, VBAT",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L2228",
+                      "html": "https://www.ti.com/product/MSPM0L2228"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Sensing MCUs",
+                "products": [
+                  {
+                    "part": "MSP430FR2633",
+                    "description": "Capacitive Touch MCU with 16 touch IO (64 sensors), 16KB FRAM, 4KB SRAM, 19 IO, 10-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR2633",
+                      "html": "https://www.ti.com/product/MSP430FR2633"
+                    }
+                  },
+                  {
+                    "part": "MSP430FR2672",
+                    "description": "Capacitive-touch MCU with 16 I/O (16 sensors), 8-KB FRAM, 2-KB SRAM, 27 I/O and 12-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR2672",
+                      "html": "https://www.ti.com/product/MSP430FR2672"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Wireless connectivity",
+            "sections": [
+              {
+                "title": "Low-power 2.4-GHz products",
+                "products": [
+                  {
+                    "part": "CC2340R2",
+                    "description": "Bluetooth, Zigbee and Thread wireless MCU with ultra-low standby current, 256kB flash and +8dBm</",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC2340R2",
+                      "html": "https://www.ti.com/product/CC2340R2"
+                    }
+                  },
+                  {
+                    "part": "CC2340R5",
+                    "description": "Bluetooth, Zigbee and Thread wireless MCU with ultra-low standby current, 512kB flash and +8dBm</",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC2340R5",
+                      "html": "https://www.ti.com/product/CC2340R5"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Sub-1 GHz transceivers",
+                "products": [
+                  {
+                    "part": "CC1101",
+                    "description": "Low-power Sub-1 GHz wireless transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC1101",
+                      "html": "https://www.ti.com/product/CC1101"
+                    }
+                  },
+                  {
+                    "part": "CC113L",
+                    "description": "Value line Sub-1 GHz wireless receiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC113L",
+                      "html": "https://www.ti.com/product/CC113L"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Sub-1 GHz wireless MCUs",
+                "products": [
+                  {
+                    "part": "CC1310",
+                    "description": "SimpleLink™ 32-bit Arm Cortex-M3 Sub-1 GHz wireless MCU with 128kB Flash",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC1310",
+                      "html": "https://www.ti.com/product/CC1310"
+                    }
+                  },
+                  {
+                    "part": "CC1311R3",
+                    "description": "SimpleLink™ Arm® Cortex®-M4 Sub-1 GHz wireless MCU with 352-kB flash",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC1311R3",
+                      "html": "https://www.ti.com/product/CC1311R3"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01596",
+            "description": "Smart Thermostat Localized Heat Compensation for Ambient Temperature Sensing Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01596",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDO1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRVK2"
+            }
+          },
+          {
+            "name": "TIDEP0016",
+            "description": "QSPI-NOR Reference Design with AM437x",
+            "url": "https://www.ti.com/tool/TIDEP0016",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDR808"
+            }
+          },
+          {
+            "name": "TIDM-CAPTIVATE-THERMOSTAT-UI",
+            "description": "Capacitive Touch Thermostat UI with MSP MCUs Featuring CapTIvate Technology Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-CAPTIVATE-THERMOSTAT-UI",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUAV1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIO4"
+            }
+          },
+          {
+            "name": "TIDM-FRAM-THERMOSTAT",
+            "description": "Thermostat Implementation with MSP430 Microcontroller Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-FRAM-THERMOSTAT",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU516",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRAX7"
+            }
+          },
+          {
+            "name": "TIDM-KNXTHERMOSTAT",
+            "description": "Wired KNX Thermostat Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-KNXTHERMOSTAT",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB27",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRKI3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-20487",
+      "details": {
+        "title": "Energy storage",
+        "description": "A backup battery may be included in the design to provide some protection against an unexpected power loss. A battery management device can switching between the main power source and the backup battery. A battery gas gauge device can monitor the battery voltage.",
+        "productGroups": [
+          {
+            "category": "Battery management ICs",
+            "sections": [
+              {
+                "title": "Battery charger ICs",
+                "products": [
+                  {
+                    "part": "BQ25188",
+                    "description": "I2C, 1A single cell linear battery charger, 18V input, powerpath, ship mode and battery tracking",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25188",
+                      "html": "https://www.ti.com/product/BQ25188"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Battery fuel gauges",
+                "products": [
+                  {
+                    "part": "BQ27426",
+                    "description": "Single cell System-side battery fuel (gas) gauge w/Pre-programmed chemistry Profile",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ27426",
+                      "html": "https://www.ti.com/product/BQ27426"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Load switches",
+                "products": [
+                  {
+                    "part": "TPS22860",
+                    "description": "0.73-Ω, 5-V, ultra-low leakage load switch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22860",
+                      "html": "https://www.ti.com/product/TPS22860"
+                    }
+                  },
+                  {
+                    "part": "TPS22910A",
+                    "description": "5.5-V, 2-A, 60-mΩ load switch with active low enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22910A",
+                      "html": "https://www.ti.com/product/TPS22910A"
+                    }
+                  },
+                  {
+                    "part": "TPS22912C",
+                    "description": "5.5-V, 2-A, 60-mΩ load switch with active high enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22912C",
+                      "html": "https://www.ti.com/product/TPS22912C"
+                    }
+                  },
+                  {
+                    "part": "TPS22919",
+                    "description": "5.5-V, 1.5-A, 90-mΩ load switch with adj. output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22919",
+                      "html": "https://www.ti.com/product/TPS22919"
+                    }
+                  },
+                  {
+                    "part": "TPS2553D",
+                    "description": "0.075-1.7A adj. ILIMIT 2.5-6.5V 85m&Omega; USB power switch, active-high, reverse blocking, multi",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2553D",
+                      "html": "https://www.ti.com/product/TPS2553D"
+                    }
+                  },
+                  {
+                    "part": "TPS27081A",
+                    "description": "8-V, 3-A, 44-mΩ load switch with adj. rise time",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS27081A",
+                      "html": "https://www.ti.com/product/TPS27081A"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01358",
+            "description": "24-V AC Power Stage With Wide Vin Converter and Battery Backup Reference Design for Smart Thermostat",
+            "url": "https://www.ti.com/tool/TIDA-01358",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCE1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRPC5"
+            }
+          },
+          {
+            "name": "TIDA-01395",
+            "description": "24-V AC Power Stage With Wide Vin Converter and Battery Gauge Reference Design for Smart Thermostat",
+            "url": "https://www.ti.com/tool/TIDA-01395",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCW0",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRQ89"
+            }
+          },
+          {
+            "name": "TIDM-FRAM-THERMOSTAT",
+            "description": "Thermostat Implementation with MSP430 Microcontroller Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-FRAM-THERMOSTAT",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU516",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRAX7"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-20739",
+      "details": {
+        "title": "Output user interface",
+        "description": "Traditional thermostats use an LED display and status LEDs to to communicate status and other information to the user. A capacitive or resistive touchscreen may be used in lieu of a more traditional LED display. These designs may use a backlight LED driver and an MCU with integrated touchscreen and LCD controller.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Backlight LED drivers",
+                "products": [
+                  {
+                    "part": "TPS61158",
+                    "description": "30V WLED driver with integrated power Diode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS61158",
+                      "html": "https://www.ti.com/product/TPS61158"
+                    }
+                  },
+                  {
+                    "part": "TPS61161",
+                    "description": "White LED driver with Digital and PWM brightness control in 2mm x 2mm WSON Package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS61161",
+                      "html": "https://www.ti.com/product/TPS61161"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "LED display drivers",
+                "products": [
+                  {
+                    "part": "TLC5916",
+                    "description": "8-bit constant-current LED sink driver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLC5916",
+                      "html": "https://www.ti.com/product/TLC5916"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "RGB LED drivers",
+                "products": [
+                  {
+                    "part": "LP5036",
+                    "description": "36-channel I2C constant current RGB LED driver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LP5036",
+                      "html": "https://www.ti.com/product/LP5036"
+                    }
+                  },
+                  {
+                    "part": "TLC59116",
+                    "description": "16-bit Fast-Mode Plus (FM+) I2C-Bus constant-current LED sink driver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLC59116",
+                      "html": "https://www.ti.com/product/TLC59116"
+                    }
+                  },
+                  {
+                    "part": "TLC59283",
+                    "description": "16 channel constant current LED driver with pre-charge FET",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLC59283",
+                      "html": "https://www.ti.com/product/TLC59283"
+                    }
+                  },
+                  {
+                    "part": "TLC5971",
+                    "description": "12-channel, 16-bit ES-PWM RGB LED driver with 3.3V Linear Regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLC5971",
+                      "html": "https://www.ti.com/product/TLC5971"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00198",
+            "description": "Resistive Dual Touch Reference Design Board with Haptic Feedback for 4-wire Resistive Touch Panels",
+            "url": "https://www.ti.com/tool/TIDA-00198",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDR862"
+            }
+          },
+          {
+            "name": "TIDA-00408",
+            "description": "Haptic Feedback Capacitive Touch Display Reference Design for Bldg Automation & Medical Applications",
+            "url": "https://www.ti.com/tool/TIDA-00408",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU968",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRGZ5"
+            }
+          },
+          {
+            "name": "TIDA-00979",
+            "description": "RGB LED Signal Tower for Industrial Automation Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00979",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBV8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRM80"
+            }
+          },
+          {
+            "name": "TIDA-03026",
+            "description": "Status Indication Reference Design With LED and Audio Feedback",
+            "url": "https://www.ti.com/tool/TIDA-03026",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC95",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNP9"
+            }
+          },
+          {
+            "name": "TIDA-080009",
+            "description": "Portable, smallest 1080p display reference design using DLP® technology",
+            "url": "https://www.ti.com/tool/TIDA-080009",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUEX9",
+              "schematic": "https://www.ti.com/lit/zip/TIDM753"
+            }
+          },
+          {
+            "name": "TIDEP0015",
+            "description": "Capacitive Touchscreen Display Reference Design",
+            "url": "https://www.ti.com/tool/TIDEP0015",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDR805"
+            }
+          },
+          {
+            "name": "TIDM-TOUCHWHEEL-LEDTRACKING",
+            "description": "Touch Wheel and LED Tracking",
+            "url": "https://www.ti.com/tool/TIDM-TOUCHWHEEL-LEDTRACKING",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDR811"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-20759",
+      "details": {
+        "title": "Wired interface",
+        "description": "A thermostat may include a wired interface for communicating with a building automation system using standards such as RS-485 and the BACnet protocol. An RS-485 transceiver may be used in this design to interface the system microcontroller to the network bus.",
+        "productGroups": [
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "CAN transceivers",
+                "products": [
+                  {
+                    "part": "TCAN1044A-Q1",
+                    "description": "Enhanced automotive CAN transceiver with standby",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN1044A-Q1",
+                      "html": "https://www.ti.com/product/TCAN1044A-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "LIN transceivers",
+                "products": [
+                  {
+                    "part": "TLIN821-Q1",
+                    "description": "Automotive fault-protected LIN transceiver with inhibit and WAKE",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLIN821-Q1",
+                      "html": "https://www.ti.com/product/TLIN821-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "RS-485 & RS-422 transceivers",
+                "products": [
+                  {
+                    "part": "SN65HVD24",
+                    "description": "Extended Common-mode RS-485 Transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN65HVD24",
+                      "html": "https://www.ti.com/product/SN65HVD24"
+                    }
+                  },
+                  {
+                    "part": "SN65HVD3082E",
+                    "description": "Half-duplex RS-485 transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN65HVD3082E",
+                      "html": "https://www.ti.com/product/SN65HVD3082E"
+                    }
+                  },
+                  {
+                    "part": "THVD1410",
+                    "description": "3.3-V to 5-V RS-485 transceiver with ±18-kV IEC ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/THVD1410",
+                      "html": "https://www.ti.com/product/THVD1410"
+                    }
+                  },
+                  {
+                    "part": "THVD1450",
+                    "description": "3.3-V to 5-V RS-485 transceiver with ±18-kV IEC ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/THVD1450",
+                      "html": "https://www.ti.com/product/THVD1450"
+                    }
+                  },
+                  {
+                    "part": "THVD2410",
+                    "description": "±70-V fault-protected 3.3-V to 5-V RS-485 transceiver with IEC ESD",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/THVD2410",
+                      "html": "https://www.ti.com/product/THVD2410"
+                    }
+                  },
+                  {
+                    "part": "THVD8010",
+                    "description": "RS-485 transceiver with OOK modulation for power line communication",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/THVD8010",
+                      "html": "https://www.ti.com/product/THVD8010"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Isolation",
+            "sections": [
+              {
+                "title": "Isolated RS-485 transceivers",
+                "products": [
+                  {
+                    "part": "ISO3082",
+                    "description": "200-Kbps, half-duplex, 2.5-kVrms isolated RS-485 & RS-422 transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ISO3082",
+                      "html": "https://www.ti.com/product/ISO3082"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00214",
+            "description": "Half-Duplex, Non-Isolated RS-485 BoosterPack Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00214",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU387",
+              "schematic": "https://www.ti.com/lit/pdf/TIDR869"
+            }
+          },
+          {
+            "name": "TIDA-00731",
+            "description": "IEC ESD, EFT, and Surge Protected RS-485 Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00731",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUAS1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRHH9"
+            }
+          },
+          {
+            "name": "TIDA-01090",
+            "description": "RS-485 Automatic Direction Control Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01090",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBW6",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRMF9"
+            }
+          },
+          {
+            "name": "TIDA-01171",
+            "description": "AC-Coupled RS-485 Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01171",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBZ8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRML4"
+            }
+          },
+          {
+            "name": "TIDA-01238",
+            "description": "Controller Area Network (CAN) With Selectable Termination Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01238",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCF3",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRON5"
+            }
+          },
+          {
+            "name": "TIDM-FRAM-THERMOSTAT",
+            "description": "Thermostat Implementation with MSP430 Microcontroller Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-FRAM-THERMOSTAT",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU516",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRAX7"
+            }
+          },
+          {
+            "name": "TIDM-KNXTHERMOSTAT",
+            "description": "Wired KNX Thermostat Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-KNXTHERMOSTAT",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB27",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRKI3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-20788",
+      "details": {
+        "title": "Self-diagnostics/monitoring",
+        "description": "A voltage supervisor can keep the system in reset until the system voltage reaches valid levels.",
+        "productGroups": [
+          {
+            "category": "Clocks & timing",
+            "sections": [
+              {
+                "title": "Real-time clocks (RTCs) & timers",
+                "products": [
+                  {
+                    "part": "LMC555",
+                    "description": "World’s smallest 555 timer with low power, high accuracy and a Fmax of 3MHz",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMC555",
+                      "html": "https://www.ti.com/product/LMC555"
+                    }
+                  },
+                  {
+                    "part": "NA555",
+                    "description": "Precision Timers",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/NA555",
+                      "html": "https://www.ti.com/product/NA555"
+                    }
+                  },
+                  {
+                    "part": "TPL5100",
+                    "description": "Nano-powered programmable timer with power gating functionality and MOS driver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL5100",
+                      "html": "https://www.ti.com/product/TPL5100"
+                    }
+                  },
+                  {
+                    "part": "TPL5110",
+                    "description": "Nano-powered system timer with MOS driver and manual MOSFET power ON",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL5110",
+                      "html": "https://www.ti.com/product/TPL5110"
+                    }
+                  },
+                  {
+                    "part": "TPL5111",
+                    "description": "Ultra low power system timer (35 nA) for power gating in duty cycled applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPL5111",
+                      "html": "https://www.ti.com/product/TPL5111"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Reset & watchdog ICs",
+                "products": [
+                  {
+                    "part": "TLV803",
+                    "description": "3-pin voltage supervisor (reset IC) with active-low & open-drain reset",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV803",
+                      "html": "https://www.ti.com/product/TLV803"
+                    }
+                  },
+                  {
+                    "part": "TLV803E",
+                    "description": "Low-power voltage supervisor (reset IC) with active-low open-drain output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV803E",
+                      "html": "https://www.ti.com/product/TLV803E"
+                    }
+                  },
+                  {
+                    "part": "TPS3424",
+                    "description": "Nanopower push-button controller with programmable delay",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS3424",
+                      "html": "https://www.ti.com/product/TPS3424"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-20940",
+      "details": {
+        "title": "Input user interface",
+        "description": "The user interface allows the user to control and program the thermostat. Designs with a more traditional button experience may use an I/O expander device to interface the system microcontroller (MCU) to a mechanical keypad. Designs desiring to replace physical buttons with a capactive touch keypad may use a microcontroller with integrated capacitive touch technology. A capacitive or resistive touchscreen may be also used in lieu of a mechanical interface.",
+        "productGroups": [
+          {
+            "category": "Audio, haptics & piezo",
+            "sections": [
+              {
+                "title": "Haptics drivers",
+                "products": [
+                  {
+                    "part": "DRV2605",
+                    "description": "Haptic driver for ERM/LRA with waveform library & auto-resonance tracking",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV2605",
+                      "html": "https://www.ti.com/product/DRV2605"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Piezo drivers",
+                "products": [
+                  {
+                    "part": "DRV2667",
+                    "description": "Haptic driver for piezo with integrated 105-V boost converter, waveform memory & DAC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV2667",
+                      "html": "https://www.ti.com/product/DRV2667"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Microcontrollers (MCUs) & processors",
+            "sections": [
+              {
+                "title": "Low-power MCUs",
+                "products": [
+                  {
+                    "part": "MSP430F5528",
+                    "description": "25 MHz MCU with 128KB Flash, 8KB SRAM, 12-bit ADC, comparator, DMA, UART/SPI/I2C, USB, HW multiplier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F5528",
+                      "html": "https://www.ti.com/product/MSP430F5528"
+                    }
+                  },
+                  {
+                    "part": "MSP430FR4133",
+                    "description": "16 MHz MCU with 16KB FRAM, 2KB SRAM, 10-bit ADC, LCD, UART/SPI/I2C, IR logic, timer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR4133",
+                      "html": "https://www.ti.com/product/MSP430FR4133"
+                    }
+                  },
+                  {
+                    "part": "MSP430FR5969",
+                    "description": "16 MHz MCU with 64KB FRAM, 2KB SRAM, AES, 12-bit ADC, comparator, DMA, UART/SPI/I2C, timer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR5969",
+                      "html": "https://www.ti.com/product/MSP430FR5969"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L1306",
+                    "description": "32-MHz Arm® Cortex®-M0+ MCU with 64-KB flash, 4-KB SRAM, 12-bit ADC, comparator, OPA",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L1306",
+                      "html": "https://www.ti.com/product/MSPM0L1306"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L2228",
+                    "description": "32MHz Arm® Cortex®-M0+ MCU with 256KB dual-bank flash, 32KB SRAM, 12-bit ADC, COMP, LCD, VBAT",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L2228",
+                      "html": "https://www.ti.com/product/MSPM0L2228"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Sensing MCUs",
+                "products": [
+                  {
+                    "part": "MSP430FR2633",
+                    "description": "Capacitive Touch MCU with 16 touch IO (64 sensors), 16KB FRAM, 4KB SRAM, 19 IO, 10-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR2633",
+                      "html": "https://www.ti.com/product/MSP430FR2633"
+                    }
+                  },
+                  {
+                    "part": "MSP430FR2672",
+                    "description": "Capacitive-touch MCU with 16 I/O (16 sensors), 8-KB FRAM, 2-KB SRAM, 27 I/O and 12-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR2672",
+                      "html": "https://www.ti.com/product/MSP430FR2672"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Inductive sensor AFEs",
+                "products": [
+                  {
+                    "part": "LDC1312",
+                    "description": "2-Ch, 12-bit, general purpose inductance to digital converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LDC1312",
+                      "html": "https://www.ti.com/product/LDC1312"
+                    }
+                  },
+                  {
+                    "part": "LDC1314",
+                    "description": "4-Ch, 12-bit, general purpose inductance to digital converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LDC1314",
+                      "html": "https://www.ti.com/product/LDC1314"
+                    }
+                  },
+                  {
+                    "part": "LDC1612",
+                    "description": "2-Ch, 28-bit, high-resolution Inductance to digital converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LDC1612",
+                      "html": "https://www.ti.com/product/LDC1612"
+                    }
+                  },
+                  {
+                    "part": "LDC1614",
+                    "description": "4-Ch, 28-bit, high-resolution Inductance to digital converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LDC1614",
+                      "html": "https://www.ti.com/product/LDC1614"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00198",
+            "description": "Resistive Dual Touch Reference Design Board with Haptic Feedback for 4-wire Resistive Touch Panels",
+            "url": "https://www.ti.com/tool/TIDA-00198",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDR862"
+            }
+          },
+          {
+            "name": "TIDA-00408",
+            "description": "Haptic Feedback Capacitive Touch Display Reference Design for Bldg Automation & Medical Applications",
+            "url": "https://www.ti.com/tool/TIDA-00408",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU968",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRGZ5"
+            }
+          },
+          {
+            "name": "TIDA-00509",
+            "description": "16-button Inductive Keypad Reference Design Using the LDC1314 Inductance-to-Digital Converter",
+            "url": "https://www.ti.com/tool/TIDA-00509",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU954",
+              "schematic": "https://www.ti.com/lit/pdf/TIDREP4"
+            }
+          },
+          {
+            "name": "TIDEP0015",
+            "description": "Capacitive Touchscreen Display Reference Design",
+            "url": "https://www.ti.com/tool/TIDEP0015",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDR805"
+            }
+          },
+          {
+            "name": "TIDM-CAPTIVATE-THERMOSTAT-UI",
+            "description": "Capacitive Touch Thermostat UI with MSP MCUs Featuring CapTIvate Technology Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-CAPTIVATE-THERMOSTAT-UI",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUAV1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIO4"
+            }
+          },
+          {
+            "name": "TIDM-TOUCHWHEEL-LEDTRACKING",
+            "description": "Touch Wheel and LED Tracking",
+            "url": "https://www.ti.com/tool/TIDM-TOUCHWHEEL-LEDTRACKING",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDR811"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-21101",
+      "details": {
+        "title": "Signal input/output protection",
+        "description": "ESD protection devices can be used to protect wired interfaces.",
+        "productGroups": [
+          {
+            "category": "Passive and discrete",
+            "sections": [
+              {
+                "title": "ESD protection diodes",
+                "products": [
+                  {
+                    "part": "ESD122",
+                    "description": "Dual 0.2-pF, ±3.6-V, ±17-kV ESD protection diode for USB Type-C and HDMI 2.0",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ESD122",
+                      "html": "https://www.ti.com/product/ESD122"
+                    }
+                  },
+                  {
+                    "part": "TPD1E01B04",
+                    "description": "0.18-pF, ±3.6-V, ±15-kV ESD protection diode in 0402 & 0201 packages for USB-C",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD1E01B04",
+                      "html": "https://www.ti.com/product/TPD1E01B04"
+                    }
+                  },
+                  {
+                    "part": "TPD1E10B06",
+                    "description": "12-pF, ±5.5V, ±30-kV ESD protection diode in 0402 and SOD-523 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD1E10B06",
+                      "html": "https://www.ti.com/product/TPD1E10B06"
+                    }
+                  },
+                  {
+                    "part": "TPD2E001",
+                    "description": "Dual 1.5-pF, 5.5-V, ±8-kV ESD protection diode with 1-nA max leakage & VCC pin for USB 2.0",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD2E001",
+                      "html": "https://www.ti.com/product/TPD2E001"
+                    }
+                  },
+                  {
+                    "part": "TPD2E2U06",
+                    "description": "Dual 1.5-pF, 5.5-V, ±25-kV ESD protection diode with 5.5-A 8/20-uS surge rating for USB 2.0",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD2E2U06",
+                      "html": "https://www.ti.com/product/TPD2E2U06"
+                    }
+                  },
+                  {
+                    "part": "TPD4E001",
+                    "description": "Quad 1.5-pF, 5.5-V, ±8-kV ESD protection diode with 1-nA max leakage & VCC pin for USB 2.0",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD4E001",
+                      "html": "https://www.ti.com/product/TPD4E001"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "TVS diodes",
+                "products": [
+                  {
+                    "part": "TSD05",
+                    "description": "5-V 60-A Unidirectional surge protection device",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TSD05",
+                      "html": "https://www.ti.com/product/TSD05"
+                    }
+                  },
+                  {
+                    "part": "TVS0500",
+                    "description": "5V flat-clamp surge protection device",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TVS0500",
+                      "html": "https://www.ti.com/product/TVS0500"
+                    }
+                  },
+                  {
+                    "part": "TVS2700",
+                    "description": "27V flat-clamp surge protection device",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TVS2700",
+                      "html": "https://www.ti.com/product/TVS2700"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00509",
+            "description": "16-button Inductive Keypad Reference Design Using the LDC1314 Inductance-to-Digital Converter",
+            "url": "https://www.ti.com/tool/TIDA-00509",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU954",
+              "schematic": "https://www.ti.com/lit/pdf/TIDREP4"
+            }
+          },
+          {
+            "name": "TIDA-00731",
+            "description": "IEC ESD, EFT, and Surge Protected RS-485 Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00731",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUAS1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRHH9"
+            }
+          },
+          {
+            "name": "TIDA-03026",
+            "description": "Status Indication Reference Design With LED and Audio Feedback",
+            "url": "https://www.ti.com/tool/TIDA-03026",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC95",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNP9"
+            }
+          },
+          {
+            "name": "TIDM-FRAM-THERMOSTAT",
+            "description": "Thermostat Implementation with MSP430 Microcontroller Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-FRAM-THERMOSTAT",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU516",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRAX7"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

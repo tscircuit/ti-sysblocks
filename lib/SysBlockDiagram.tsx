@@ -1,4 +1,11 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react"
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react"
 import type {
   SysBlockDetails,
   SysBlockDiagramProps,
@@ -15,6 +22,36 @@ const findSvgBlock = (root: SVGSVGElement, id: string): SVGGElement | null => {
     (group) => group.id === id,
   )
   return element ?? null
+}
+
+type SvgBounds = Pick<DOMRect, "x" | "y" | "width" | "height">
+
+const getSvgBounds = (
+  svgRoot: SVGSVGElement,
+  element: SVGGElement,
+): SvgBounds | null => {
+  if (typeof element.getBBox === "function") return element.getBBox()
+
+  const screenMatrix = svgRoot.getScreenCTM()
+  if (!screenMatrix) return null
+
+  const screenBounds = element.getBoundingClientRect()
+  const inverseMatrix = screenMatrix.inverse()
+  const topLeft = new DOMPoint(
+    screenBounds.left,
+    screenBounds.top,
+  ).matrixTransform(inverseMatrix)
+  const bottomRight = new DOMPoint(
+    screenBounds.right,
+    screenBounds.bottom,
+  ).matrixTransform(inverseMatrix)
+
+  return {
+    x: topLeft.x,
+    y: topLeft.y,
+    width: bottomRight.x - topLeft.x,
+    height: bottomRight.y - topLeft.y,
+  }
 }
 
 function ProductLinks({ links }: { links?: SysBlockProductLinks }) {
@@ -80,9 +117,16 @@ function ProductsPanel({ details }: { details: SysBlockDetails }) {
                 <div className="ti-sysblock__section" key={section.title}>
                   <h3>{section.title}</h3>
                   {section.products.map((product) => (
-                    <article className="ti-sysblock__product" key={product.part}>
+                    <article
+                      className="ti-sysblock__product"
+                      key={product.part}
+                    >
                       <p>
-                        <a href={product.links?.html ?? "#"} target="_blank" rel="noreferrer">
+                        <a
+                          href={product.links?.html ?? "#"}
+                          target="_blank"
+                          rel="noreferrer"
+                        >
                           {product.part}
                         </a>
                         <span className="ti-sysblock__dash">–</span>
@@ -104,7 +148,11 @@ function ReferencesPanel({ details }: { details: SysBlockDetails }) {
   const references = details.references ?? []
 
   if (references.length === 0) {
-    return <p className="ti-sysblock__empty-copy">No reference designs are listed for this block.</p>
+    return (
+      <p className="ti-sysblock__empty-copy">
+        No reference designs are listed for this block.
+      </p>
+    )
   }
 
   return (
@@ -115,6 +163,32 @@ function ReferencesPanel({ details }: { details: SysBlockDetails }) {
             {reference.name}
           </a>
           <p>{reference.description}</p>
+          {reference.links && (
+            <div className="ti-sysblock__links">
+              {reference.links.designGuide && (
+                <span>
+                  <a
+                    href={reference.links.designGuide}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Design guide: PDF
+                  </a>
+                </span>
+              )}
+              {reference.links.schematic && (
+                <span>
+                  <a
+                    href={reference.links.schematic}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Schematic: PDF
+                  </a>
+                </span>
+              )}
+            </div>
+          )}
         </article>
       ))}
     </>
@@ -135,7 +209,9 @@ export function SysBlockDiagram({
   const [panelOpen, setPanelOpen] = useState(true)
 
   const selectedDetails = useMemo(
-    () => definition.blocks[selectedId] ?? definition.blocks[definition.defaultSelected],
+    () =>
+      definition.blocks[selectedId] ??
+      definition.blocks[definition.defaultSelected],
     [definition, selectedId],
   )
 
@@ -151,6 +227,23 @@ export function SysBlockDiagram({
     },
     [definition.blocks, onSelectionChange],
   )
+
+  useLayoutEffect(() => {
+    const host = diagramHostRef.current
+    if (!host) return
+
+    const parsed = new DOMParser().parseFromString(
+      definition.svg,
+      "image/svg+xml",
+    )
+    const svgRoot = parsed.documentElement
+    if (svgRoot.localName !== "svg") {
+      throw new Error(`Invalid SVG supplied for ${definition.id}`)
+    }
+
+    host.replaceChildren(document.importNode(svgRoot, true))
+    return () => host.replaceChildren()
+  }, [definition.id, definition.svg])
 
   useEffect(() => {
     const nextId = initialSelectedId ?? definition.defaultSelected
@@ -204,7 +297,8 @@ export function SysBlockDiagram({
     const selectedBlock = findSvgBlock(svgRoot, selectedId)
     if (!selectedBlock) return
 
-    const bounds = selectedBlock.getBBox()
+    const bounds = getSvgBounds(svgRoot, selectedBlock)
+    if (!bounds) return
     const outline = document.createElementNS(SVG_NAMESPACE, "rect")
     outline.setAttribute("x", String(bounds.x - 3))
     outline.setAttribute("y", String(bounds.y - 3))
@@ -224,13 +318,14 @@ export function SysBlockDiagram({
     <section className={classes} aria-label={definition.title}>
       <header className="ti-sysblock__titlebar">
         <h1>{definition.title}</h1>
+        {definition.sourceUrl && (
+          <a href={definition.sourceUrl} target="_blank" rel="noreferrer">
+            View source on TI.com
+          </a>
+        )}
       </header>
       <div className="ti-sysblock__workspace">
-        <div
-          className="ti-sysblock__diagram-host"
-          ref={diagramHostRef}
-          dangerouslySetInnerHTML={{ __html: definition.svg }}
-        />
+        <div className="ti-sysblock__diagram-host" ref={diagramHostRef} />
         <aside className="ti-sysblock__details" aria-live="polite">
           <button
             className="ti-sysblock__close"
@@ -241,7 +336,9 @@ export function SysBlockDiagram({
             ×
           </button>
           {!panelOpen ? (
-            <p className="ti-sysblock__closed-copy">Select a diagram block to view its details.</p>
+            <p className="ti-sysblock__closed-copy">
+              Select a diagram block to view its details.
+            </p>
           ) : (
             <div className="ti-sysblock__details-scroll" ref={detailsScrollRef}>
               <header className="ti-sysblock__details-header">
