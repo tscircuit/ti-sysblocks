@@ -2,5 +2,12 @@
   "$schema": "http://json.schemastore.org/cosmos-config",
   "plugins": ["react-cosmos-plugin-vite"],
   "fixtureFileSuffix": "page",
-  "decoratorFile": "cosmos.decorator.tsx"
+  "decoratorFile": "cosmos.decorator.tsx",
+  "ui": {
+    "router": {
+      "initialFixtureId": {
+        "path": "pages/01-machine-vision-camera.page.tsx"
+      }
+    }
+  }
 }

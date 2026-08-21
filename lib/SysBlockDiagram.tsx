@@ -30,8 +30,6 @@ const getSvgBounds = (
   svgRoot: SVGSVGElement,
   element: SVGGElement,
 ): SvgBounds | null => {
-  if (typeof element.getBBox === "function") return element.getBBox()
-
   const screenMatrix = svgRoot.getScreenCTM()
   if (!screenMatrix) return null
 
