@@ -304,7 +304,7 @@ export function SysBlockDiagram({
     outline.setAttribute("height", String(bounds.height + 6))
     outline.setAttribute("fill", "none")
     outline.setAttribute("stroke", "#d50000")
-    outline.setAttribute("stroke-width", "7")
+    outline.setAttribute("stroke-width", "3.5")
     outline.setAttribute("pointer-events", "none")
     outline.setAttribute("data-ti-sysblock-selection", "true")
     svgRoot.appendChild(outline)
