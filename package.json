@@ -17,6 +17,7 @@
   },
   "scripts": {
     "generate": "bun scripts/generate-ti-diagrams.ts",
+    "audit:ti": "bun run generate && git diff --exit-code -- lib/generated pages",
     "start": "cosmos",
     "build:site": "bun run validate:diagrams && cosmos-export",
     "typecheck": "tsc --noEmit",

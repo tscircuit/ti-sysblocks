@@ -47,6 +47,11 @@ Cosmos lists every solution and variant independently in its sidebar. The initia
 2. Run `bun run generate`.
 3. Run `bun run build` to validate SVG group IDs and typecheck the catalog.
 
+Run `bun run audit:ti` at any time to refresh from TI and fail if the checked-in
+chip recommendations differ from TI's current solution data. The regular
+validator also checks that every displayed part name matches its TI product and
+datasheet URLs, and rejects missing or duplicate recommendations.
+
 The generator reads TI's embedded solution model, preserves its original SVG geometry, converts products and documents to the JSON format, assigns stable interactive SVG group IDs, and creates one Cosmos page per variant.
 
 The important mapping is:
