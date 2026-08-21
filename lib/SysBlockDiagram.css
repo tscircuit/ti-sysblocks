@@ -26,30 +26,30 @@
 
 .ti-sysblock__titlebar {
   display: flex;
-  height: 150px;
+  height: 76px;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 52px 54px 0;
+  padding: 26px 28px 0;
   border-bottom: 1px solid #dedede;
 }
 
 .ti-sysblock__titlebar h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 }
 
 .ti-sysblock__titlebar > a {
-  margin-top: 10px;
-  font-size: 18px;
+  margin-top: 4px;
+  font-size: 14px;
 }
 
 .ti-sysblock__workspace {
   display: grid;
   grid-template-columns: 59.5% 40.5%;
-  height: calc(100% - 150px);
+  height: calc(100% - 76px);
 }
 
 .ti-sysblock__diagram-host {
@@ -95,55 +95,55 @@
 .ti-sysblock__close {
   position: absolute;
   z-index: 4;
-  top: -8px;
-  right: 27px;
-  width: 44px;
-  height: 48px;
+  top: -3px;
+  right: 12px;
+  width: 28px;
+  height: 30px;
   padding: 0;
   border: 0;
   background: #fff;
   color: #333;
-  font-size: 43px;
+  font-size: 26px;
   line-height: 1;
   cursor: pointer;
 }
 
 .ti-sysblock__details-header {
-  padding: 34px 49px 41px;
+  padding: 18px 25px 21px;
 }
 
 .ti-sysblock__details-header h2 {
-  margin: 0 0 36px;
-  font-size: 41px;
+  margin: 0 0 18px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1.1;
-  letter-spacing: -1px;
+  letter-spacing: -0.5px;
 }
 
 .ti-sysblock__details-header p {
   max-width: 1138px;
   margin: 0;
-  font-size: 29px;
+  font-size: 15px;
   line-height: 1.38;
 }
 
 .ti-sysblock__tabs {
   display: flex;
-  height: 91px;
+  height: 46px;
   align-items: end;
-  gap: 47px;
-  margin: 0 28px 48px 49px;
-  border-bottom: 2px solid #ccc;
+  gap: 24px;
+  margin: 0 14px 24px 25px;
+  border-bottom: 1px solid #ccc;
 }
 
 .ti-sysblock__tabs button {
-  height: 62px;
-  padding: 0 0 17px;
+  height: 32px;
+  padding: 0 0 8px;
   border: 0;
-  border-bottom: 4px solid transparent;
+  border-bottom: 2px solid transparent;
   background: transparent;
   color: #333;
-  font-size: 32px;
+  font-size: 17px;
   cursor: pointer;
 }
 
@@ -153,26 +153,26 @@
 }
 
 .ti-sysblock__content {
-  margin: 0 28px 70px 49px;
+  margin: 0 14px 35px 25px;
 }
 
 .ti-sysblock__group-toggle {
   display: flex;
   width: 100%;
-  min-height: 88px;
+  min-height: 44px;
   align-items: center;
   justify-content: space-between;
-  padding: 0 24px;
+  padding: 0 12px;
   border: 0;
   background: #f6f6f6;
   color: #333;
-  font-size: 29px;
+  font-size: 15px;
   text-align: left;
   cursor: pointer;
 }
 
 .ti-sysblock__group-toggle span {
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 700;
   transform: translateY(-2px);
 }
@@ -183,20 +183,20 @@
 
 .ti-sysblock__section h3 {
   margin: 0;
-  padding: 37px 0 28px;
+  padding: 19px 0 14px;
   border-bottom: 1px solid var(--ti-sysblock-line);
-  font-size: 31px;
+  font-size: 16px;
   line-height: 1.2;
 }
 
 .ti-sysblock__product {
-  padding: 17px 0 20px;
+  padding: 9px 0 10px;
   border-bottom: 1px solid var(--ti-sysblock-line);
 }
 
 .ti-sysblock__product p {
   margin: 0;
-  font-size: 28px;
+  font-size: 15px;
   line-height: 1.45;
 }
 
@@ -210,100 +210,51 @@
 }
 
 .ti-sysblock__dash {
-  margin: 0 15px;
+  margin: 0 8px;
 }
 
 .ti-sysblock__links {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 18px;
-  font-size: 24px;
+  margin-top: 9px;
+  font-size: 13px;
 }
 
 .ti-sysblock__links span + span::before {
   content: "|";
-  margin: 0 13px;
+  margin: 0 7px;
   color: #333;
 }
 
 .ti-sysblock__reference {
-  padding: 24px 0;
+  padding: 12px 0;
   border-bottom: 1px solid var(--ti-sysblock-line);
 }
 
 .ti-sysblock__reference > a {
-  font-size: 28px;
+  font-size: 15px;
 }
 
 .ti-sysblock__reference p,
 .ti-sysblock__empty-copy,
 .ti-sysblock__closed-copy {
-  font-size: 24px;
+  font-size: 13px;
   line-height: 1.45;
 }
 
 .ti-sysblock__closed-copy {
-  padding: 48px;
-}
-
-@media (max-width: 1300px) {
-  .ti-sysblock__titlebar {
-    height: 100px;
-    padding: 34px 36px 0;
-  }
-
-  .ti-sysblock__titlebar h1 {
-    font-size: 38px;
-  }
-
-  .ti-sysblock__workspace {
-    height: calc(100% - 100px);
-  }
-
-  .ti-sysblock__details-header {
-    padding: 28px 34px;
-  }
-
-  .ti-sysblock__details-header h2 {
-    margin-bottom: 24px;
-    font-size: 34px;
-  }
-
-  .ti-sysblock__details-header p {
-    font-size: 22px;
-  }
-
-  .ti-sysblock__tabs {
-    gap: 30px;
-    margin-left: 34px;
-  }
-
-  .ti-sysblock__tabs button {
-    font-size: 25px;
-  }
-
-  .ti-sysblock__content {
-    margin-left: 34px;
-  }
-
-  .ti-sysblock__product p {
-    font-size: 22px;
-  }
-
-  .ti-sysblock__links {
-    font-size: 19px;
-  }
+  padding: 24px;
 }
 
 @media (max-width: 900px) {
   .ti-sysblock__titlebar {
-    height: 72px;
-    padding: 23px 20px 0;
+    height: 60px;
+    padding: 19px 16px 0;
   }
 
   .ti-sysblock__titlebar h1 {
     overflow: hidden;
-    font-size: 28px;
+    font-size: 22px;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
@@ -314,7 +265,7 @@
 
   .ti-sysblock__workspace {
     grid-template-columns: 56% 44%;
-    height: calc(100% - 72px);
+    height: calc(100% - 60px);
   }
 
   .ti-sysblock__details-header {
@@ -323,7 +274,7 @@
 
   .ti-sysblock__details-header h2 {
     margin-bottom: 14px;
-    font-size: 23px;
+    font-size: 20px;
   }
 
   .ti-sysblock__details-header p {
