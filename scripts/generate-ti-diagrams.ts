@@ -32,6 +32,10 @@ const solutions = [
     title: "Rearview mirror module",
   },
   {
+    slug: "obstacle-detection-sensor",
+    title: "Obstacle detection sensor",
+  },
+  {
     slug: "automotive-window-module",
     title: "Window module",
     variantId: 34360,

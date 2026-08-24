@@ -2285,11 +2285,11 @@
                 "title": "Automotive powertrain, zonal & chassis control MCUs",
                 "products": [
                   {
-                    "part": "TMS320F280048-Q1",
-                    "description": "Automotive C2000™ 32-bit MCU with 100 MHz, FPU, TMU, 256 KB flash, CLA, PGAs, SDFM",
+                    "part": "TMS320F280049C-Q1",
+                    "description": "Automotive C2000™ 32-bit MCU w/ 100 MHz, FPU, TMU, 256 KB flash, CLA, InstaSPIN-FOC, CLB, PGAs, SDFM",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280048-Q1",
-                      "html": "https://www.ti.com/product/TMS320F280048-Q1"
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280049C-Q1",
+                      "html": "https://www.ti.com/product/TMS320F280049C-Q1"
                     }
                   },
                   {
