@@ -19,6 +19,10 @@ import diagram8Svg from "./thermostat-basic-thermostat.svg?raw"
 import diagram8Json from "./thermostat-basic-thermostat.json"
 import diagram9Svg from "./thermostat-smart-thermostat.svg?raw"
 import diagram9Json from "./thermostat-smart-thermostat.json"
+import diagram10Svg from "./industrial-ac-dc-digital-controlled-industrial-ac-dc.svg?raw"
+import diagram10Json from "./industrial-ac-dc-digital-controlled-industrial-ac-dc.json"
+import diagram11Svg from "./industrial-ac-dc-analog-controlled-industrial-ac-dc.svg?raw"
+import diagram11Json from "./industrial-ac-dc-analog-controlled-industrial-ac-dc.json"
 
 export const machineVisionCamera = createSysBlockDefinitionFromJson("machine-vision-camera", diagram0Svg, diagram0Json)
 export const driveLineComponentsActiveTransferCase = createSysBlockDefinitionFromJson("drive-line-components-active-transfer-case", diagram1Svg, diagram1Json)
@@ -30,5 +34,7 @@ export const batteryChargerWirelessBatteryPackChargers = createSysBlockDefinitio
 export const batteryChargerIndustrialBatteryChargers = createSysBlockDefinitionFromJson("battery-charger-industrial-battery-chargers", diagram7Svg, diagram7Json)
 export const thermostatBasicThermostat = createSysBlockDefinitionFromJson("thermostat-basic-thermostat", diagram8Svg, diagram8Json)
 export const thermostatSmartThermostat = createSysBlockDefinitionFromJson("thermostat-smart-thermostat", diagram9Svg, diagram9Json)
+export const industrialAcDcDigitalControlledIndustrialAcDc = createSysBlockDefinitionFromJson("industrial-ac-dc-digital-controlled-industrial-ac-dc", diagram10Svg, diagram10Json)
+export const industrialAcDcAnalogControlledIndustrialAcDc = createSysBlockDefinitionFromJson("industrial-ac-dc-analog-controlled-industrial-ac-dc", diagram11Svg, diagram11Json)
 
-export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat]
+export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat, industrialAcDcDigitalControlledIndustrialAcDc, industrialAcDcAnalogControlledIndustrialAcDc]

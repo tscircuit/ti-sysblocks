@@ -357,19 +357,19 @@
                     }
                   },
                   {
+                    "part": "CSD18531Q5A",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.6 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18531Q5A",
+                      "html": "https://www.ti.com/product/CSD18531Q5A"
+                    }
+                  },
+                  {
                     "part": "CSD18532Q5B",
                     "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 3.2 mOhm",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
                       "html": "https://www.ti.com/product/CSD18532Q5B"
-                    }
-                  },
-                  {
-                    "part": "CSD19535KTT",
-                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
-                      "html": "https://www.ti.com/product/CSD19535KTT"
                     }
                   }
                 ]
@@ -1042,6 +1042,14 @@
                     }
                   },
                   {
+                    "part": "CSD18514Q5A",
+                    "description": "40-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.9 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18514Q5A",
+                      "html": "https://www.ti.com/product/CSD18514Q5A"
+                    }
+                  },
+                  {
                     "part": "CSD18531Q5A",
                     "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.6 mOhm",
                     "links": {
@@ -1055,14 +1063,6 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
                       "html": "https://www.ti.com/product/CSD18532Q5B"
-                    }
-                  },
-                  {
-                    "part": "CSD19535KTT",
-                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
-                      "html": "https://www.ti.com/product/CSD19535KTT"
                     }
                   }
                 ]
@@ -1462,19 +1462,19 @@
                     }
                   },
                   {
+                    "part": "CSD18531Q5A",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.6 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18531Q5A",
+                      "html": "https://www.ti.com/product/CSD18531Q5A"
+                    }
+                  },
+                  {
                     "part": "CSD18532Q5B",
                     "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 3.2 mOhm",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
                       "html": "https://www.ti.com/product/CSD18532Q5B"
-                    }
-                  },
-                  {
-                    "part": "CSD19535KTT",
-                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
-                      "html": "https://www.ti.com/product/CSD19535KTT"
                     }
                   }
                 ]
@@ -2041,48 +2041,43 @@
                     }
                   },
                   {
+                    "part": "TMS320F280049",
+                    "description": "C2000™ 32-bit MCU with 100-MHz, FPU, TMU, 256-kb Flash, CLA, PGAs, SDFM",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280049",
+                      "html": "https://www.ti.com/product/TMS320F280049"
+                    }
+                  },
+                  {
+                    "part": "TMS320F28027",
+                    "description": "C2000™ 32-bit MCU with 60 MHz, 64 KB flash",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28027",
+                      "html": "https://www.ti.com/product/TMS320F28027"
+                    }
+                  },
+                  {
+                    "part": "TMS320F28374D",
+                    "description": "C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 512 KB flash, EMIF, 12b ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28374D",
+                      "html": "https://www.ti.com/product/TMS320F28374D"
+                    }
+                  },
+                  {
+                    "part": "TMS320F28377D",
+                    "description": "C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 1024 KB flash, EMIF, 16b ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28377D",
+                      "html": "https://www.ti.com/product/TMS320F28377D"
+                    }
+                  },
+                  {
                     "part": "TMS320F28P550SJ",
                     "description": "C2000™ 32-bit MCU with 150MHz 1.1MB flash C28x + CLA, five ADCs, CLB, AES and NPU",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TMS320F28P550SJ",
                       "html": "https://www.ti.com/product/TMS320F28P550SJ"
-                    }
-                  }
-                ]
-              },
-              {
-                "title": "Real-time motor control & automation MCUs",
-                "products": [
-                  {
-                    "part": "F28E120SC",
-                    "description": "C2000™ 32-bit MCU with 160 MHz, 128-KB flash, FPU, PGA",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/F28E120SC",
-                      "html": "https://www.ti.com/product/F28E120SC"
-                    }
-                  },
-                  {
-                    "part": "TMS320F2800132",
-                    "description": "C2000™ 32-bit MCU with 100 MHz, 64-KB flash, FPU, TMU, six PWM and zero CAN",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F2800132",
-                      "html": "https://www.ti.com/product/TMS320F2800132"
-                    }
-                  },
-                  {
-                    "part": "TMS320F2800133",
-                    "description": "C2000™ 32-bit MCU with 120 MHz, 64-KB flash, FPU and TMU",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F2800133",
-                      "html": "https://www.ti.com/product/TMS320F2800133"
-                    }
-                  },
-                  {
-                    "part": "TMS320F280025",
-                    "description": "C2000™ 32-bit MCU with 100-MHz, FPU, TMU, 128-kb flash",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280025",
-                      "html": "https://www.ti.com/product/TMS320F280025"
                     }
                   }
                 ]
@@ -2173,6 +2168,14 @@
                     }
                   },
                   {
+                    "part": "CSD18514Q5A",
+                    "description": "40-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.9 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18514Q5A",
+                      "html": "https://www.ti.com/product/CSD18514Q5A"
+                    }
+                  },
+                  {
                     "part": "CSD18531Q5A",
                     "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.6 mOhm",
                     "links": {
@@ -2186,14 +2189,6 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
                       "html": "https://www.ti.com/product/CSD18532Q5B"
-                    }
-                  },
-                  {
-                    "part": "CSD19535KTT",
-                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
-                      "html": "https://www.ti.com/product/CSD19535KTT"
                     }
                   }
                 ]
@@ -2854,19 +2849,19 @@
                     }
                   },
                   {
+                    "part": "CSD18514Q5A",
+                    "description": "40-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.9 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18514Q5A",
+                      "html": "https://www.ti.com/product/CSD18514Q5A"
+                    }
+                  },
+                  {
                     "part": "CSD18532Q5B",
                     "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 3.2 mOhm",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/CSD18532Q5B",
                       "html": "https://www.ti.com/product/CSD18532Q5B"
-                    }
-                  },
-                  {
-                    "part": "CSD19535KTT",
-                    "description": "100-V, N channel NexFET™ power MOSFET, single D2PAK, 3.4 mOhm",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/CSD19535KTT",
-                      "html": "https://www.ti.com/product/CSD19535KTT"
                     }
                   },
                   {

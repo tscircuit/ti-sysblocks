@@ -150,6 +150,27 @@
                 ]
               },
               {
+                "title": "I2C & I3C switches & multiplexers",
+                "products": [
+                  {
+                    "part": "TCA9543A",
+                    "description": "2-channel 1.65- to 5.5-V I2C/SMBus switch with interrupt, reset & voltage translation",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCA9543A",
+                      "html": "https://www.ti.com/product/TCA9543A"
+                    }
+                  },
+                  {
+                    "part": "TCA9546A",
+                    "description": "4-channel 1.65- to 5.5-V I2C/SMBus switch with reset & voltage translation",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCA9546A",
+                      "html": "https://www.ti.com/product/TCA9546A"
+                    }
+                  }
+                ]
+              },
+              {
                 "title": "IO-Link & digital I/Os",
                 "products": [
                   {
@@ -306,19 +327,19 @@
                     }
                   },
                   {
-                    "part": "SN74AXC4T245",
-                    "description": "4-bit dual-supply bus transceiver",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74AXC4T245",
-                      "html": "https://www.ti.com/product/SN74AXC4T245"
-                    }
-                  },
-                  {
                     "part": "SN74LV1T125",
                     "description": "Single Power Supply, Single BUFFER GATE w/ 3-State Output (active low enable)",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/SN74LV1T125",
                       "html": "https://www.ti.com/product/SN74LV1T125"
+                    }
+                  },
+                  {
+                    "part": "TXS0102",
+                    "description": "2-Bit Bidirectional Voltage-Level Shifter for Open-Drain and Push-Pull Application",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TXS0102",
+                      "html": "https://www.ti.com/product/TXS0102"
                     }
                   },
                   {
@@ -346,27 +367,6 @@
                     }
                   }
                 ]
-              },
-              {
-                "title": "XOR (exclusive OR) gates",
-                "products": [
-                  {
-                    "part": "SN74AC86",
-                    "description": "4-ch, 2-input, 2-V to 5.5-V XOR (exclusive OR) gates",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74AC86",
-                      "html": "https://www.ti.com/product/SN74AC86"
-                    }
-                  },
-                  {
-                    "part": "SN74LVC1G86",
-                    "description": "Single 2-input, 1.65-V to 5.5-V XOR (exclusive OR) gate",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G86",
-                      "html": "https://www.ti.com/product/SN74LVC1G86"
-                    }
-                  }
-                ]
               }
             ]
           },
@@ -377,11 +377,11 @@
                 "title": "Multimedia & industrial networking SoCs",
                 "products": [
                   {
-                    "part": "AM3357",
-                    "description": "Sitara processor: Arm Cortex-A8, EtherCAT, PRU-ICSS, CAN",
+                    "part": "AM3358",
+                    "description": "Sitara processor: Arm Cortex-A8, 3D graphics, PRU-ICSS, CAN",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/AM3357",
-                      "html": "https://www.ti.com/product/AM3357"
+                      "datasheet": "https://www.ti.com/lit/gpn/AM3358",
+                      "html": "https://www.ti.com/product/AM3358"
                     }
                   },
                   {
@@ -580,11 +580,11 @@
                     }
                   },
                   {
-                    "part": "TPS54538",
-                    "description": "3.8-V to 28-V, 5-A, 200-kHz to 2.2-MHz, synchronous buck converter",
+                    "part": "TPS568231",
+                    "description": "3.8-V to 17-V, 8-A synchronous buck converter with D-CAP3 control",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS54538",
-                      "html": "https://www.ti.com/product/TPS54538"
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS568231",
+                      "html": "https://www.ti.com/product/TPS568231"
                     }
                   },
                   {
@@ -596,11 +596,11 @@
                     }
                   },
                   {
-                    "part": "TPS62A03A",
-                    "description": "2.5V to 5.5V input, 3A high-efficiency synchronous buck converter with forced PWM in SOT-563 package",
+                    "part": "TPS62901",
+                    "description": "3-V to 17-V, 1-A&nbsp;high-efficiency low-IQ buck converter in 1.5-mm &times; 2-mm QFN package</p",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS62A03A",
-                      "html": "https://www.ti.com/product/TPS62A03A"
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62901",
+                      "html": "https://www.ti.com/product/TPS62901"
                     }
                   }
                 ]
@@ -654,11 +654,11 @@
                     }
                   },
                   {
-                    "part": "TPS7A20",
-                    "description": "300mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator with high PSRR",
+                    "part": "TPS746",
+                    "description": "1-A, low-IQ, high-accuracy, adjustable ultra-low-dropout voltage regulator with power good & enable",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A20",
-                      "html": "https://www.ti.com/product/TPS7A20"
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS746",
+                      "html": "https://www.ti.com/product/TPS746"
                     }
                   },
                   {
@@ -1000,6 +1000,14 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TPS2595",
                       "html": "https://www.ti.com/product/TPS2595"
+                    }
+                  },
+                  {
+                    "part": "TPS25980",
+                    "description": "2.7-V to 24-V, 8-A, 3-mΩ smart eFuse with adjustable transient fault management",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS25980",
+                      "html": "https://www.ti.com/product/TPS25980"
                     }
                   },
                   {
@@ -1382,6 +1390,19 @@
                     }
                   }
                 ]
+              },
+              {
+                "title": "RGB LED drivers",
+                "products": [
+                  {
+                    "part": "LP5024",
+                    "description": "24-channel I2C constant-current RGB LED driver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LP5024",
+                      "html": "https://www.ti.com/product/LP5024"
+                    }
+                  }
+                ]
               }
             ]
           },
@@ -1549,6 +1570,14 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TPS2595",
                       "html": "https://www.ti.com/product/TPS2595"
+                    }
+                  },
+                  {
+                    "part": "TPS25980",
+                    "description": "2.7-V to 24-V, 8-A, 3-mΩ smart eFuse with adjustable transient fault management",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS25980",
+                      "html": "https://www.ti.com/product/TPS25980"
                     }
                   },
                   {
@@ -2367,11 +2396,11 @@
                     }
                   },
                   {
-                    "part": "TPS54538",
-                    "description": "3.8-V to 28-V, 5-A, 200-kHz to 2.2-MHz, synchronous buck converter",
+                    "part": "TPS568231",
+                    "description": "3.8-V to 17-V, 8-A synchronous buck converter with D-CAP3 control",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS54538",
-                      "html": "https://www.ti.com/product/TPS54538"
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS568231",
+                      "html": "https://www.ti.com/product/TPS568231"
                     }
                   },
                   {
@@ -2383,11 +2412,11 @@
                     }
                   },
                   {
-                    "part": "TPS62A03A",
-                    "description": "2.5V to 5.5V input, 3A high-efficiency synchronous buck converter with forced PWM in SOT-563 package",
+                    "part": "TPS62901",
+                    "description": "3-V to 17-V, 1-A&nbsp;high-efficiency low-IQ buck converter in 1.5-mm &times; 2-mm QFN package</p",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS62A03A",
-                      "html": "https://www.ti.com/product/TPS62A03A"
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62901",
+                      "html": "https://www.ti.com/product/TPS62901"
                     }
                   }
                 ]
@@ -2535,7 +2564,7 @@
                   },
                   {
                     "part": "TPSM828301",
-                    "description": "2.25-V to 5.5-V, 1-A high-efficiency step-down power module with integrated inductor",
+                    "description": "2.25V to 5.5V, 1A low-EMI step-down module with integrated inductor in QFN and MagPack™ package",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TPSM828301",
                       "html": "https://www.ti.com/product/TPSM828301"
@@ -2543,7 +2572,7 @@
                   },
                   {
                     "part": "TPSM828303",
-                    "description": "2.25-V to 5.5-V, 3-A, low-noise step-down module with integrated inductor in QFN package",
+                    "description": "2.25V to 5.5V, 3A low-EMI step-down module with integrated inductor in QFN and MagPack™ package",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TPSM828303",
                       "html": "https://www.ti.com/product/TPSM828303"

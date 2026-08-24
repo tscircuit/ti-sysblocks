@@ -2057,11 +2057,11 @@
                 "title": "Automotive powertrain, zonal & chassis control MCUs",
                 "products": [
                   {
-                    "part": "TMS320F280049-Q1",
+                    "part": "TMS320F280048-Q1",
                     "description": "Automotive C2000™ 32-bit MCU with 100 MHz, FPU, TMU, 256 KB flash, CLA, PGAs, SDFM",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280049-Q1",
-                      "html": "https://www.ti.com/product/TMS320F280049-Q1"
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280048-Q1",
+                      "html": "https://www.ti.com/product/TMS320F280048-Q1"
                     }
                   },
                   {
@@ -2123,14 +2123,6 @@
                 "title": "Real-time digital power MCUs",
                 "products": [
                   {
-                    "part": "F28E120SC",
-                    "description": "C2000™ 32-bit MCU with 160 MHz, 128-KB flash, FPU, PGA",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/F28E120SC",
-                      "html": "https://www.ti.com/product/F28E120SC"
-                    }
-                  },
-                  {
                     "part": "TMS320F280049C",
                     "description": "C2000™ 32-bit MCU with 100-MHz, FPU, TMU, 256-kb Flash, CLA, InstaSPIN-FOC, CLB, PGAs, SDFM",
                     "links": {
@@ -2139,11 +2131,27 @@
                     }
                   },
                   {
+                    "part": "TMS320F28027",
+                    "description": "C2000™ 32-bit MCU with 60 MHz, 64 KB flash",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28027",
+                      "html": "https://www.ti.com/product/TMS320F28027"
+                    }
+                  },
+                  {
                     "part": "TMS320F28374S",
                     "description": "C2000™ 32-bit MCU with 400 MIPS, 1xCPU, 1xCLA, FPU, TMU, 512 KB flash, EMIF, 12b ADC",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TMS320F28374S",
                       "html": "https://www.ti.com/product/TMS320F28374S"
+                    }
+                  },
+                  {
+                    "part": "TMS320F28377D",
+                    "description": "C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 1024 KB flash, EMIF, 16b ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28377D",
+                      "html": "https://www.ti.com/product/TMS320F28377D"
                     }
                   },
                   {
@@ -2160,14 +2168,6 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TMS320F28379D",
                       "html": "https://www.ti.com/product/TMS320F28379D"
-                    }
-                  },
-                  {
-                    "part": "TMS320F28P650DK",
-                    "description": "C2000™ 32-bit MCU, 2x C28x+CLA CPU, Lock Step, 1.28-MB flash, 16-b ADC, HRPWM, EtherCAT, CAN-FD, AES",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28P650DK",
-                      "html": "https://www.ti.com/product/TMS320F28P650DK"
                     }
                   }
                 ]
@@ -2285,11 +2285,11 @@
                 "title": "Automotive powertrain, zonal & chassis control MCUs",
                 "products": [
                   {
-                    "part": "TMS320F280049-Q1",
-                    "description": "Automotive C2000™ 32-bit MCU with 100 MHz, FPU, TMU, 256 KB flash, CLA, PGAs, SDFM",
+                    "part": "TMS320F280049C-Q1",
+                    "description": "Automotive C2000™ 32-bit MCU w/ 100 MHz, FPU, TMU, 256 KB flash, CLA, InstaSPIN-FOC, CLB, PGAs, SDFM",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280049-Q1",
-                      "html": "https://www.ti.com/product/TMS320F280049-Q1"
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280049C-Q1",
+                      "html": "https://www.ti.com/product/TMS320F280049C-Q1"
                     }
                   },
                   {
@@ -2351,14 +2351,6 @@
                 "title": "Real-time digital power MCUs",
                 "products": [
                   {
-                    "part": "F28E120SC",
-                    "description": "C2000™ 32-bit MCU with 160 MHz, 128-KB flash, FPU, PGA",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/F28E120SC",
-                      "html": "https://www.ti.com/product/F28E120SC"
-                    }
-                  },
-                  {
                     "part": "TMS320F280049C",
                     "description": "C2000™ 32-bit MCU with 100-MHz, FPU, TMU, 256-kb Flash, CLA, InstaSPIN-FOC, CLB, PGAs, SDFM",
                     "links": {
@@ -2367,11 +2359,27 @@
                     }
                   },
                   {
+                    "part": "TMS320F28027",
+                    "description": "C2000™ 32-bit MCU with 60 MHz, 64 KB flash",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28027",
+                      "html": "https://www.ti.com/product/TMS320F28027"
+                    }
+                  },
+                  {
                     "part": "TMS320F28374S",
                     "description": "C2000™ 32-bit MCU with 400 MIPS, 1xCPU, 1xCLA, FPU, TMU, 512 KB flash, EMIF, 12b ADC",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TMS320F28374S",
                       "html": "https://www.ti.com/product/TMS320F28374S"
+                    }
+                  },
+                  {
+                    "part": "TMS320F28377D",
+                    "description": "C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 1024 KB flash, EMIF, 16b ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28377D",
+                      "html": "https://www.ti.com/product/TMS320F28377D"
                     }
                   },
                   {
@@ -2388,14 +2396,6 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TMS320F28379D",
                       "html": "https://www.ti.com/product/TMS320F28379D"
-                    }
-                  },
-                  {
-                    "part": "TMS320F28P650DK",
-                    "description": "C2000™ 32-bit MCU, 2x C28x+CLA CPU, Lock Step, 1.28-MB flash, 16-b ADC, HRPWM, EtherCAT, CAN-FD, AES",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28P650DK",
-                      "html": "https://www.ti.com/product/TMS320F28P650DK"
                     }
                   }
                 ]
@@ -2759,11 +2759,11 @@
                 "title": "Automotive powertrain, zonal & chassis control MCUs",
                 "products": [
                   {
-                    "part": "TMS320F280049C-Q1",
-                    "description": "Automotive C2000™ 32-bit MCU w/ 100 MHz, FPU, TMU, 256 KB flash, CLA, InstaSPIN-FOC, CLB, PGAs, SDFM",
+                    "part": "TMS320F280048-Q1",
+                    "description": "Automotive C2000™ 32-bit MCU with 100 MHz, FPU, TMU, 256 KB flash, CLA, PGAs, SDFM",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280049C-Q1",
-                      "html": "https://www.ti.com/product/TMS320F280049C-Q1"
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F280048-Q1",
+                      "html": "https://www.ti.com/product/TMS320F280048-Q1"
                     }
                   },
                   {
@@ -2825,14 +2825,6 @@
                 "title": "Real-time digital power MCUs",
                 "products": [
                   {
-                    "part": "F28E120SC",
-                    "description": "C2000™ 32-bit MCU with 160 MHz, 128-KB flash, FPU, PGA",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/F28E120SC",
-                      "html": "https://www.ti.com/product/F28E120SC"
-                    }
-                  },
-                  {
                     "part": "TMS320F280049C",
                     "description": "C2000™ 32-bit MCU with 100-MHz, FPU, TMU, 256-kb Flash, CLA, InstaSPIN-FOC, CLB, PGAs, SDFM",
                     "links": {
@@ -2841,11 +2833,27 @@
                     }
                   },
                   {
+                    "part": "TMS320F28027",
+                    "description": "C2000™ 32-bit MCU with 60 MHz, 64 KB flash",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28027",
+                      "html": "https://www.ti.com/product/TMS320F28027"
+                    }
+                  },
+                  {
                     "part": "TMS320F28374S",
                     "description": "C2000™ 32-bit MCU with 400 MIPS, 1xCPU, 1xCLA, FPU, TMU, 512 KB flash, EMIF, 12b ADC",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TMS320F28374S",
                       "html": "https://www.ti.com/product/TMS320F28374S"
+                    }
+                  },
+                  {
+                    "part": "TMS320F28377D",
+                    "description": "C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 1024 KB flash, EMIF, 16b ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28377D",
+                      "html": "https://www.ti.com/product/TMS320F28377D"
                     }
                   },
                   {
@@ -2862,14 +2870,6 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TMS320F28379D",
                       "html": "https://www.ti.com/product/TMS320F28379D"
-                    }
-                  },
-                  {
-                    "part": "TMS320F28P650DK",
-                    "description": "C2000™ 32-bit MCU, 2x C28x+CLA CPU, Lock Step, 1.28-MB flash, 16-b ADC, HRPWM, EtherCAT, CAN-FD, AES",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28P650DK",
-                      "html": "https://www.ti.com/product/TMS320F28P650DK"
                     }
                   }
                 ]
