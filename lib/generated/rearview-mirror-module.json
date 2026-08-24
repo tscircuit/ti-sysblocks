@@ -1,0 +1,315 @@
+{
+  "title": "Rearview mirror module",
+  "sourceUrl": "https://www.ti.com/solution/rearview-mirror-module",
+  "defaultSelected": "subsystemid-15970",
+  "nodes": [
+    {
+      "id": "subsystemid-15864",
+      "details": {
+        "title": "Communication interface",
+        "description": "CAN or LIN communication.",
+        "productGroups": [
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "CAN transceivers",
+                "products": [
+                  {
+                    "part": "TCAN844-Q1",
+                    "description": "Automotive cost-optimized CAN FD transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN844-Q1",
+                      "html": "https://www.ti.com/product/TCAN844-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "LIN transceivers",
+                "products": [
+                  {
+                    "part": "TLIN1021A-Q1",
+                    "description": "Automotive Fault-Protected LIN Transceiver with Inhibit and Wake",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLIN1021A-Q1",
+                      "html": "https://www.ti.com/product/TLIN1021A-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLIN821-Q1",
+                    "description": "Automotive fault-protected LIN transceiver with inhibit and WAKE",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLIN821-Q1",
+                      "html": "https://www.ti.com/product/TLIN821-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01428",
+            "description": "Automotive Pre-Buck, Post-Boost With CAN Discrete SBC Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01428",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUD46",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRRR6"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-15890",
+      "details": {
+        "title": "Electrochromic mirror driver",
+        "description": "The rear mirror includes the ability to implement electro chromatic function in order to prevent glare in driver's caused by headlights of vehicles behind the car. The high side switch is used to enable and disable this functionality.",
+        "productGroups": [
+          {
+            "category": "Amplifiers",
+            "sections": [
+              {
+                "title": "General-purpose op amps",
+                "products": [
+                  {
+                    "part": "LM2902B-Q1",
+                    "description": "Automotive, quad 36V 1.2MHz operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM2902B-Q1",
+                      "html": "https://www.ti.com/product/LM2902B-Q1"
+                    }
+                  },
+                  {
+                    "part": "LM2904B-Q1",
+                    "description": "Automotive-grade, dual, 36-V, 1.2-MHz operational amplifier with -40°C to 125°C operation",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM2904B-Q1",
+                      "html": "https://www.ti.com/product/LM2904B-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLV9061-Q1",
+                    "description": "Automotive, single, 5.5-V 10-MHz rail-to-rail input and output operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9061-Q1",
+                      "html": "https://www.ti.com/product/TLV9061-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Data converters",
+            "sections": [
+              {
+                "title": "Precision DACs (≤10 MSPS)",
+                "products": [
+                  {
+                    "part": "DAC101C081Q",
+                    "description": "10-Bit Micro Power Dig-to-Analog Converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DAC101C081Q",
+                      "html": "https://www.ti.com/product/DAC101C081Q"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01539",
+            "description": "Automotive Auto-Dimming Mirror Reference Design for Electrochromic Mirrors",
+            "url": "https://www.ti.com/tool/TIDA-01539",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDR8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRW89"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-15914",
+      "details": {
+        "title": "Temperature sensor",
+        "description": "The temperature sensor is used to detect temperature of the electro chromatic driver in order to protect the motors from damage due to high temperatures.",
+        "productGroups": [
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Analog temperature sensors",
+                "products": [
+                  {
+                    "part": "LM50HV",
+                    "description": "3V to 36V, ±2°C analog-output temperature sensor with operating temperature up to 150°C",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM50HV",
+                      "html": "https://www.ti.com/product/LM50HV"
+                    }
+                  },
+                  {
+                    "part": "LM50HV-Q1",
+                    "description": "Automotive (Grade 0), 3V to 36V, ±2°C analog-output temperature sensor",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM50HV-Q1",
+                      "html": "https://www.ti.com/product/LM50HV-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-15952",
+      "details": {
+        "title": "Light sensor",
+        "description": "The light sensors are used to determine whether it is daytime or nighttime and to determine if there is a car with headlights on behind the mirror. This information is used to control the electro chromatic mirror in order to reduce glare in the driver's eyes.",
+        "productGroups": [
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Light sensors",
+                "products": [
+                  {
+                    "part": "OPT4001-Q1",
+                    "description": "Automotive high-speed high-precision digital ambient light sensor (ALS)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPT4001-Q1",
+                      "html": "https://www.ti.com/product/OPT4001-Q1"
+                    }
+                  },
+                  {
+                    "part": "OPT4003-Q1",
+                    "description": "Automotive high-speed&nbsp;high-precision digital light sensor",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPT4003-Q1",
+                      "html": "https://www.ti.com/product/OPT4003-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01539",
+            "description": "Automotive Auto-Dimming Mirror Reference Design for Electrochromic Mirrors",
+            "url": "https://www.ti.com/tool/TIDA-01539",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDR8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRW89"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-15997",
+      "details": {
+        "title": "MCU",
+        "description": "The microcontroller receives the driver commands and sensor inputs, interprets the commands and acts upon the commands by turning on and off the power to the loads. The commands are received from various switch inputs or received via the communication interface.",
+        "productGroups": [],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-15998",
+      "details": {
+        "title": "Lamp driver",
+        "description": "The rear mirror includes map lights and Homelink buttons. The maps lights can be based on incandescent bulb or LEDs while the garage door button backlights are based on LEDs.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Automotive LED drivers",
+                "products": [
+                  {
+                    "part": "TPS92624-Q1",
+                    "description": "Automotive four-channel high-side LED driver with thermal sharing",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS92624-Q1",
+                      "html": "https://www.ti.com/product/TPS92624-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00356",
+            "description": "Automotive Door Control Switch Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00356",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRCB5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-15970",
+      "details": {
+        "title": "Power Supply",
+        "description": "This subsystem supplies power to the MCU, communication interface (depends on the interface type), temperature sensor and position sensor and motor diagnostic circuits (depending on the current sense method used). This subsystem is typically realized using a Low Dropout (LDO) regulator and could include diagnostic features such as watchdog and supply voltage monitoring.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Ideal diode & ORing controllers",
+                "products": [
+                  {
+                    "part": "LM74202-Q1",
+                    "description": "4.2-V to 40-V, 2.2A 300uA IQ automotive ideal diode with Integrated FET",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM74202-Q1",
+                      "html": "https://www.ti.com/product/LM74202-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "TPS745-Q1",
+                    "description": "Automotive 500-mA, low-IQ, high-PSRR,&nbsp;low-dropout (LDO) voltage regulator with power good</p",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS745-Q1",
+                      "html": "https://www.ti.com/product/TPS745-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS7E81-Q1",
+                    "description": "Automotive, 40V 150mA low-IQ (2.8µA) low-dropout (LDO) regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7E81-Q1",
+                      "html": "https://www.ti.com/product/TPS7E81-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    }
+  ]
+}

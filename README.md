@@ -33,7 +33,7 @@ bun install
 bun run start
 ```
 
-Cosmos lists every solution and variant independently in its sidebar. The catalog converts eight TI solution pages into fourteen diagram pages:
+Cosmos lists every solution and variant independently in its sidebar. The catalog converts nine TI solution pages into fifteen diagram pages:
 
 - Machine vision camera
 - Drive line components (three variants)
@@ -43,6 +43,7 @@ Cosmos lists every solution and variant independently in its sidebar. The catalo
 - Industrial AC/DC (two variants)
 - Power bank
 - Seat position module
+- Rearview mirror module
 
 ## Add another TI solution
 

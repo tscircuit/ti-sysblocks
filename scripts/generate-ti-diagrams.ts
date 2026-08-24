@@ -27,6 +27,10 @@ const solutions = [
     variantId: 18223,
     subsystemId: 26708,
   },
+  {
+    slug: "rearview-mirror-module",
+    title: "Rearview mirror module",
+  },
 ] as const satisfies readonly TiSolution[]
 
 interface TiDocument {
