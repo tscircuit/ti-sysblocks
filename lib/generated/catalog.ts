@@ -23,6 +23,8 @@ import diagram10Svg from "./industrial-ac-dc-digital-controlled-industrial-ac-dc
 import diagram10Json from "./industrial-ac-dc-digital-controlled-industrial-ac-dc.json"
 import diagram11Svg from "./industrial-ac-dc-analog-controlled-industrial-ac-dc.svg?raw"
 import diagram11Json from "./industrial-ac-dc-analog-controlled-industrial-ac-dc.json"
+import diagram12Svg from "./power-bank.svg?raw"
+import diagram12Json from "./power-bank.json"
 
 export const machineVisionCamera = createSysBlockDefinitionFromJson("machine-vision-camera", diagram0Svg, diagram0Json)
 export const driveLineComponentsActiveTransferCase = createSysBlockDefinitionFromJson("drive-line-components-active-transfer-case", diagram1Svg, diagram1Json)
@@ -36,5 +38,6 @@ export const thermostatBasicThermostat = createSysBlockDefinitionFromJson("therm
 export const thermostatSmartThermostat = createSysBlockDefinitionFromJson("thermostat-smart-thermostat", diagram9Svg, diagram9Json)
 export const industrialAcDcDigitalControlledIndustrialAcDc = createSysBlockDefinitionFromJson("industrial-ac-dc-digital-controlled-industrial-ac-dc", diagram10Svg, diagram10Json)
 export const industrialAcDcAnalogControlledIndustrialAcDc = createSysBlockDefinitionFromJson("industrial-ac-dc-analog-controlled-industrial-ac-dc", diagram11Svg, diagram11Json)
+export const powerBank = createSysBlockDefinitionFromJson("power-bank", diagram12Svg, diagram12Json)
 
-export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat, industrialAcDcDigitalControlledIndustrialAcDc, industrialAcDcAnalogControlledIndustrialAcDc]
+export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat, industrialAcDcDigitalControlledIndustrialAcDc, industrialAcDcAnalogControlledIndustrialAcDc, powerBank]

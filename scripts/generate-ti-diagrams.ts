@@ -1,6 +1,13 @@
 import { mkdir, rm } from "node:fs/promises"
 import path from "node:path"
 
+interface TiSolution {
+  slug: string
+  title: string
+  variantId?: number
+  subsystemId?: number
+}
+
 const solutions = [
   { slug: "machine-vision-camera", title: "Machine vision camera" },
   { slug: "drive-line-components", title: "Drive line components" },
@@ -8,7 +15,13 @@ const solutions = [
   { slug: "battery-charger", title: "Battery charger" },
   { slug: "thermostat", title: "Thermostat" },
   { slug: "industrial-ac-dc", title: "Industrial AC/DC" },
-] as const
+  {
+    slug: "power-bank",
+    title: "Power bank",
+    variantId: 34201,
+    subsystemId: 27662,
+  },
+] as const satisfies readonly TiSolution[]
 
 interface TiDocument {
   docSubType?: string | null
@@ -173,11 +186,26 @@ const generated: Array<{
 }> = []
 
 for (const solution of solutions) {
-  const sourceUrl = `https://www.ti.com/solution/${solution.slug}`
+  const sourceUrl = new URL(`https://www.ti.com/solution/${solution.slug}`)
+  if ("variantId" in solution) {
+    sourceUrl.searchParams.set("variantid", String(solution.variantId))
+  }
+  if ("subsystemId" in solution) {
+    sourceUrl.searchParams.set("subsystemid", String(solution.subsystemId))
+  }
+
   const response = await fetch(sourceUrl)
   if (!response.ok)
     throw new Error(`${response.status} while fetching ${sourceUrl}`)
-  const variants = extractVariants(await response.text())
+  const allVariants = extractVariants(await response.text())
+  const variants =
+    "variantId" in solution
+      ? allVariants.filter((variant) => variant.eeqId === solution.variantId)
+      : allVariants
+
+  if (variants.length === 0) {
+    throw new Error(`Could not find requested variant for ${sourceUrl}`)
+  }
 
   for (const variant of variants) {
     const suffix = variants.length > 1 ? `-${slugify(variant.eeqName)}` : ""
@@ -190,6 +218,11 @@ for (const solution of solutions) {
       letter.toUpperCase(),
     )
     const defaultSubsystem =
+      ("subsystemId" in solution
+        ? variant.subsystems.find(
+            (subsystem) => subsystem.subSystemId === solution.subsystemId,
+          )
+        : undefined) ??
       variant.subsystems.find((subsystem) => subsystem.defaultSubSystem) ??
       variant.subsystems[0]
 
@@ -197,7 +230,7 @@ for (const solution of solutions) {
 
     const json = {
       title,
-      sourceUrl,
+      sourceUrl: sourceUrl.href,
       defaultSelected: `subsystemid-${defaultSubsystem.subSystemId}`,
       nodes: variant.subsystems.map(convertSubsystem),
     }
