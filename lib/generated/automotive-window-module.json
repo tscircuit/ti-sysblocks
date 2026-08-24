@@ -1,0 +1,498 @@
+{
+  "title": "Window module",
+  "sourceUrl": "https://www.ti.com/solution/automotive-window-module?variantid=34360&subsystemid=24690",
+  "defaultSelected": "subsystemid-24690",
+  "nodes": [
+    {
+      "id": "subsystemid-24690",
+      "details": {
+        "title": "Motor driver",
+        "description": "The drivers provide power to the loads. These may include discrete drive stages as well as integrated multi-channel drivers.",
+        "productGroups": [
+          {
+            "category": "Motor drivers",
+            "sections": [
+              {
+                "title": "Brushed DC (BDC) motor drivers",
+                "products": [
+                  {
+                    "part": "DRV8001-Q1",
+                    "description": "Automotive 40-V, multifunction half-bridges & high-side drivers for front door control",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8001-Q1",
+                      "html": "https://www.ti.com/product/DRV8001-Q1"
+                    }
+                  },
+                  {
+                    "part": "DRV8163-Q1",
+                    "description": "Automotive 48V half-bridge motor driver with diagnostics and internal current sense",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8163-Q1",
+                      "html": "https://www.ti.com/product/DRV8163-Q1"
+                    }
+                  },
+                  {
+                    "part": "DRV8245-Q1",
+                    "description": "Automotive 40-V, 32-A H-Bridge driver with integrated current sensing and feedback",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8245-Q1",
+                      "html": "https://www.ti.com/product/DRV8245-Q1"
+                    }
+                  },
+                  {
+                    "part": "DRV8262-Q1",
+                    "description": "Automotive 70-V, 20A single or dual H-bridge motor driver with integrated current sensing",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8262-Q1",
+                      "html": "https://www.ti.com/product/DRV8262-Q1"
+                    }
+                  },
+                  {
+                    "part": "DRV8876-Q1",
+                    "description": "Automotive 40-V, 3.5-A H-bridge motor driver with integrated current sensing & current sense",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8876-Q1",
+                      "html": "https://www.ti.com/product/DRV8876-Q1"
+                    }
+                  },
+                  {
+                    "part": "DRV8912-Q1",
+                    "description": "Automotive, 40V, 6A 12 channel half-bridge motor driver with advanced diagnostics",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8912-Q1",
+                      "html": "https://www.ti.com/product/DRV8912-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01389",
+            "description": "Small-Footprint Sunroof Motor Module Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01389",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCQ9",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRQE4"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-24688",
+      "details": {
+        "title": "Communication interface",
+        "description": "CAN or LIN communication to the other vehicle systems.",
+        "productGroups": [
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "CAN transceivers",
+                "products": [
+                  {
+                    "part": "TCAN1043N-Q1",
+                    "description": "Automotive CAN FD transceiver with wake, inhibit and sleep",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN1043N-Q1",
+                      "html": "https://www.ti.com/product/TCAN1043N-Q1"
+                    }
+                  },
+                  {
+                    "part": "TCAN1044A-Q1",
+                    "description": "Enhanced automotive CAN transceiver with standby",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN1044A-Q1",
+                      "html": "https://www.ti.com/product/TCAN1044A-Q1"
+                    }
+                  },
+                  {
+                    "part": "TCAN1162-Q1",
+                    "description": "Automotive CAN-FD transceiver with integrated 5-V supply",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN1162-Q1",
+                      "html": "https://www.ti.com/product/TCAN1162-Q1"
+                    }
+                  },
+                  {
+                    "part": "TCAN1472-Q1",
+                    "description": "Automotive signal improvement capable CAN FD transceiver with standby",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN1472-Q1",
+                      "html": "https://www.ti.com/product/TCAN1472-Q1"
+                    }
+                  },
+                  {
+                    "part": "TCAN1473A-Q1",
+                    "description": "Automotive, low-power signal improvement CAN FD transceiver with INH and WAKE",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN1473A-Q1",
+                      "html": "https://www.ti.com/product/TCAN1473A-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "LIN transceivers",
+                "products": [
+                  {
+                    "part": "TLIN1021A-Q1",
+                    "description": "Automotive Fault-Protected LIN Transceiver with Inhibit and Wake",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLIN1021A-Q1",
+                      "html": "https://www.ti.com/product/TLIN1021A-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLIN1039-Q1",
+                    "description": "Local interconnect network (LIN) transceiver with dominant state timeout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLIN1039-Q1",
+                      "html": "https://www.ti.com/product/TLIN1039-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLIN821-Q1",
+                    "description": "Automotive fault-protected LIN transceiver with inhibit and WAKE",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLIN821-Q1",
+                      "html": "https://www.ti.com/product/TLIN821-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "System basis chips (SBCs)",
+                "products": [
+                  {
+                    "part": "TLIN1028-Q1",
+                    "description": "Automotive local interconnect network (LIN) transceiver with integrated voltage regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLIN1028-Q1",
+                      "html": "https://www.ti.com/product/TLIN1028-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLIN1431-Q1",
+                    "description": "Automotive LIN SBC for 12-V systems with integrated VREG and watchdog",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLIN1431-Q1",
+                      "html": "https://www.ti.com/product/TLIN1431-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Passive and discrete",
+            "sections": [
+              {
+                "title": "ESD protection diodes",
+                "products": [
+                  {
+                    "part": "ESD2CAN24-Q1",
+                    "description": "Automotive, dual, 3-pF, ±24-V, ±30-kV ESD protection diode for in-vehicle networks",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ESD2CAN24-Q1",
+                      "html": "https://www.ti.com/product/ESD2CAN24-Q1"
+                    }
+                  },
+                  {
+                    "part": "ESD2CANFD24-Q1",
+                    "description": "Automotive, dual, 2.5pF ±24-V, 25-kV ESD protection diode for in-vehicle networks",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ESD2CANFD24-Q1",
+                      "html": "https://www.ti.com/product/ESD2CANFD24-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-24692",
+      "details": {
+        "title": "Pinch detection",
+        "description": "Pinch detection monitors the motor state and determines if an unexpected obstacle is encountered.",
+        "productGroups": [
+          {
+            "category": "Amplifiers",
+            "sections": [
+              {
+                "title": "Analog current-sense amplifiers",
+                "products": [
+                  {
+                    "part": "INA213-Q1",
+                    "description": "AEC-Q100, 26V, bi-directional, high-precision current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA213-Q1",
+                      "html": "https://www.ti.com/product/INA213-Q1"
+                    }
+                  },
+                  {
+                    "part": "INA240-Q1",
+                    "description": "AEC-Q100, -4 to 80V, bi-directional, ultra-precise current sense amplifier w/ enhanced pwm rejection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA240-Q1",
+                      "html": "https://www.ti.com/product/INA240-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Comparators",
+                "products": [
+                  {
+                    "part": "LM2901B",
+                    "description": "36-V, quad differential standard comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM2901B",
+                      "html": "https://www.ti.com/product/LM2901B"
+                    }
+                  },
+                  {
+                    "part": "TLV9020-Q1",
+                    "description": "Automotive single low-voltage comparator with open-drain output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9020-Q1",
+                      "html": "https://www.ti.com/product/TLV9020-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "General-purpose op amps",
+                "products": [
+                  {
+                    "part": "LM2904B-Q1",
+                    "description": "Automotive-grade, dual, 36-V, 1.2-MHz operational amplifier with -40°C to 125°C operation",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM2904B-Q1",
+                      "html": "https://www.ti.com/product/LM2904B-Q1"
+                    }
+                  },
+                  {
+                    "part": "LM2904LV-Q1",
+                    "description": "Automotive-grade, dual, 5.5-V, 1-MHz, 3-mV offset voltage operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM2904LV-Q1",
+                      "html": "https://www.ti.com/product/LM2904LV-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLV9062-Q1",
+                    "description": "Automotive, dual 5.5-V 10-MHz operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9062-Q1",
+                      "html": "https://www.ti.com/product/TLV9062-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLV9064-Q1",
+                    "description": "Automotive-grade, quad, 5.5-V, 10-MHz, RRIO operational amplifier for cost-optimized applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9064-Q1",
+                      "html": "https://www.ti.com/product/TLV9064-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01421",
+            "description": "Automotive Brushed-Motor Ripple Counter Reference Design for Sensorless Position Measurement",
+            "url": "https://www.ti.com/tool/TIDA-01421",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUD30",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRRO9"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-24691",
+      "details": {
+        "title": "Motor thermal protection",
+        "description": "Temperature feedback monitors the drive stage FETs and signals the controller if the temperature exceeds a safe level.",
+        "productGroups": [
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Temperature switches",
+                "products": [
+                  {
+                    "part": "TMP390-Q1",
+                    "description": "Automotive grade, ultra-small, dual-channel, 0.5-μA, resistor-programmable temperature switch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMP390-Q1",
+                      "html": "https://www.ti.com/product/TMP390-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-24689",
+      "details": {
+        "title": "MCU",
+        "description": "The microcontroller receives the driver commands, interprets the commands and acts upon the commands by turning on and off the power to the loads. The commands are received from various switch inputs or received via the communication interface.",
+        "productGroups": [
+          {
+            "category": "Microcontrollers (MCUs) & processors",
+            "sections": [
+              {
+                "title": "Sensing MCUs",
+                "products": [
+                  {
+                    "part": "MSP430FR6005",
+                    "description": "16-MHz MCU with 128-KB FRAM, LCD, 12-bit high speed 8-MSPS sigma-delta ADC and integrated sensor AFE",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR6005",
+                      "html": "https://www.ti.com/product/MSP430FR6005"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-24693",
+      "details": {
+        "title": "Position feedback",
+        "description": "Position sensors provide feedback on the motion of the motor and mechanism.",
+        "productGroups": [
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Hall-effect latches & switches",
+                "products": [
+                  {
+                    "part": "DRV5013",
+                    "description": "High voltage (up to 38V), high bandwidth (30kHz) Hall-effect latch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV5013",
+                      "html": "https://www.ti.com/product/DRV5013"
+                    }
+                  },
+                  {
+                    "part": "DRV5013-Q1",
+                    "description": "Automotive, high voltage (up to 38V), high bandwidth (30-kHz) Hall effect latch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV5013-Q1",
+                      "html": "https://www.ti.com/product/DRV5013-Q1"
+                    }
+                  },
+                  {
+                    "part": "TMAG5111",
+                    "description": "High-sensitivity, 2D, dual-channel, speed and direction outputs, Hall-effect latch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMAG5111",
+                      "html": "https://www.ti.com/product/TMAG5111"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-24694",
+      "details": {
+        "title": "Power supply",
+        "description": "The power supply subsystem supplies power to the MCU, communication interface (depends on the interface type), and various circuits on the PCB. This subsystem is typically realized using a Low Dropout (LDO) regulator or switching (buck) regulator and could include diagnostic features such as watchdog and supply voltage monitoring. In addition, the power supply subsystem could include tracking regulators that provide power to off-board sensors.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Ideal diode & ORing controllers",
+                "products": [
+                  {
+                    "part": "LM74500-Q1",
+                    "description": "Reverse polarity protection controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM74500-Q1",
+                      "html": "https://www.ti.com/product/LM74500-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "TPS7B4255-Q1",
+                    "description": "Automotive, 70-mA 40-V voltage-tracking low-dropout (LDO) regulator with 5-mV tracking tolerance",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7B4255-Q1",
+                      "html": "https://www.ti.com/product/TPS7B4255-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS7B63-Q1",
+                    "description": "Automotive 300-mA, off-battery (40-V), high-PSRR, low-IQ, low-dropout voltage regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7B63-Q1",
+                      "html": "https://www.ti.com/product/TPS7B63-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS7B68-Q1",
+                    "description": "Automotive 500-mA, off-battery (40-V), high-PSRR, low-IQ, low-dropout voltage regulator with WD",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7B68-Q1",
+                      "html": "https://www.ti.com/product/TPS7B68-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS7E81-Q1",
+                    "description": "Automotive, 40V 150mA low-IQ (2.8µA) low-dropout (LDO) regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7E81-Q1",
+                      "html": "https://www.ti.com/product/TPS7E81-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS7E82-Q1",
+                    "description": "Automotive, 40V 300mA low-IQ (2.8µA) low-dropout (LDO) regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7E82-Q1",
+                      "html": "https://www.ti.com/product/TPS7E82-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    }
+  ]
+}

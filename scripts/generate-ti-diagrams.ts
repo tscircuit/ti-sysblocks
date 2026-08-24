@@ -21,6 +21,12 @@ const solutions = [
     variantId: 34201,
     subsystemId: 27662,
   },
+  {
+    slug: "automotive-window-module",
+    title: "Window module",
+    variantId: 34360,
+    subsystemId: 24690,
+  },
 ] as const satisfies readonly TiSolution[]
 
 interface TiDocument {
