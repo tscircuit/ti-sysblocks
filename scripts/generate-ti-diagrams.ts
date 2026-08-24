@@ -28,6 +28,10 @@ const solutions = [
     subsystemId: 26708,
   },
   {
+    slug: "rearview-mirror-module",
+    title: "Rearview mirror module",
+  },
+  {
     slug: "obstacle-detection-sensor",
     title: "Obstacle detection sensor",
   },
