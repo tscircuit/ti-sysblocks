@@ -377,11 +377,11 @@
                 "title": "Multimedia & industrial networking SoCs",
                 "products": [
                   {
-                    "part": "AM3358",
-                    "description": "Sitara processor: Arm Cortex-A8, 3D graphics, PRU-ICSS, CAN",
+                    "part": "AM3356",
+                    "description": "Sitara processor: Arm Cortex-A8, PRU-ICSS, CAN",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/AM3358",
-                      "html": "https://www.ti.com/product/AM3358"
+                      "datasheet": "https://www.ti.com/lit/gpn/AM3356",
+                      "html": "https://www.ti.com/product/AM3356"
                     }
                   },
                   {

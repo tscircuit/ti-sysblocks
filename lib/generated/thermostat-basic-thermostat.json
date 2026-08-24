@@ -682,11 +682,11 @@
                     }
                   },
                   {
-                    "part": "HDC3021-Q1",
-                    "description": "Automotive 0.5% RH digital humidity sensor with removable tape cover",
+                    "part": "HDC3021",
+                    "description": "0.5% RH digital humidity sensor with removable tape cover",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/HDC3021-Q1",
-                      "html": "https://www.ti.com/product/HDC3021-Q1"
+                      "datasheet": "https://www.ti.com/lit/gpn/HDC3021",
+                      "html": "https://www.ti.com/product/HDC3021"
                     }
                   },
                   {
