@@ -28,6 +28,10 @@ const solutions = [
     subsystemId: 26708,
   },
   {
+    slug: "rearview-mirror-module",
+    title: "Rearview mirror module",
+  },
+  {
     slug: "automotive-window-module",
     title: "Window module",
     variantId: 34360,

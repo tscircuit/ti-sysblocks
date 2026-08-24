@@ -27,8 +27,10 @@ import diagram12Svg from "./power-bank.svg?raw"
 import diagram12Json from "./power-bank.json"
 import diagram13Svg from "./seat-position-module.svg?raw"
 import diagram13Json from "./seat-position-module.json"
-import diagram14Svg from "./automotive-window-module.svg?raw"
-import diagram14Json from "./automotive-window-module.json"
+import diagram14Svg from "./rearview-mirror-module.svg?raw"
+import diagram14Json from "./rearview-mirror-module.json"
+import diagram15Svg from "./automotive-window-module.svg?raw"
+import diagram15Json from "./automotive-window-module.json"
 
 export const machineVisionCamera = createSysBlockDefinitionFromJson("machine-vision-camera", diagram0Svg, diagram0Json)
 export const driveLineComponentsActiveTransferCase = createSysBlockDefinitionFromJson("drive-line-components-active-transfer-case", diagram1Svg, diagram1Json)
@@ -44,6 +46,7 @@ export const industrialAcDcDigitalControlledIndustrialAcDc = createSysBlockDefin
 export const industrialAcDcAnalogControlledIndustrialAcDc = createSysBlockDefinitionFromJson("industrial-ac-dc-analog-controlled-industrial-ac-dc", diagram11Svg, diagram11Json)
 export const powerBank = createSysBlockDefinitionFromJson("power-bank", diagram12Svg, diagram12Json)
 export const seatPositionModule = createSysBlockDefinitionFromJson("seat-position-module", diagram13Svg, diagram13Json)
-export const automotiveWindowModule = createSysBlockDefinitionFromJson("automotive-window-module", diagram14Svg, diagram14Json)
+export const rearviewMirrorModule = createSysBlockDefinitionFromJson("rearview-mirror-module", diagram14Svg, diagram14Json)
+export const automotiveWindowModule = createSysBlockDefinitionFromJson("automotive-window-module", diagram15Svg, diagram15Json)
 
-export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat, industrialAcDcDigitalControlledIndustrialAcDc, industrialAcDcAnalogControlledIndustrialAcDc, powerBank, seatPositionModule, automotiveWindowModule]
+export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat, industrialAcDcDigitalControlledIndustrialAcDc, industrialAcDcAnalogControlledIndustrialAcDc, powerBank, seatPositionModule, rearviewMirrorModule, automotiveWindowModule]
