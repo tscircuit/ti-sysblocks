@@ -769,11 +769,11 @@
                     }
                   },
                   {
-                    "part": "UCC28C55",
-                    "description": "Industrial, 30-V, low-power current-mode PWM controller, 8.4-V/7.6-V UVLO, 50% duty cycle",
+                    "part": "UCC38C42",
+                    "description": "Commercial, 20-V, low-power current-mode PWM controller, 14.5-V/9-V UVLO, 100% duty cycle",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/UCC28C55",
-                      "html": "https://www.ti.com/product/UCC28C55"
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC38C42",
+                      "html": "https://www.ti.com/product/UCC38C42"
                     }
                   },
                   {
@@ -1088,11 +1088,11 @@
                     }
                   },
                   {
-                    "part": "UCC28C52",
-                    "description": "Industrial, 30-V, low-power current-mode PWM controller, 14.5-V/9-V UVLO, 100% duty cycle",
+                    "part": "UCC28C53",
+                    "description": "Industrial, 30-V, low-power current-mode PWM controller, 8.4-V/7.6-V UVLO, 100% duty cycle",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/UCC28C52",
-                      "html": "https://www.ti.com/product/UCC28C52"
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28C53",
+                      "html": "https://www.ti.com/product/UCC28C53"
                     }
                   },
                   {
@@ -1104,11 +1104,11 @@
                     }
                   },
                   {
-                    "part": "UCC38C42",
-                    "description": "Commercial, 20-V, low-power current-mode PWM controller, 14.5-V/9-V UVLO, 100% duty cycle",
+                    "part": "UCC38C43",
+                    "description": "Commercial, 20-V, low-power current-mode PWM controller, 8.4-V/7.6-V UVLO, 100% duty cycle",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/UCC38C42",
-                      "html": "https://www.ti.com/product/UCC38C42"
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC38C43",
+                      "html": "https://www.ti.com/product/UCC38C43"
                     }
                   }
                 ]
@@ -1601,11 +1601,11 @@
                     }
                   },
                   {
-                    "part": "UCC38C45",
-                    "description": "Commercial, 20-V, low-power current-mode PWM controller, 8.4-V/7.6-V UVLO, 50% duty cycle",
+                    "part": "UCC38C43",
+                    "description": "Commercial, 20-V, low-power current-mode PWM controller, 8.4-V/7.6-V UVLO, 100% duty cycle",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/UCC38C45",
-                      "html": "https://www.ti.com/product/UCC38C45"
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC38C43",
+                      "html": "https://www.ti.com/product/UCC38C43"
                     }
                   }
                 ]
