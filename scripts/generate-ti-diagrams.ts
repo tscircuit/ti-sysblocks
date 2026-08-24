@@ -22,6 +22,12 @@ const solutions = [
     subsystemId: 27662,
   },
   {
+    slug: "seat-position-module",
+    title: "Seat position module",
+    variantId: 18223,
+    subsystemId: 26708,
+  },
+  {
     slug: "automotive-window-module",
     title: "Window module",
     variantId: 34360,
