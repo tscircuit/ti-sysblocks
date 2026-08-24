@@ -31,6 +31,10 @@ const solutions = [
     slug: "rearview-mirror-module",
     title: "Rearview mirror module",
   },
+  {
+    slug: "obstacle-detection-sensor",
+    title: "Obstacle detection sensor",
+  },
 ] as const satisfies readonly TiSolution[]
 
 interface TiDocument {
