@@ -1,0 +1,853 @@
+{
+  "title": "Power bank",
+  "sourceUrl": "https://www.ti.com/solution/power-bank?variantid=34201&subsystemid=27662",
+  "defaultSelected": "subsystemid-27662",
+  "nodes": [
+    {
+      "id": "subsystemid-27667",
+      "details": {
+        "title": "USB interface",
+        "description": "USB Type A with BC1.2 and USB Type C with PD are the most popular power source standard in power bank design.",
+        "productGroups": [
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "USB-C Power Delivery controllers",
+                "products": [
+                  {
+                    "part": "TPS25751",
+                    "description": "USB-C® Power Delivery 3.2 controller with moisture detection and programmable power-supply",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS25751",
+                      "html": "https://www.ti.com/product/TPS25751"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Load switches",
+                "products": [
+                  {
+                    "part": "TPS22810",
+                    "description": "18-V, 3-A, 79-m&Omega; load switch with adj. rise time and adj. output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22810",
+                      "html": "https://www.ti.com/product/TPS22810"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP40909",
+            "description": "3.3-V to 4.2-V input, 12-V, 60-W peak output power boost converter reference design",
+            "url": "https://www.ti.com/tool/PMP40909",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDMAT6"
+            }
+          },
+          {
+            "name": "PMP9776",
+            "description": "Reference Design Realizing Output Current Sensing and Limit, Plug-in Detection in Power Bank",
+            "url": "https://www.ti.com/tool/PMP9776",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJ64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-27666",
+      "details": {
+        "title": "Temperature sensing",
+        "description": "Temperature sense subsystem",
+        "productGroups": [
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Digital temperature sensors",
+                "products": [
+                  {
+                    "part": "TMP103",
+                    "description": "±2°C Digital temperature sensor with I2C/SMBus capable of 1.4V in WCSP",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMP103",
+                      "html": "https://www.ti.com/product/TMP103"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-27665",
+      "details": {
+        "title": "DC/DC power supply",
+        "description": "This subsystem supplies power to charge other portable devices and Power Bank internal system power requirements.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DC/DC controllers",
+                "products": [
+                  {
+                    "part": "LM5171",
+                    "description": "80V dual-channel bidirectional buck/boost controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5171",
+                      "html": "https://www.ti.com/product/LM5171"
+                    }
+                  },
+                  {
+                    "part": "LM51770",
+                    "description": "78V wide-VIN bidirectional 4-switch buck-boost controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM51770",
+                      "html": "https://www.ti.com/product/LM51770"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LMR43610-Q1",
+                    "description": "Automotive 3-V to 36-V, 1-A, low-EMI&nbsp;synchronous buck regulator with low IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR43610-Q1",
+                      "html": "https://www.ti.com/product/LMR43610-Q1"
+                    }
+                  },
+                  {
+                    "part": "LMR54410",
+                    "description": "4V to 36V, 1A, 80-µA Iq synchronous SIMPLE SWITCHER® power converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR54410",
+                      "html": "https://www.ti.com/product/LMR54410"
+                    }
+                  },
+                  {
+                    "part": "LMR60450-Q1",
+                    "description": "Automotive, 36V, 5A synchronous buck converter with low Iq and high efficiency with minimized COUT",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR60450-Q1",
+                      "html": "https://www.ti.com/product/LMR60450-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS54202H",
+                    "description": "4.5V to 28V Input, 2A Output, Synchronous Step-Down Voltage Converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS54202H",
+                      "html": "https://www.ti.com/product/TPS54202H"
+                    }
+                  },
+                  {
+                    "part": "TPS552852",
+                    "description": "22V 8A buck-boost converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS552852",
+                      "html": "https://www.ti.com/product/TPS552852"
+                    }
+                  },
+                  {
+                    "part": "TPS55289",
+                    "description": "30-V 8-A buck-boost converter with I²C interface",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS55289",
+                      "html": "https://www.ti.com/product/TPS55289"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "TLV704",
+                    "description": "150-mA 24-V ultra-low-IQ low-dropout (LDO) voltage regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV704",
+                      "html": "https://www.ti.com/product/TLV704"
+                    }
+                  },
+                  {
+                    "part": "TLV709",
+                    "description": "150-mA 30-V low-dropout (LDO) linear regulator with 3.2-μA supply current",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV709",
+                      "html": "https://www.ti.com/product/TLV709"
+                    }
+                  },
+                  {
+                    "part": "TPS782",
+                    "description": "150-mA, nano-IQ, low-dropout voltage regulator with enable from -40°C to +125°C",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS782",
+                      "html": "https://www.ti.com/product/TPS782"
+                    }
+                  },
+                  {
+                    "part": "TPS784-Q1",
+                    "description": "Automotive, 300-mA, low-IQ, high-PSRR, LDO voltage regulator with high accuracy and enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS784-Q1",
+                      "html": "https://www.ti.com/product/TPS784-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS7E71",
+                    "description": "150mA, 30V, ultra-low-IQ, low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7E71",
+                      "html": "https://www.ti.com/product/TPS7E71"
+                    }
+                  },
+                  {
+                    "part": "UA78M",
+                    "description": "500mA 35V linear voltage regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UA78M",
+                      "html": "https://www.ti.com/product/UA78M"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Load switches",
+                "products": [
+                  {
+                    "part": "TPS22810",
+                    "description": "18-V, 3-A, 79-m&Omega; load switch with adj. rise time and adj. output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22810",
+                      "html": "https://www.ti.com/product/TPS22810"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD17318Q2",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 2 mm x 2 mm, 16.9 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17318Q2",
+                      "html": "https://www.ti.com/product/CSD17318Q2"
+                    }
+                  },
+                  {
+                    "part": "CSD17575Q3",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 3.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17575Q3",
+                      "html": "https://www.ti.com/product/CSD17575Q3"
+                    }
+                  },
+                  {
+                    "part": "CSD17577Q3A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 6.4 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17577Q3A",
+                      "html": "https://www.ti.com/product/CSD17577Q3A"
+                    }
+                  },
+                  {
+                    "part": "CSD17579Q3A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 14.2 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17579Q3A",
+                      "html": "https://www.ti.com/product/CSD17579Q3A"
+                    }
+                  },
+                  {
+                    "part": "CSD17579Q5A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 13.3 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17579Q5A",
+                      "html": "https://www.ti.com/product/CSD17579Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD17581Q3A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 3 mm x 3 mm, 4.7 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17581Q3A",
+                      "html": "https://www.ti.com/product/CSD17581Q3A"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP40001",
+            "description": "USB Type-C PD DFP 5/12/20V3A Output with 2~3 Cell Battery Input Power Bank Reference Design",
+            "url": "https://www.ti.com/tool/PMP40001",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRM92"
+            }
+          },
+          {
+            "name": "PMP9776",
+            "description": "Reference Design Realizing Output Current Sensing and Limit, Plug-in Detection in Power Bank",
+            "url": "https://www.ti.com/tool/PMP9776",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJ64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-27668",
+      "details": {
+        "title": "Logic & control",
+        "description": "Logic and control is prevalent throughout the system ranging from logic gates, level shifters, buffers, and operational amplifiers. The logic and control devices allow interactions between the various subsystems.",
+        "productGroups": [
+          {
+            "category": "Amplifiers",
+            "sections": [
+              {
+                "title": "Comparators",
+                "products": [
+                  {
+                    "part": "LM393",
+                    "description": "Dual differential comparator, commercial grade",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM393",
+                      "html": "https://www.ti.com/product/LM393"
+                    }
+                  },
+                  {
+                    "part": "TL331",
+                    "description": "High Voltage Single Differential Comparator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TL331",
+                      "html": "https://www.ti.com/product/TL331"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Logic & voltage translation",
+            "sections": [
+              {
+                "title": "Noninverting buffers & drivers",
+                "products": [
+                  {
+                    "part": "SN74HC125",
+                    "description": "4-ch, 2-V to 6-V buffers with 3-state outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74HC125",
+                      "html": "https://www.ti.com/product/SN74HC125"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Switches & multiplexers",
+            "sections": [
+              {
+                "title": "Analog & precision switches & muxes",
+                "products": [
+                  {
+                    "part": "SN74LVC1G3157",
+                    "description": "5V, 2:1 (SPDT), 1-channel, analog switch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G3157",
+                      "html": "https://www.ti.com/product/SN74LVC1G3157"
+                    }
+                  },
+                  {
+                    "part": "TMUX1237",
+                    "description": "5V, 2:1 (SPDT), analog switch, no overshoot when switching inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMUX1237",
+                      "html": "https://www.ti.com/product/TMUX1237"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-27660",
+      "details": {
+        "title": "Current sense",
+        "description": "Current sense subsystem",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Shunt voltage references",
+                "products": [
+                  {
+                    "part": "TLA431",
+                    "description": "All-capacitor stable precision programmable reference with KRA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA431",
+                      "html": "https://www.ti.com/product/TLA431"
+                    }
+                  },
+                  {
+                    "part": "TLA432",
+                    "description": "All-capacitor stable precision programmable reference with RKA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA432",
+                      "html": "https://www.ti.com/product/TLA432"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-27661",
+      "details": {
+        "title": "MCU",
+        "description": "The microcontroller receives commands and sensor inputs, interprets the inputs and acts by turning on and off the power to the loads.",
+        "productGroups": [
+          {
+            "category": "Microcontrollers (MCUs) & processors",
+            "sections": [
+              {
+                "title": "Low-power MCUs",
+                "products": [
+                  {
+                    "part": "MSP430G2332",
+                    "description": "16 MHz MCU with 4KB Flash, 256B SRAM, 10-bit ADC, SPI/I2C, timer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430G2332",
+                      "html": "https://www.ti.com/product/MSP430G2332"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L1106",
+                    "description": "32-MHz Arm® Cortex®-M0+ MCU with 64-KB flash, 4-KB SRAM, 12-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L1106",
+                      "html": "https://www.ti.com/product/MSPM0L1106"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L1306",
+                    "description": "32-MHz Arm® Cortex®-M0+ MCU with 64-KB flash, 4-KB SRAM, 12-bit ADC, comparator, OPA",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L1306",
+                      "html": "https://www.ti.com/product/MSPM0L1306"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP11536",
+            "description": "USB-C DFP + 5V2A Power Bank With Input Fast Charger Reference Design",
+            "url": "https://www.ti.com/tool/PMP11536",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIO8"
+            }
+          },
+          {
+            "name": "PMP4451",
+            "description": "USB-C DFP+ USB-A Power Bank with Input & Output Fast Charger Reference Design",
+            "url": "https://www.ti.com/tool/PMP4451",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIF4"
+            }
+          },
+          {
+            "name": "PMP4496",
+            "description": "USB-C DRP Power Bank With Fast Charger Input Reference Design",
+            "url": "https://www.ti.com/tool/PMP4496",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRK16"
+            }
+          },
+          {
+            "name": "PMP9776",
+            "description": "Reference Design Realizing Output Current Sensing and Limit, Plug-in Detection in Power Bank",
+            "url": "https://www.ti.com/tool/PMP9776",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJ64"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-27662",
+      "details": {
+        "title": "Battery charging",
+        "description": "The multi-chemistry battery charge controller for power bank charge and discharge function.",
+        "productGroups": [
+          {
+            "category": "Battery management ICs",
+            "sections": [
+              {
+                "title": "Battery charger ICs",
+                "products": [
+                  {
+                    "part": "BQ25730",
+                    "description": "I²C 1-5 cell NVDC buck-boost battery charge controller with power path and USB-C® PD OTG",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25730",
+                      "html": "https://www.ti.com/product/BQ25730"
+                    }
+                  },
+                  {
+                    "part": "BQ25756",
+                    "description": "Stand-alone or I²C-controlled 70-V bidirectional buck-boost charge controller with MPPT",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25756",
+                      "html": "https://www.ti.com/product/BQ25756"
+                    }
+                  },
+                  {
+                    "part": "BQ25756E",
+                    "description": "Stand-alone or I²C-controlled bidirectional buck-boost charge controller for up to 7S batteries",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25756E",
+                      "html": "https://www.ti.com/product/BQ25756E"
+                    }
+                  },
+                  {
+                    "part": "BQ25758",
+                    "description": "I²C controlled 60-V bi-directional buck-boost controller with USB PD EPR and PPS support",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25758",
+                      "html": "https://www.ti.com/product/BQ25758"
+                    }
+                  },
+                  {
+                    "part": "BQ25773",
+                    "description": "I²C 2-cell to 5-cell NVDC dual-phase buck-boost battery charge controller with system power monitor",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25773",
+                      "html": "https://www.ti.com/product/BQ25773"
+                    }
+                  },
+                  {
+                    "part": "BQ25798",
+                    "description": "I²C controlled, 1-4-cell, 5-A buck-boost solar battery charger with dual-input selector and MPPT",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25798",
+                      "html": "https://www.ti.com/product/BQ25798"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP22805",
+            "description": "24-VIN, 240-W, 98% efficient, compact 5S battery charger with USB On-The-Go (OTG) reference design",
+            "url": "https://www.ti.com/tool/PMP22805",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDMA98"
+            }
+          },
+          {
+            "name": "PMP40441",
+            "description": "Multi-cell buck-boost battery charger system reference design for USB PD PPS",
+            "url": "https://www.ti.com/tool/PMP40441",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRXQ7"
+            }
+          },
+          {
+            "name": "TIDA-00589",
+            "description": "I2C Controlled Single Cell 5A Fast Charger with MaxCharge and 3.1A Boost Operation for Power Bank",
+            "url": "https://www.ti.com/tool/TIDA-00589",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRFO3"
+            }
+          },
+          {
+            "name": "TIDA-050047",
+            "description": "Integrated USB Type-C®, USB Power Delivery and charging reference design for 2–4 cell batteries",
+            "url": "https://www.ti.com/tool/TIDA-050047",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUEY1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDM748"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-27663",
+      "details": {
+        "title": "Battery pack",
+        "description": "The battery pack will include the fuel gauge as well as the battery protector. Multiple chemistry batteries are used, with varying capacities depending on system specifications.",
+        "productGroups": [
+          {
+            "category": "Battery management ICs",
+            "sections": [
+              {
+                "title": "Battery fuel gauges",
+                "products": [
+                  {
+                    "part": "BQ34110",
+                    "description": "Multi-chemistry high-cell Count battery fuel gauge with integrated rarely discharged module",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ34110",
+                      "html": "https://www.ti.com/product/BQ34110"
+                    }
+                  },
+                  {
+                    "part": "BQ40Z50-R2",
+                    "description": "1-4 series Li-ion battery pack manager supporting Turbo Mode 2.0",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ40Z50-R2",
+                      "html": "https://www.ti.com/product/BQ40Z50-R2"
+                    }
+                  },
+                  {
+                    "part": "BQ41Z50",
+                    "description": "2 to 4 series Li-ion highly integrated battery fuel gauge and protector",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ41Z50",
+                      "html": "https://www.ti.com/product/BQ41Z50"
+                    }
+                  },
+                  {
+                    "part": "BQ78Z100",
+                    "description": "Impedance Track™ battery fuel (gas) gauge for 1-series to 2-series",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ78Z100",
+                      "html": "https://www.ti.com/product/BQ78Z100"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Battery monitors & balancers",
+                "products": [
+                  {
+                    "part": "BQ76905",
+                    "description": "Low-power monitor and protector for 2S to 5S with high accuracy cell voltage measurement",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ76905",
+                      "html": "https://www.ti.com/product/BQ76905"
+                    }
+                  },
+                  {
+                    "part": "BQ76942",
+                    "description": "3-series to 10-series multicell battery monitor and protector",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ76942",
+                      "html": "https://www.ti.com/product/BQ76942"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Battery protectors",
+                "products": [
+                  {
+                    "part": "BQ294502",
+                    "description": "Overvoltage Protection Device for 2- to 3-Cell Li-Ion Batteries, with 4.35v OVP",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ294502",
+                      "html": "https://www.ti.com/product/BQ294502"
+                    }
+                  },
+                  {
+                    "part": "BQ2947",
+                    "description": "Lithium-ion protection for accurate cell-by-cell voltage monitoring",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ2947",
+                      "html": "https://www.ti.com/product/BQ2947"
+                    }
+                  },
+                  {
+                    "part": "BQ2961",
+                    "description": "2-4S Overvoltage Protector with LDO Output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ2961",
+                      "html": "https://www.ti.com/product/BQ2961"
+                    }
+                  },
+                  {
+                    "part": "BQ2970",
+                    "description": "Lithium-ion (Li-ion) and lithium-polymer (Li-Po) advanced single-cell battery protector",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ2970",
+                      "html": "https://www.ti.com/product/BQ2970"
+                    }
+                  },
+                  {
+                    "part": "BQ77915",
+                    "description": "3-series to 5-series stackable ultra-low-power primary protector with autonomous cell balancing",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ77915",
+                      "html": "https://www.ti.com/product/BQ77915"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00553",
+            "description": "Multi-Cell Battery Manager Unit with Integrated Charging, Gauging, Authentication and Protection",
+            "url": "https://www.ti.com/tool/TIDA-00553",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRE93"
+            }
+          },
+          {
+            "name": "TIDA-00883",
+            "description": "1 to 4 Series Cell Li-Ion Battery Pack Manager Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00883",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJP4"
+            }
+          },
+          {
+            "name": "TIDA-00884",
+            "description": "1 to 2s HDQ Li-Ion Battery Pack Manager Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00884",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBH7",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRKH5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-27664",
+      "details": {
+        "title": "Input power protection",
+        "description": "The input power protection circuit protects the Power Bank from overload, short circuit, reverse current, in-rush current and transients, and can be implemented with eFuses.",
+        "productGroups": [
+          {
+            "category": "Passive and discrete",
+            "sections": [
+              {
+                "title": "ESD protection diodes",
+                "products": [
+                  {
+                    "part": "ESD224",
+                    "description": "Quad 0.5-pF, ±3.6-V, ±12-kV ESD protection diode for USB & HDMI",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ESD224",
+                      "html": "https://www.ti.com/product/ESD224"
+                    }
+                  },
+                  {
+                    "part": "TPD1E05U06",
+                    "description": "0.5-pF, 5.5-V, ±12-kV ESD protection diode in 0402 package for High Speed Interfaces",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD1E05U06",
+                      "html": "https://www.ti.com/product/TPD1E05U06"
+                    }
+                  },
+                  {
+                    "part": "TPD1E10B06",
+                    "description": "12-pF, ±5.5V, ±30-kV ESD protection diode in 0402 and SOD-523 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD1E10B06",
+                      "html": "https://www.ti.com/product/TPD1E10B06"
+                    }
+                  },
+                  {
+                    "part": "TPD1E10B09",
+                    "description": "10-pF, ±9V, ±20-kV ESD protection diode with 6-A 8/20-uS surge in 0402 Package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD1E10B09",
+                      "html": "https://www.ti.com/product/TPD1E10B09"
+                    }
+                  },
+                  {
+                    "part": "TPD2E1B06",
+                    "description": "Dual 1-pF, ±5.5-V, ±10-kV ESD protection diode with ESD rating for USB 2.0",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD2E1B06",
+                      "html": "https://www.ti.com/product/TPD2E1B06"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Hot-swap controllers",
+                "products": [
+                  {
+                    "part": "LM5069",
+                    "description": "9-V to 80-V hot swap controller with power limiting",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5069",
+                      "html": "https://www.ti.com/product/LM5069"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "eFuses (integrated hot swaps)",
+                "products": [
+                  {
+                    "part": "TPS2595",
+                    "description": "2.7-V to 18-V, 34m&Omega;, 0.5-4A eFuse with over voltage protection in small WSON package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2595",
+                      "html": "https://www.ti.com/product/TPS2595"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    }
+  ]
+}
