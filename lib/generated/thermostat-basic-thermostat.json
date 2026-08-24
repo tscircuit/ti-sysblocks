@@ -92,14 +92,6 @@
                     }
                   },
                   {
-                    "part": "LMR43610",
-                    "description": "3-V to 36-V, 1-A low-EMI synchronous buck regulator with low IQ",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/LMR43610",
-                      "html": "https://www.ti.com/product/LMR43610"
-                    }
-                  },
-                  {
                     "part": "LMR51610",
                     "description": "SIMPLE SWITCHER® power converter with 4.5V-to-65V 1A synchronous buck and 25µA quiescent current",
                     "links": {
@@ -113,6 +105,14 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TPS561243",
                       "html": "https://www.ti.com/product/TPS561243"
+                    }
+                  },
+                  {
+                    "part": "TPS562203",
+                    "description": "4.2-V to 17-V input, 2-A synchronous buck converter in SOT563 with eco-mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS562203",
+                      "html": "https://www.ti.com/product/TPS562203"
                     }
                   },
                   {

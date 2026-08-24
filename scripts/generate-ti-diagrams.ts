@@ -7,6 +7,7 @@ const solutions = [
   { slug: "central-inverter", title: "Central inverter" },
   { slug: "battery-charger", title: "Battery charger" },
   { slug: "thermostat", title: "Thermostat" },
+  { slug: "industrial-ac-dc", title: "Industrial AC/DC" },
 ] as const
 
 interface TiDocument {

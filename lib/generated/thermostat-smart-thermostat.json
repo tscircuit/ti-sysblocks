@@ -267,11 +267,11 @@
                     }
                   },
                   {
-                    "part": "CC3350MOD",
-                    "description": "SimpleLinkTM dual-band (2.4 and 5 GHz) Wi-Fi 6 companion module",
+                    "part": "CC3351MOD",
+                    "description": "SimpleLink™ dual-band (2.4GHz and 5GHz) Wi-Fi® 6 and Bluetooth® Low Energy companion module",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/CC3350MOD",
-                      "html": "https://www.ti.com/product/CC3350MOD"
+                      "datasheet": "https://www.ti.com/lit/gpn/CC3351MOD",
+                      "html": "https://www.ti.com/product/CC3351MOD"
                     }
                   },
                   {
