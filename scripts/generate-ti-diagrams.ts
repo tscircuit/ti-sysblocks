@@ -27,6 +27,10 @@ const solutions = [
     variantId: 18223,
     subsystemId: 26708,
   },
+  {
+    slug: "obstacle-detection-sensor",
+    title: "Obstacle detection sensor",
+  },
 ] as const satisfies readonly TiSolution[]
 
 interface TiDocument {

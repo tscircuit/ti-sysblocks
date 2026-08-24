@@ -1,0 +1,470 @@
+{
+  "title": "Obstacle detection sensor",
+  "sourceUrl": "https://www.ti.com/solution/obstacle-detection-sensor",
+  "defaultSelected": "subsystemid-21581",
+  "nodes": [
+    {
+      "id": "subsystemid-21581",
+      "details": {
+        "title": "Radar front end & processing",
+        "description": "The system-on-chip includes complete analog and RF front-end and microcontroller functionality.",
+        "productGroups": [
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Automotive mmWave radar sensors",
+                "products": [
+                  {
+                    "part": "AWR1642",
+                    "description": "Single-chip 76-GHz to 81-GHz automotive radar sensor integrating DSP and MCU",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/AWR1642",
+                      "html": "https://www.ti.com/product/AWR1642"
+                    }
+                  },
+                  {
+                    "part": "AWR1843",
+                    "description": "Single-chip 76-GHz to 81-GHz automotive radar sensor integrating DSP, MCU and radar accelerator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/AWR1843",
+                      "html": "https://www.ti.com/product/AWR1843"
+                    }
+                  },
+                  {
+                    "part": "AWR1843AOP",
+                    "description": "Single-chip 76-GHz to 81-GHz automotive radar sensor integrating antenna on package, DSP and MCU",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/AWR1843AOP",
+                      "html": "https://www.ti.com/product/AWR1843AOP"
+                    }
+                  },
+                  {
+                    "part": "AWRL6432",
+                    "description": "Single-chip low-power 57-GHz to 64-GHz automotive mmWave radar sensor",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/AWRL6432",
+                      "html": "https://www.ti.com/product/AWRL6432"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDEP-01024",
+            "description": "Obstacle detection reference design using 76-Ghz to 81-GHz antenna-on-package (AoP) mmWave sensor",
+            "url": "https://www.ti.com/tool/TIDEP-01024",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUEZ2",
+              "schematic": "https://www.ti.com/lit/zip/SPRR429"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-21584",
+      "details": {
+        "title": "System power supply",
+        "description": "Sequencing and voltage regulation for Point-of-Load (POL) rails required in the system by Radar SoC and communication interface.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LMR36015-Q1",
+                    "description": "4.2-V to 60-V, 1.5-A ultra-small synchronous step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR36015-Q1",
+                      "html": "https://www.ti.com/product/LMR36015-Q1"
+                    }
+                  },
+                  {
+                    "part": "LMR43620-Q1",
+                    "description": "Automotive, 3-V to 36-V, 2-A low-EMI synchronous buck regulator with low IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR43620-Q1",
+                      "html": "https://www.ti.com/product/LMR43620-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS62441-Q1",
+                    "description": "Automotive, 2.75-V to 6-V, dual 1-A output, step-down converter with adjustable frequency",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62441-Q1",
+                      "html": "https://www.ti.com/product/TPS62441-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS62812-Q1",
+                    "description": "Automotive 2.75-V to 6-V, 2-A step-down converter in a 2mm x 3mm wettable-flanks QFN package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62812-Q1",
+                      "html": "https://www.ti.com/product/TPS62812-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS62813-Q1",
+                    "description": "Automotive 2.75-V to 6-V, 3-A step-down converter with fixed Fsw and SYNC in 2x3mm wettable-flanks",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62813-Q1",
+                      "html": "https://www.ti.com/product/TPS62813-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS628502-Q1",
+                    "description": "2.7-V to 6-V, 2-A automotive step-down converter in SOT583 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS628502-Q1",
+                      "html": "https://www.ti.com/product/TPS628502-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "LP5907-Q1",
+                    "description": "Automotive, 250-mA, low-noise, high-PSRR, ultra-low-dropout voltage regulator with low IQ and enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LP5907-Q1",
+                      "html": "https://www.ti.com/product/LP5907-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLV713P-Q1",
+                    "description": "Automotive 150-mA, low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV713P-Q1",
+                      "html": "https://www.ti.com/product/TLV713P-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS796",
+                    "description": "1-A, low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS796",
+                      "html": "https://www.ti.com/product/TPS796"
+                    }
+                  },
+                  {
+                    "part": "TPS7A91",
+                    "description": "1-A, low-noise, high-PSRR, adjustable ultra-low-dropout voltage regulator with high-accuracy",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A91",
+                      "html": "https://www.ti.com/product/TPS7A91"
+                    }
+                  },
+                  {
+                    "part": "TPS7N41-Q1",
+                    "description": "Automotive, 1A, low-noise low-IQ high-PSRR low-dropout (LDO) voltage regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7N41-Q1",
+                      "html": "https://www.ti.com/product/TPS7N41-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Multi-channel ICs (PMICs)",
+                "products": [
+                  {
+                    "part": "LP873220-Q1",
+                    "description": "Automotive dual 2-A buck converters & dual linear regulators for J6 entry processors",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LP873220-Q1",
+                      "html": "https://www.ti.com/product/LP873220-Q1"
+                    }
+                  },
+                  {
+                    "part": "LP87332D-Q1",
+                    "description": "Automotive dual 3-A buck converters & dual linear regulators for J6 entry processors",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LP87332D-Q1",
+                      "html": "https://www.ti.com/product/LP87332D-Q1"
+                    }
+                  },
+                  {
+                    "part": "LP87524B-Q1",
+                    "description": "Multiphase 4MHz, 4A/1.8V + 2.5A/2.3V + 1.5A/3.3V + 1.5A/1.2V buck converters for AWR and IWR MMICs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LP87524B-Q1",
+                      "html": "https://www.ti.com/product/LP87524B-Q1"
+                    }
+                  },
+                  {
+                    "part": "LP87561-Q1",
+                    "description": "Automotive multiphase 16-A buck converter with integrated switches",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LP87561-Q1",
+                      "html": "https://www.ti.com/product/LP87561-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS51200A-Q1",
+                    "description": "Sink and Source DDR Termination Regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS51200A-Q1",
+                      "html": "https://www.ti.com/product/TPS51200A-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Shunt voltage references",
+                "products": [
+                  {
+                    "part": "LM4060",
+                    "description": "20ppm/°C maximum drift high-precision shunt voltage reference",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM4060",
+                      "html": "https://www.ti.com/product/LM4060"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00699",
+            "description": "Front End Power Supply Reference Design with Cold Crank Operation, Transient Protection, EMI Filter",
+            "url": "https://www.ti.com/tool/TIDA-00699",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB49",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJK7"
+            }
+          },
+          {
+            "name": "TIDA-01425",
+            "description": "Automotive Stand-Alone Gateway Reference Design with Ethernet and CAN",
+            "url": "https://www.ti.com/tool/TIDA-01425",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCZ8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRS34"
+            }
+          },
+          {
+            "name": "TIDA-01492",
+            "description": "Integrated Power Front End and Multi-Phase Processor Supply Automotive Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01492",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDA4",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRUD5"
+            }
+          },
+          {
+            "name": "TIDEP-0092",
+            "description": "Short-range radar (SRR) reference design",
+            "url": "https://www.ti.com/tool/TIDEP-0092",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUD36",
+              "schematic": "https://www.ti.com/lit/zip/SPRR261"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-21586",
+      "details": {
+        "title": "Communication interface",
+        "description": "CAN communication.",
+        "productGroups": [
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "CAN transceivers",
+                "products": [
+                  {
+                    "part": "TCAN1044A-Q1",
+                    "description": "Enhanced automotive CAN transceiver with standby",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN1044A-Q1",
+                      "html": "https://www.ti.com/product/TCAN1044A-Q1"
+                    }
+                  },
+                  {
+                    "part": "TCAN1144-Q1",
+                    "description": "Automotive enhanced CAN FD and high speed CAN transceiver with Watchdog, LIMP, and bus diagnostics",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN1144-Q1",
+                      "html": "https://www.ti.com/product/TCAN1144-Q1"
+                    }
+                  },
+                  {
+                    "part": "TCAN1145-Q1",
+                    "description": "Automotive CAN FD transceiver with partial networking via selective wake",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN1145-Q1",
+                      "html": "https://www.ti.com/product/TCAN1145-Q1"
+                    }
+                  },
+                  {
+                    "part": "TCAN844-Q1",
+                    "description": "Automotive cost-optimized CAN FD transceiver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN844-Q1",
+                      "html": "https://www.ti.com/product/TCAN844-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "LIN transceivers",
+                "products": [
+                  {
+                    "part": "TLIN821-Q1",
+                    "description": "Automotive fault-protected LIN transceiver with inhibit and WAKE",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLIN821-Q1",
+                      "html": "https://www.ti.com/product/TLIN821-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "System basis chips (SBCs)",
+                "products": [
+                  {
+                    "part": "TCAN2411-Q1",
+                    "description": "Automotive CAN FD system basis chip (SBC) with partial networking and buck regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TCAN2411-Q1",
+                      "html": "https://www.ti.com/product/TCAN2411-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01428",
+            "description": "Automotive Pre-Buck, Post-Boost With CAN Discrete SBC Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01428",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUD46",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRRR6"
+            }
+          },
+          {
+            "name": "TIDA-01429",
+            "description": "Automotive Discrete SBC Pre-Boost, Post-Buck With CAN Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01429",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUD47",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRRW3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-21583",
+      "details": {
+        "title": "Power supply",
+        "description": "Main power rail for switching input battery voltage to intermediate low voltage system rail",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LMR36015-Q1",
+                    "description": "4.2-V to 60-V, 1.5-A ultra-small synchronous step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR36015-Q1",
+                      "html": "https://www.ti.com/product/LMR36015-Q1"
+                    }
+                  },
+                  {
+                    "part": "LMR43620-Q1",
+                    "description": "Automotive, 3-V to 36-V, 2-A low-EMI synchronous buck regulator with low IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR43620-Q1",
+                      "html": "https://www.ti.com/product/LMR43620-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS62441-Q1",
+                    "description": "Automotive, 2.75-V to 6-V, dual 1-A output, step-down converter with adjustable frequency",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62441-Q1",
+                      "html": "https://www.ti.com/product/TPS62441-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS62812-Q1",
+                    "description": "Automotive 2.75-V to 6-V, 2-A step-down converter in a 2mm x 3mm wettable-flanks QFN package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62812-Q1",
+                      "html": "https://www.ti.com/product/TPS62812-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS62813-Q1",
+                    "description": "Automotive 2.75-V to 6-V, 3-A step-down converter with fixed Fsw and SYNC in 2x3mm wettable-flanks",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62813-Q1",
+                      "html": "https://www.ti.com/product/TPS62813-Q1"
+                    }
+                  },
+                  {
+                    "part": "TPS628502-Q1",
+                    "description": "2.7-V to 6-V, 2-A automotive step-down converter in SOT583 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS628502-Q1",
+                      "html": "https://www.ti.com/product/TPS628502-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00699",
+            "description": "Front End Power Supply Reference Design with Cold Crank Operation, Transient Protection, EMI Filter",
+            "url": "https://www.ti.com/tool/TIDA-00699",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB49",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJK7"
+            }
+          },
+          {
+            "name": "TIDA-01425",
+            "description": "Automotive Stand-Alone Gateway Reference Design with Ethernet and CAN",
+            "url": "https://www.ti.com/tool/TIDA-01425",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCZ8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRS34"
+            }
+          },
+          {
+            "name": "TIDA-01492",
+            "description": "Integrated Power Front End and Multi-Phase Processor Supply Automotive Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01492",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDA4",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRUD5"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
