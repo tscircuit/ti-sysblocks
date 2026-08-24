@@ -21,6 +21,12 @@ const solutions = [
     variantId: 34201,
     subsystemId: 27662,
   },
+  {
+    slug: "seat-position-module",
+    title: "Seat position module",
+    variantId: 18223,
+    subsystemId: 26708,
+  },
 ] as const satisfies readonly TiSolution[]
 
 interface TiDocument {
