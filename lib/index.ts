@@ -16,4 +16,5 @@ export type {
   SysBlockProductLinks,
   SysBlockProductSection,
   SysBlockReferenceDesign,
+  SysBlockTechnicalDocument,
 } from "./types"

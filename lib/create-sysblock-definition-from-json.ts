@@ -3,6 +3,7 @@ import type {
   SysBlockDefinition,
   SysBlockProductGroup,
   SysBlockReferenceDesign,
+  SysBlockTechnicalDocument,
 } from "./types"
 
 export interface SysBlockJsonProduct {
@@ -28,6 +29,7 @@ export interface SysBlockJsonNode {
       }>
     }>
     referenceDesigns?: SysBlockReferenceDesign[]
+    technicalDocuments?: SysBlockTechnicalDocument[]
   }
 }
 
@@ -63,6 +65,7 @@ export function createSysBlockDefinitionFromJson(
             }),
           ),
           references: node.details.referenceDesigns ?? [],
+          technicalDocuments: node.details.technicalDocuments ?? [],
         },
       ]),
     ),

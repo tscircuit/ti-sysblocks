@@ -13,7 +13,7 @@ import type {
 } from "./types"
 import "./SysBlockDiagram.css"
 
-type DetailsTab = "products" | "references"
+type DetailsTab = "products" | "references" | "technical"
 
 const SVG_NAMESPACE = "http://www.w3.org/2000/svg"
 
@@ -88,6 +88,24 @@ function ProductsPanel({ details }: { details: SysBlockDetails }) {
     })
   }
 
+  const productCount = details.groups.reduce(
+    (groupTotal, group) =>
+      groupTotal +
+      group.sections.reduce(
+        (sectionTotal, section) => sectionTotal + section.products.length,
+        0,
+      ),
+    0,
+  )
+
+  if (productCount === 0) {
+    return (
+      <p className="ti-sysblock__empty-copy">
+        There are currently no products to display.
+      </p>
+    )
+  }
+
   return (
     <>
       {details.groups.map((group) => {
@@ -136,6 +154,83 @@ function ProductsPanel({ details }: { details: SysBlockDetails }) {
                 </div>
               ))}
           </section>
+        )
+      })}
+    </>
+  )
+}
+
+const documentDateFormatter = new Intl.DateTimeFormat("en-US", {
+  day: "numeric",
+  month: "short",
+  year: "numeric",
+  timeZone: "UTC",
+})
+
+const formatDocumentDate = (value?: string) => {
+  if (!value) return undefined
+  const date = new Date(`${value}T00:00:00Z`)
+  return Number.isNaN(date.valueOf())
+    ? value
+    : documentDateFormatter.format(date)
+}
+
+function TechnicalDocumentsPanel({ details }: { details: SysBlockDetails }) {
+  const documents = details.technicalDocuments ?? []
+
+  if (documents.length === 0) {
+    return (
+      <p className="ti-sysblock__empty-copy">
+        No technical documentation is listed for this block.
+      </p>
+    )
+  }
+
+  return (
+    <>
+      {documents.map((document) => {
+        const primaryUrl = document.links?.html ?? document.links?.pdf
+        const date = formatDocumentDate(document.date)
+        const key =
+          document.literatureNumber ?? `${document.type}-${document.title}`
+
+        return (
+          <article className="ti-sysblock__technical-document" key={key}>
+            {primaryUrl ? (
+              <a href={primaryUrl} target="_blank" rel="noreferrer">
+                {document.title}
+              </a>
+            ) : (
+              <span>{document.title}</span>
+            )}
+            <p>{[document.type, date].filter(Boolean).join(" · ")}</p>
+            {document.links && (
+              <div className="ti-sysblock__links">
+                {document.links.pdf && (
+                  <span>
+                    <a
+                      href={document.links.pdf}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      PDF
+                    </a>
+                  </span>
+                )}
+                {document.links.html && (
+                  <span>
+                    <a
+                      href={document.links.html}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      HTML
+                    </a>
+                  </span>
+                )}
+              </div>
+            )}
+          </article>
         )
       })}
     </>
@@ -311,6 +406,9 @@ export function SysBlockDiagram({
   }, [definition.svg, selectedId])
 
   const classes = ["ti-sysblock", className].filter(Boolean).join(" ")
+  const hasReferenceDesigns = (selectedDetails.references?.length ?? 0) > 0
+  const hasTechnicalDocuments =
+    (selectedDetails.technicalDocuments?.length ?? 0) > 0
 
   return (
     <section className={classes} aria-label={definition.title}>
@@ -353,21 +451,36 @@ export function SysBlockDiagram({
                 >
                   Products
                 </button>
-                <button
-                  type="button"
-                  role="tab"
-                  aria-selected={activeTab === "references"}
-                  className={activeTab === "references" ? "is-active" : ""}
-                  onClick={() => setActiveTab("references")}
-                >
-                  Reference designs
-                </button>
+                {hasReferenceDesigns && (
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={activeTab === "references"}
+                    className={activeTab === "references" ? "is-active" : ""}
+                    onClick={() => setActiveTab("references")}
+                  >
+                    Reference designs
+                  </button>
+                )}
+                {hasTechnicalDocuments && (
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={activeTab === "technical"}
+                    className={activeTab === "technical" ? "is-active" : ""}
+                    onClick={() => setActiveTab("technical")}
+                  >
+                    Technical documentation
+                  </button>
+                )}
               </nav>
               <div className="ti-sysblock__content">
                 {activeTab === "products" ? (
                   <ProductsPanel key={selectedId} details={selectedDetails} />
-                ) : (
+                ) : activeTab === "references" ? (
                   <ReferencesPanel details={selectedDetails} />
+                ) : (
+                  <TechnicalDocumentsPanel details={selectedDetails} />
                 )}
               </div>
             </div>

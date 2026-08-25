@@ -936,7 +936,19 @@
         "title": "Filter and rectifier diode",
         "description": "The filter and rectifier subsystem includes rectifier bridge, EMI filter and capacitor discharge to prepare the input for the PFC stage.",
         "productGroups": [],
-        "referenceDesigns": []
+        "referenceDesigns": [],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SLVAFJ9",
+            "title": "How Active EMI Power-Supply Filter ICs Mitigate Common-Mode Emissions",
+            "type": "White paper",
+            "date": "2023-03-16",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLVAFJ9",
+              "html": "https://www.ti.com/document-viewer/lit/html/SLVAFJ9"
+            }
+          }
+        ]
       }
     }
   ]

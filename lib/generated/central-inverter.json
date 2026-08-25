@@ -545,6 +545,18 @@
               "schematic": "https://www.ti.com/lit/pdf/TIDRVS3"
             }
           }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SLUP417",
+            "title": "Comparison of AC/DC Power-Conversion Topologies for Three-Phase Industrial Systems",
+            "type": "More literature",
+            "date": "2024-07-16",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLUP417",
+              "html": "https://www.ti.com/document-viewer/lit/html/SLUP417"
+            }
+          }
         ]
       }
     },
@@ -1492,6 +1504,28 @@
               "schematic": "https://www.ti.com/lit/pdf/TIDRM07"
             }
           }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SBOA624",
+            "title": "Summary of Solar Application Scenarios Using In-package Hall-effect Current Sensors",
+            "type": "Application note",
+            "date": "2025-03-19",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SBOA624",
+              "html": "https://www.ti.com/document-viewer/lit/html/SBOA624"
+            }
+          },
+          {
+            "literatureNumber": "SSZTD25",
+            "title": "Delivering accurate current sensing for safer solar energy systems and EV chargers",
+            "type": "Technical article",
+            "date": "2024-04-10",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SSZTD25",
+              "html": "https://www.ti.com/document-viewer/lit/html/SSZTD25"
+            }
+          }
         ]
       }
     },
@@ -1729,6 +1763,28 @@
             "links": {
               "designGuide": "https://www.ti.com/lit/pdf/TIDUCD7",
               "schematic": "https://www.ti.com/lit/pdf/TIDRP25"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SBOA624",
+            "title": "Summary of Solar Application Scenarios Using In-package Hall-effect Current Sensors",
+            "type": "Application note",
+            "date": "2025-03-19",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SBOA624",
+              "html": "https://www.ti.com/document-viewer/lit/html/SBOA624"
+            }
+          },
+          {
+            "literatureNumber": "SSZTD25",
+            "title": "Delivering accurate current sensing for safer solar energy systems and EV chargers",
+            "type": "Technical article",
+            "date": "2024-04-10",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SSZTD25",
+              "html": "https://www.ti.com/document-viewer/lit/html/SSZTD25"
             }
           }
         ]
@@ -1986,6 +2042,18 @@
             "links": {
               "designGuide": "https://www.ti.com/lit/pdf/TIDUF65",
               "schematic": "https://www.ti.com/lit/pdf/TIDMCS4"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SBOA624",
+            "title": "Summary of Solar Application Scenarios Using In-package Hall-effect Current Sensors",
+            "type": "Application note",
+            "date": "2025-03-19",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SBOA624",
+              "html": "https://www.ti.com/document-viewer/lit/html/SBOA624"
             }
           }
         ]
@@ -2688,6 +2756,28 @@
             "url": "https://www.ti.com/tool/TIDA-00738",
             "links": {
               "schematic": "https://www.ti.com/lit/pdf/TIDRJM5"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SBOA624",
+            "title": "Summary of Solar Application Scenarios Using In-package Hall-effect Current Sensors",
+            "type": "Application note",
+            "date": "2025-03-19",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SBOA624",
+              "html": "https://www.ti.com/document-viewer/lit/html/SBOA624"
+            }
+          },
+          {
+            "literatureNumber": "SSZTD25",
+            "title": "Delivering accurate current sensing for safer solar energy systems and EV chargers",
+            "type": "Technical article",
+            "date": "2024-04-10",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SSZTD25",
+              "html": "https://www.ti.com/document-viewer/lit/html/SSZTD25"
             }
           }
         ]
@@ -3534,6 +3624,18 @@
             "links": {
               "designGuide": "https://www.ti.com/lit/pdf/TIDUE53",
               "schematic": "https://www.ti.com/lit/pdf/TIDRVS3"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SLUAAN0",
+            "title": "Designing a Simple and Low-Cost Flybuck Solution With the TPS62933F",
+            "type": "Application note",
+            "date": "2022-12-16",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLUAAN0",
+              "html": "https://www.ti.com/document-viewer/lit/html/SLUAAN0"
             }
           }
         ]
@@ -4654,6 +4756,18 @@
             "links": {
               "designGuide": "https://www.ti.com/lit/pdf/TIDUCT3",
               "schematic": "https://www.ti.com/lit/pdf/TIDRQA4"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SNOAAB6",
+            "title": "Power Line Communication in Solar Applications",
+            "type": "Application brief",
+            "date": "2024-12-12",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SNOAAB6",
+              "html": "https://www.ti.com/document-viewer/lit/html/SNOAAB6"
             }
           }
         ]
