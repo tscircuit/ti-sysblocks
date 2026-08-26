@@ -1,0 +1,1514 @@
+{
+  "title": "Blood pressure monitor",
+  "sourceUrl": "https://www.ti.com/solution/blood-pressure-monitor",
+  "defaultSelected": "subsystemid-14120",
+  "nodes": [
+    {
+      "id": "subsystemid-21840",
+      "details": {
+        "title": "AC/DC adapter",
+        "description": "The AC/DC adapter subsystem converts the AC power lines to an isolated regulated DC output. Typically this is an AC/DC adapter which is a standalone unit.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "UCC2813-0",
+                    "description": "Economy low power BICMOS 1MHz current mode PWM with 7.2V/6.9V UVLO and 100% duty cycle, -40C to 85C",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC2813-0",
+                      "html": "https://www.ti.com/product/UCC2813-0"
+                    }
+                  },
+                  {
+                    "part": "UCC2813-1",
+                    "description": "Economy low power BICMOS 1MHz current mode PWM with 9.4V/7.4V UVLO and 50% duty cycle, -40C to 85C",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC2813-1",
+                      "html": "https://www.ti.com/product/UCC2813-1"
+                    }
+                  },
+                  {
+                    "part": "UCC2813-2",
+                    "description": "Economy low power BICMOS 1MHz current mode PWM with 12.5V/8.3V UVLO, 100% duty cycle, -40C to 85C",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC2813-2",
+                      "html": "https://www.ti.com/product/UCC2813-2"
+                    }
+                  },
+                  {
+                    "part": "UCC2813-3",
+                    "description": "Economy low power BICMOS 1MHz current mode PWM with 4.1V/3.6V UVLO, 100% duty cycle, -40C to 85C",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC2813-3",
+                      "html": "https://www.ti.com/product/UCC2813-3"
+                    }
+                  },
+                  {
+                    "part": "UCC2813-4",
+                    "description": "Economy low power BICMOS 1MHz current mode PWM with 12.5V/8.3V UVLO, 50% duty cycle, -40C to 85C",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC2813-4",
+                      "html": "https://www.ti.com/product/UCC2813-4"
+                    }
+                  },
+                  {
+                    "part": "UCC2813-5",
+                    "description": "Economy low power BICMOS 1MHz current mode PWM with 4.1V/3.6V UVLO and 50% duty cycle, -40C to 85C",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC2813-5",
+                      "html": "https://www.ti.com/product/UCC2813-5"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LM5169",
+                    "description": "6V to 120V Wide VIN, 650-mA DC/DC converter with Fly-Buck™ capability",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5169",
+                      "html": "https://www.ti.com/product/LM5169"
+                    }
+                  },
+                  {
+                    "part": "LMR36503",
+                    "description": "3-V to 65-V, 0.3-A ultra-small synchronous buck converter with 6 μA IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR36503",
+                      "html": "https://www.ti.com/product/LMR36503"
+                    }
+                  },
+                  {
+                    "part": "TPS54338",
+                    "description": "3.8V to 28V Input, 3A, 200kHz to 2.2MHz synchronous buck converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS54338",
+                      "html": "https://www.ti.com/product/TPS54338"
+                    }
+                  },
+                  {
+                    "part": "TPS62821",
+                    "description": "2.4-V to 5.5-V input, 1-A step-down converter with 1% accuracy in 1.5-mm x 2-mm VSON-HR package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62821",
+                      "html": "https://www.ti.com/product/TPS62821"
+                    }
+                  },
+                  {
+                    "part": "TPS62843",
+                    "description": "1.8V to 5.5V input, 600mA ultra-low IQ step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62843",
+                      "html": "https://www.ti.com/product/TPS62843"
+                    }
+                  },
+                  {
+                    "part": "TPS62933",
+                    "description": "3.8-V to 30-V, 3-A, 200-kHz to 2.2-MHz, low-IQ synchronous buck converter in SOT-583 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62933",
+                      "html": "https://www.ti.com/product/TPS62933"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD17483F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6 mm, 260 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17483F4",
+                      "html": "https://www.ti.com/product/CSD17483F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17573Q5B",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 1.45 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17573Q5B",
+                      "html": "https://www.ti.com/product/CSD17573Q5B"
+                    }
+                  },
+                  {
+                    "part": "CSD17579Q5A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 13.3 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17579Q5A",
+                      "html": "https://www.ti.com/product/CSD17579Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD18531Q5A",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.6 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18531Q5A",
+                      "html": "https://www.ti.com/product/CSD18531Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD18533Q5A",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 5.9 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18533Q5A",
+                      "html": "https://www.ti.com/product/CSD18533Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD87501L",
+                    "description": "30-V, N channel NexFET™ power MOSFET, dual common drain LGA, 5.5 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD87501L",
+                      "html": "https://www.ti.com/product/CSD87501L"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP2187",
+            "description": "Flyback Linear Regulator for Medical Pack (5.75V at 10mA) Reference Design",
+            "url": "https://www.ti.com/tool/PMP2187",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/SLUR196"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-21841",
+      "details": {
+        "title": "Battery management",
+        "description": "Energy Storage Subsystem performs Gas Gauging while charging the battery.",
+        "productGroups": [
+          {
+            "category": "Battery management ICs",
+            "sections": [
+              {
+                "title": "Battery charger ICs",
+                "products": [
+                  {
+                    "part": "BQ21088",
+                    "description": "I2C, 1A single cell linear battery charger, 5V input, powerpath, ship mode and battery tracking",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ21088",
+                      "html": "https://www.ti.com/product/BQ21088"
+                    }
+                  },
+                  {
+                    "part": "BQ24040",
+                    "description": "Standalone 1-cell 1-A linear battery charger with 4.2-V VBAT and Temperature Sensing",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ24040",
+                      "html": "https://www.ti.com/product/BQ24040"
+                    }
+                  },
+                  {
+                    "part": "BQ24050",
+                    "description": "1-cell, 1-A, Li-ion linear battery charger with automatic AC/USB detection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ24050",
+                      "html": "https://www.ti.com/product/BQ24050"
+                    }
+                  },
+                  {
+                    "part": "BQ25170J",
+                    "description": "800-mA JEITA-compliant linear battery charger for 1-cell Li-Ion and LiFePO4",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25170J",
+                      "html": "https://www.ti.com/product/BQ25170J"
+                    }
+                  },
+                  {
+                    "part": "BQ25172",
+                    "description": "0.8-A, one- to six-cell NiMH stand-alone linear charger in a QFN package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25172",
+                      "html": "https://www.ti.com/product/BQ25172"
+                    }
+                  },
+                  {
+                    "part": "BQ25892",
+                    "description": "I2C 1cell 5A buck battery charger with NVDC Power Path and PSEL",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25892",
+                      "html": "https://www.ti.com/product/BQ25892"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Battery fuel gauges",
+                "products": [
+                  {
+                    "part": "BQ28Z620",
+                    "description": "Battery fuel gauge with integrated protector for 1-series to 2 series packs with 1.2-V I/O",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ28Z620",
+                      "html": "https://www.ti.com/product/BQ28Z620"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP5722",
+            "description": "Single Cell Battery Power Solution Reference Design",
+            "url": "https://www.ti.com/tool/PMP5722",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRCN5"
+            }
+          },
+          {
+            "name": "TIDA-00761",
+            "description": "Low Power Battery Charge Management Reference Design for Wearables and IoT Applications",
+            "url": "https://www.ti.com/tool/TIDA-00761",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUAT4",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRHO1"
+            }
+          },
+          {
+            "name": "TIDA-00895",
+            "description": "1 to 2s I2C Li-Ion Battery Pack Manager Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00895",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBG8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRKF8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-21861",
+      "details": {
+        "title": "Memory",
+        "description": "Serial EEPROM and RAM",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DDR memory power ICs",
+                "products": [
+                  {
+                    "part": "TPS7H3302-SP",
+                    "description": "Radiation-hardened, QML-P, 2.3V to 3.5V input, 3A sink and source DDR termination LDO regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7H3302-SP",
+                      "html": "https://www.ti.com/product/TPS7H3302-SP"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00524",
+            "description": "Ultralow Power Multi-sensor Data Logger with NFC Interface Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00524",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU821",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRGT8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-21860",
+      "details": {
+        "title": "Current sense",
+        "description": "Current sensing for determining motor speed",
+        "productGroups": [
+          {
+            "category": "Data converters",
+            "sections": [
+              {
+                "title": "Precision ADCs",
+                "products": [
+                  {
+                    "part": "ADS122S14",
+                    "description": "Eight-channel 24-bit, 64kSPS delta-sigma ADC with PGA, VREF, two IDACs and SPI",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS122S14",
+                      "html": "https://www.ti.com/product/ADS122S14"
+                    }
+                  },
+                  {
+                    "part": "ADS131M02",
+                    "description": "Two-channel, 24-bit, 64-kSPS, simultaneous-sampling, delta-sigma ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS131M02",
+                      "html": "https://www.ti.com/product/ADS131M02"
+                    }
+                  },
+                  {
+                    "part": "ADS7042",
+                    "description": "12-Bit 1MSPS Ultra-Low-Power Ultra-Small-Size SAR ADC With SPI Interface",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS7042",
+                      "html": "https://www.ti.com/product/ADS7042"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Shunt voltage references",
+                "products": [
+                  {
+                    "part": "TL431",
+                    "description": "Adjustable precision shunt regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TL431",
+                      "html": "https://www.ti.com/product/TL431"
+                    }
+                  },
+                  {
+                    "part": "TLA431",
+                    "description": "All-capacitor stable precision programmable reference with KRA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA431",
+                      "html": "https://www.ti.com/product/TLA431"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-14120",
+      "details": {
+        "title": "Pressure sensing signal chain",
+        "description": "Amplifies the signal from pressure sensing elements so that it can be measured and then processed by the MCU",
+        "productGroups": [
+          {
+            "category": "Amplifiers",
+            "sections": [
+              {
+                "title": "Audio op amps",
+                "products": [
+                  {
+                    "part": "OPA1604",
+                    "description": "Quad, SoundPlus High-Performance, Bipolar-Input Audio Op Amp",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA1604",
+                      "html": "https://www.ti.com/product/OPA1604"
+                    }
+                  },
+                  {
+                    "part": "OPA1612",
+                    "description": "SoundPlus™ Audio Operational Amplifier with 1.1nV/√Hz Noise, Low THD and Precision",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA1612",
+                      "html": "https://www.ti.com/product/OPA1612"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "General-purpose op amps",
+                "products": [
+                  {
+                    "part": "LM2902B",
+                    "description": "Quad 36V 1.2MHz operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM2902B",
+                      "html": "https://www.ti.com/product/LM2902B"
+                    }
+                  },
+                  {
+                    "part": "LMV324A",
+                    "description": "Quad, 5.5-V, 1-MHz, 4-mV offset voltage, RRO operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMV324A",
+                      "html": "https://www.ti.com/product/LMV324A"
+                    }
+                  },
+                  {
+                    "part": "TLV9001",
+                    "description": "One-channel, 1-MHz rail-to-rail input and output 1.8-V to 5.5-V operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9001",
+                      "html": "https://www.ti.com/product/TLV9001"
+                    }
+                  },
+                  {
+                    "part": "TLV9002",
+                    "description": "Dual, 5.5-V, 1-MHz, RRIO operational amplifier for cost-optimized applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9002",
+                      "html": "https://www.ti.com/product/TLV9002"
+                    }
+                  },
+                  {
+                    "part": "TLV9004",
+                    "description": "Quad, 5.5-V, 1-MHz, RRIO operational amplifier for cost-optimized applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9004",
+                      "html": "https://www.ti.com/product/TLV9004"
+                    }
+                  },
+                  {
+                    "part": "TLV9061",
+                    "description": "Single, 5.5-V, 10-MHz, RRIO operational amplifier for cost-optimized applications",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9061",
+                      "html": "https://www.ti.com/product/TLV9061"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Precision op amps (Vos<1mV)",
+                "products": [
+                  {
+                    "part": "OPA2387",
+                    "description": "Ultra-high-precision zero-drift low-input-bias-current operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA2387",
+                      "html": "https://www.ti.com/product/OPA2387"
+                    }
+                  },
+                  {
+                    "part": "TLV8812",
+                    "description": "Dual 425-nA precision nanopower operational amplifier for cost-optimized systems",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV8812",
+                      "html": "https://www.ti.com/product/TLV8812"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Data converters",
+            "sections": [
+              {
+                "title": "Precision ADCs",
+                "products": [
+                  {
+                    "part": "ADS122S14",
+                    "description": "Eight-channel 24-bit, 64kSPS delta-sigma ADC with PGA, VREF, two IDACs and SPI",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS122S14",
+                      "html": "https://www.ti.com/product/ADS122S14"
+                    }
+                  },
+                  {
+                    "part": "ADS131M02",
+                    "description": "Two-channel, 24-bit, 64-kSPS, simultaneous-sampling, delta-sigma ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS131M02",
+                      "html": "https://www.ti.com/product/ADS131M02"
+                    }
+                  },
+                  {
+                    "part": "ADS7042",
+                    "description": "12-Bit 1MSPS Ultra-Low-Power Ultra-Small-Size SAR ADC With SPI Interface",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ADS7042",
+                      "html": "https://www.ti.com/product/ADS7042"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Switches & multiplexers",
+            "sections": [
+              {
+                "title": "Analog & precision switches & muxes",
+                "products": [
+                  {
+                    "part": "TS5A3159A",
+                    "description": "5V, 2:1 (SPDT), 1-channel, analog switch, 1Ω Ron, powered-off protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TS5A3159A",
+                      "html": "https://www.ti.com/product/TS5A3159A"
+                    }
+                  },
+                  {
+                    "part": "TS5A9411",
+                    "description": "5V, 2:1 (SPDT), 1-channel, analog switch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TS5A9411",
+                      "html": "https://www.ti.com/product/TS5A9411"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00788",
+            "description": "Industrial Current-Output Pressure Sensor Transmitter, IEC61000-4 Tested Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00788",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUAE1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDROY6"
+            }
+          },
+          {
+            "name": "TIDA-010266",
+            "description": "Low-cost blood pressure and heart rate monitor reference design",
+            "url": "https://www.ti.com/tool/TIDA-010266",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUF53",
+              "schematic": "https://www.ti.com/lit/pdf/TIDMCH8"
+            }
+          },
+          {
+            "name": "TIDM-BPM",
+            "description": "Ultra Low Power Blood Pressure And Heart Rate Monitor Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-BPM",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU514",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRAJ0"
+            }
+          },
+          {
+            "name": "TIPD168",
+            "description": "Three 12-Bit Data Acquisition Reference Designs Optimized for Low Power and Ultra-Small Form Factor",
+            "url": "https://www.ti.com/tool/TIPD168",
+            "links": {
+              "schematic": "https://www.ti.com/lit/zip/TIDC606"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-14121",
+      "details": {
+        "title": "Clocking",
+        "description": "Consists of clock oscillation, clock frequency generation and clock distribution",
+        "productGroups": [
+          {
+            "category": "Clocks & timing",
+            "sections": [
+              {
+                "title": "Real-time clocks (RTCs) & timers",
+                "products": [
+                  {
+                    "part": "TLC3555",
+                    "description": "High-speed CMOS timer with integrated reset pull up",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLC3555",
+                      "html": "https://www.ti.com/product/TLC3555"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00424",
+            "description": "Video Sync and Video Clock Generation and Distribution Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00424",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRDK3"
+            }
+          },
+          {
+            "name": "TIDEP0026",
+            "description": "K2E Clock Generation Reference Design",
+            "url": "https://www.ti.com/tool/TIDEP0026",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU580",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRB23"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-14122",
+      "details": {
+        "title": "Non-isolated DC/DC power supply",
+        "description": "Non-Isolated power supply sub-system provides the point-of-load power for the low-voltage devices including AFEs, processors, analog circuitry, etc.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "TLV61047",
+                    "description": "20VIN, 28VOUT, 2.2A non-synchronous boost converter with SOT23-5 DDC package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV61047",
+                      "html": "https://www.ti.com/product/TLV61047"
+                    }
+                  },
+                  {
+                    "part": "TPS55289",
+                    "description": "30-V 8-A buck-boost converter with I²C interface",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS55289",
+                      "html": "https://www.ti.com/product/TPS55289"
+                    }
+                  },
+                  {
+                    "part": "TPS62821",
+                    "description": "2.4-V to 5.5-V input, 1-A step-down converter with 1% accuracy in 1.5-mm x 2-mm VSON-HR package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62821",
+                      "html": "https://www.ti.com/product/TPS62821"
+                    }
+                  },
+                  {
+                    "part": "TPS62843",
+                    "description": "1.8V to 5.5V input, 600mA ultra-low IQ step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62843",
+                      "html": "https://www.ti.com/product/TPS62843"
+                    }
+                  },
+                  {
+                    "part": "TPS63020",
+                    "description": "High Efficiency Single Inductor Buck-Boost Converter with 4A Switch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS63020",
+                      "html": "https://www.ti.com/product/TPS63020"
+                    }
+                  },
+                  {
+                    "part": "TPS63070",
+                    "description": "Wide input voltage (2V-16V) buck-boost converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS63070",
+                      "html": "https://www.ti.com/product/TPS63070"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "TLV709",
+                    "description": "150-mA 30-V low-dropout (LDO) linear regulator with 3.2-μA supply current",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV709",
+                      "html": "https://www.ti.com/product/TLV709"
+                    }
+                  },
+                  {
+                    "part": "TLV767",
+                    "description": "Adjustable- and fixed-output, 1-A, 16-V, positive-voltage low-dropout (LDO) linear regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV767",
+                      "html": "https://www.ti.com/product/TLV767"
+                    }
+                  },
+                  {
+                    "part": "TLV771",
+                    "description": "150mA small-size high-PSRR low-dropout (LDO) linear regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV771",
+                      "html": "https://www.ti.com/product/TLV771"
+                    }
+                  },
+                  {
+                    "part": "TPS7A20",
+                    "description": "300mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator with high PSRR",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A20",
+                      "html": "https://www.ti.com/product/TPS7A20"
+                    }
+                  },
+                  {
+                    "part": "TPS7A24",
+                    "description": "200-mA, 18-V, ultra-low-IQ, low-dropout (LDO) voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A24",
+                      "html": "https://www.ti.com/product/TPS7A24"
+                    }
+                  },
+                  {
+                    "part": "TPS7E72",
+                    "description": "300mA, 30V, ultra-low-IQ, low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7E72",
+                      "html": "https://www.ti.com/product/TPS7E72"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Load switches",
+                "products": [
+                  {
+                    "part": "TPS2013A",
+                    "description": "5.5-V, 1.5-A, 35-mΩ, load switch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2013A",
+                      "html": "https://www.ti.com/product/TPS2013A"
+                    }
+                  },
+                  {
+                    "part": "TPS22919",
+                    "description": "5.5-V, 1.5-A, 90-mΩ load switch with adj. output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22919",
+                      "html": "https://www.ti.com/product/TPS22919"
+                    }
+                  },
+                  {
+                    "part": "TPS2500",
+                    "description": "0.13-1.4A adjustable ILIMIT, 1.8-5.25V, 80mΩ USB power switch + boost converter in Eco-mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2500",
+                      "html": "https://www.ti.com/product/TPS2500"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Reset & watchdog ICs",
+                "products": [
+                  {
+                    "part": "TPS3831",
+                    "description": "150-nA, ultra-low power, supply voltage monitor",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS3831",
+                      "html": "https://www.ti.com/product/TPS3831"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP11311",
+            "description": "Power Reference Design for a Wearable Device with Wireless Charging using the bq51003 and bq25120",
+            "url": "https://www.ti.com/tool/PMP11311",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJ51"
+            }
+          },
+          {
+            "name": "PR2047",
+            "description": "Powering the TMS320DM335 and TMS320DM355 with the TPS650061",
+            "url": "https://www.ti.com/tool/PR2047",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/SLVRAM7"
+            }
+          },
+          {
+            "name": "PR2065",
+            "description": "Powering the TMS320DM368 with the TPS650061",
+            "url": "https://www.ti.com/tool/PR2065",
+            "links": {}
+          },
+          {
+            "name": "TIDA-00691",
+            "description": "Linear Regulator Power Solution Reference Design for Reducing MSP430G2xx3 Power Dissipation",
+            "url": "https://www.ti.com/tool/TIDA-00691",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB23",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJD8"
+            }
+          },
+          {
+            "name": "TIDA-010266",
+            "description": "Low-cost blood pressure and heart rate monitor reference design",
+            "url": "https://www.ti.com/tool/TIDA-010266",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUF53",
+              "schematic": "https://www.ti.com/lit/pdf/TIDMCH8"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-14124",
+      "details": {
+        "title": "Output user interface",
+        "description": "User interface modules for display, speakers, memory cards, etc.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Backlight LED drivers",
+                "products": [
+                  {
+                    "part": "TPS61163A",
+                    "description": "Dual-channel WLED drivers for small display",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS61163A",
+                      "html": "https://www.ti.com/product/TPS61163A"
+                    }
+                  },
+                  {
+                    "part": "TPS61165",
+                    "description": "High brightness white LED driver in 2mm x 2mm QFN Package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS61165",
+                      "html": "https://www.ti.com/product/TPS61165"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP9781",
+            "description": "Small, High-Efficiency Split-Rail Supply Reference Design for Portable Audio Applications",
+            "url": "https://www.ti.com/tool/PMP9781",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRGB9"
+            }
+          },
+          {
+            "name": "TIDA-00878",
+            "description": "Ultra-Low Profile Backlight Driver Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00878",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBE4",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRK73"
+            }
+          },
+          {
+            "name": "TIPD136",
+            "description": "Active Volume Control for Professional Audio",
+            "url": "https://www.ti.com/tool/TIPD136",
+            "links": {
+              "schematic": "https://www.ti.com/lit/zip/TIDC032"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-14123",
+      "details": {
+        "title": "Input user interface",
+        "description": "User Interface modules - such as a keypad",
+        "productGroups": [
+          {
+            "category": "Microcontrollers (MCUs) & processors",
+            "sections": [
+              {
+                "title": "Low-power MCUs",
+                "products": [
+                  {
+                    "part": "MSP430F5510",
+                    "description": "25 MHz MCU with 32KB Flash, 4KB SRAM, 10-bit ADC, comparator, DMA, UART/SPI/I2C, USB, HW multiplier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F5510",
+                      "html": "https://www.ti.com/product/MSP430F5510"
+                    }
+                  },
+                  {
+                    "part": "MSP430F5528",
+                    "description": "25 MHz MCU with 128KB Flash, 8KB SRAM, 12-bit ADC, comparator, DMA, UART/SPI/I2C, USB, HW multiplier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F5528",
+                      "html": "https://www.ti.com/product/MSP430F5528"
+                    }
+                  },
+                  {
+                    "part": "MSP430F5529",
+                    "description": "25 MHz MCU with 128KB Flash, 8KB SRAM, 12-bit ADC, comparator, DMA, UART/SPI/I2C, USB, HW multiplier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F5529",
+                      "html": "https://www.ti.com/product/MSP430F5529"
+                    }
+                  },
+                  {
+                    "part": "MSP430F6638",
+                    "description": "20 MHz MCU with 256KB Flash, 16KB SRAM, 12-bit ADC, 12-bit DAC, comparator, DMA, 160 seg LCD, USB",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F6638",
+                      "html": "https://www.ti.com/product/MSP430F6638"
+                    }
+                  },
+                  {
+                    "part": "MSP430G2131",
+                    "description": "16 MHz MCU with 1KB Flash, 128B SRAM, 10-bit ADC, SPI/I2C, timer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430G2131",
+                      "html": "https://www.ti.com/product/MSP430G2131"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L2228",
+                    "description": "32MHz Arm® Cortex®-M0+ MCU with 256KB dual-bank flash, 32KB SRAM, 12-bit ADC, COMP, LCD, VBAT",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L2228",
+                      "html": "https://www.ti.com/product/MSPM0L2228"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Sensing MCUs",
+                "products": [
+                  {
+                    "part": "MSP430FR2633",
+                    "description": "Capacitive Touch MCU with 16 touch IO (64 sensors), 16KB FRAM, 4KB SRAM, 19 IO, 10-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR2633",
+                      "html": "https://www.ti.com/product/MSP430FR2633"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Inductive sensor AFEs",
+                "products": [
+                  {
+                    "part": "LDC1312",
+                    "description": "2-Ch, 12-bit, general purpose inductance to digital converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LDC1312",
+                      "html": "https://www.ti.com/product/LDC1312"
+                    }
+                  },
+                  {
+                    "part": "LDC1314",
+                    "description": "4-Ch, 12-bit, general purpose inductance to digital converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LDC1314",
+                      "html": "https://www.ti.com/product/LDC1314"
+                    }
+                  },
+                  {
+                    "part": "LDC1612",
+                    "description": "2-Ch, 28-bit, high-resolution Inductance to digital converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LDC1612",
+                      "html": "https://www.ti.com/product/LDC1612"
+                    }
+                  },
+                  {
+                    "part": "LDC1614",
+                    "description": "4-Ch, 28-bit, high-resolution Inductance to digital converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LDC1614",
+                      "html": "https://www.ti.com/product/LDC1614"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Signal conditioners",
+                "products": [
+                  {
+                    "part": "PGA300",
+                    "description": "PGA300 Signal Conditioner and Transmitter for Pressure Sensors",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/PGA300",
+                      "html": "https://www.ti.com/product/PGA300"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00408",
+            "description": "Haptic Feedback Capacitive Touch Display Reference Design for Bldg Automation & Medical Applications",
+            "url": "https://www.ti.com/tool/TIDA-00408",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU968",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRGZ5"
+            }
+          },
+          {
+            "name": "TIDA-00509",
+            "description": "16-button Inductive Keypad Reference Design Using the LDC1314 Inductance-to-Digital Converter",
+            "url": "https://www.ti.com/tool/TIDA-00509",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU954",
+              "schematic": "https://www.ti.com/lit/pdf/TIDREP4"
+            }
+          },
+          {
+            "name": "TIDA-00615",
+            "description": "Inductive Sensing 32-Position Encoder Knob Reference Design using the LDC1312/LDC1314",
+            "url": "https://www.ti.com/tool/TIDA-00615",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBG4",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRKL4"
+            }
+          },
+          {
+            "name": "TIDM-CAPTIVATE-64-BUTTON",
+            "description": "64-Button Capacitive Touch Panel With TI Microcontroller With CapTIvate Technology Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-CAPTIVATE-64-BUTTON",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJS0"
+            }
+          },
+          {
+            "name": "TIDM-CAPTOUCHEMCREF",
+            "description": "Noise Tolerant Capacitive Touch HMI Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-CAPTOUCHEMCREF",
+            "links": {
+              "schematic": "https://www.ti.com/lit/zip/TIDRMV7"
+            }
+          },
+          {
+            "name": "TIDM-KEYBOARD",
+            "description": "Keyboard Controller Using Low Power Microcontroller",
+            "url": "https://www.ti.com/tool/TIDM-KEYBOARD",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU521",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRBN2"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-14125",
+      "details": {
+        "title": "Digital Processing",
+        "description": "Digital processing includes control of the system and processing of pressure sensing signals. This includes microcontrollers and processors.",
+        "productGroups": [
+          {
+            "category": "Microcontrollers (MCUs) & processors",
+            "sections": [
+              {
+                "title": "Low-power MCUs",
+                "products": [
+                  {
+                    "part": "MSP430F5510",
+                    "description": "25 MHz MCU with 32KB Flash, 4KB SRAM, 10-bit ADC, comparator, DMA, UART/SPI/I2C, USB, HW multiplier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F5510",
+                      "html": "https://www.ti.com/product/MSP430F5510"
+                    }
+                  },
+                  {
+                    "part": "MSP430F5528",
+                    "description": "25 MHz MCU with 128KB Flash, 8KB SRAM, 12-bit ADC, comparator, DMA, UART/SPI/I2C, USB, HW multiplier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F5528",
+                      "html": "https://www.ti.com/product/MSP430F5528"
+                    }
+                  },
+                  {
+                    "part": "MSP430F5529",
+                    "description": "25 MHz MCU with 128KB Flash, 8KB SRAM, 12-bit ADC, comparator, DMA, UART/SPI/I2C, USB, HW multiplier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F5529",
+                      "html": "https://www.ti.com/product/MSP430F5529"
+                    }
+                  },
+                  {
+                    "part": "MSP430F6638",
+                    "description": "20 MHz MCU with 256KB Flash, 16KB SRAM, 12-bit ADC, 12-bit DAC, comparator, DMA, 160 seg LCD, USB",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430F6638",
+                      "html": "https://www.ti.com/product/MSP430F6638"
+                    }
+                  },
+                  {
+                    "part": "MSP430G2131",
+                    "description": "16 MHz MCU with 1KB Flash, 128B SRAM, 10-bit ADC, SPI/I2C, timer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430G2131",
+                      "html": "https://www.ti.com/product/MSP430G2131"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L2228",
+                    "description": "32MHz Arm® Cortex®-M0+ MCU with 256KB dual-bank flash, 32KB SRAM, 12-bit ADC, COMP, LCD, VBAT",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L2228",
+                      "html": "https://www.ti.com/product/MSPM0L2228"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Sensing MCUs",
+                "products": [
+                  {
+                    "part": "MSP430FR2633",
+                    "description": "Capacitive Touch MCU with 16 touch IO (64 sensors), 16KB FRAM, 4KB SRAM, 19 IO, 10-bit ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR2633",
+                      "html": "https://www.ti.com/product/MSP430FR2633"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-010266",
+            "description": "Low-cost blood pressure and heart rate monitor reference design",
+            "url": "https://www.ti.com/tool/TIDA-010266",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUF53",
+              "schematic": "https://www.ti.com/lit/pdf/TIDMCH8"
+            }
+          },
+          {
+            "name": "TIDM-BPM",
+            "description": "Ultra Low Power Blood Pressure And Heart Rate Monitor Reference Design",
+            "url": "https://www.ti.com/tool/TIDM-BPM",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU514",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRAJ0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-14126",
+      "details": {
+        "title": "Wireless interface",
+        "description": "Wireless interfaces which connect the system to devices like mobile phones, computers, etc.",
+        "productGroups": [
+          {
+            "category": "Wireless connectivity",
+            "sections": [
+              {
+                "title": "Low-power 2.4-GHz products",
+                "products": [
+                  {
+                    "part": "CC2340R5",
+                    "description": "Bluetooth, Zigbee and Thread wireless MCU with ultra-low standby current, 512kB flash and +8dBm</",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC2340R5",
+                      "html": "https://www.ti.com/product/CC2340R5"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "CC256XEM-RD",
+            "description": "CC256x Bluetooth&reg; Reference Design",
+            "url": "https://www.ti.com/tool/CC256XEM-RD",
+            "links": {
+              "schematic": "https://www.ti.com/lit/zip/TIDC065"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-14127",
+      "details": {
+        "title": "Wired interface",
+        "description": "Wired interface connects system to a computer for data transfer.",
+        "productGroups": [
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "USB PHYs & bridges",
+                "products": [
+                  {
+                    "part": "TUSB3410",
+                    "description": "UART, I2C and IrDA serial port to USB bridge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TUSB3410",
+                      "html": "https://www.ti.com/product/TUSB3410"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "USB hubs",
+                "products": [
+                  {
+                    "part": "TUSB8041",
+                    "description": "4-port 5-Gbps SuperSpeed USB 3.0 hub",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TUSB8041",
+                      "html": "https://www.ti.com/product/TUSB8041"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Load switches",
+                "products": [
+                  {
+                    "part": "TPS2013A",
+                    "description": "5.5-V, 1.5-A, 35-mΩ, load switch",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2013A",
+                      "html": "https://www.ti.com/product/TPS2013A"
+                    }
+                  },
+                  {
+                    "part": "TPS22919",
+                    "description": "5.5-V, 1.5-A, 90-mΩ load switch with adj. output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22919",
+                      "html": "https://www.ti.com/product/TPS22919"
+                    }
+                  },
+                  {
+                    "part": "TPS2500",
+                    "description": "0.13-1.4A adjustable ILIMIT, 1.8-5.25V, 80mΩ USB power switch + boost converter in Eco-mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2500",
+                      "html": "https://www.ti.com/product/TPS2500"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01243",
+            "description": "USB Type-C™ and Power Delivery Minidock With Video and Charging Support Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01243",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC52",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRN40"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-14128",
+      "details": {
+        "title": "Motor Drive",
+        "description": "Motor drive for pump",
+        "productGroups": [
+          {
+            "category": "Motor drivers",
+            "sections": [
+              {
+                "title": "BLDC drivers",
+                "products": [
+                  {
+                    "part": "DRV8301",
+                    "description": "65-V max 3-phase gate driver with buck regulator, current shunt amplifiers & SPI",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8301",
+                      "html": "https://www.ti.com/product/DRV8301"
+                    }
+                  },
+                  {
+                    "part": "DRV8302",
+                    "description": "65-V max 3-phase gate driver with buck regulator, current shunt amplifiers & hardware interface",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8302",
+                      "html": "https://www.ti.com/product/DRV8302"
+                    }
+                  },
+                  {
+                    "part": "DRV8305",
+                    "description": "45-V max 3-phase smart gate driver with current shunt amplifiers & SPI",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8305",
+                      "html": "https://www.ti.com/product/DRV8305"
+                    }
+                  },
+                  {
+                    "part": "DRV8323",
+                    "description": "65-V max 3-phase smart gate driver with current shunt amplifiers",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8323",
+                      "html": "https://www.ti.com/product/DRV8323"
+                    }
+                  },
+                  {
+                    "part": "DRV8376",
+                    "description": "70V max 4.5A peak 3-phase motor driver with integrated current sensing and integrated FETs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/DRV8376",
+                      "html": "https://www.ti.com/product/DRV8376"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "MOSFETs",
+                "products": [
+                  {
+                    "part": "CSD17483F4",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single LGA 1 mm x 0.6 mm, 260 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17483F4",
+                      "html": "https://www.ti.com/product/CSD17483F4"
+                    }
+                  },
+                  {
+                    "part": "CSD17573Q5B",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 1.45 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17573Q5B",
+                      "html": "https://www.ti.com/product/CSD17573Q5B"
+                    }
+                  },
+                  {
+                    "part": "CSD17579Q5A",
+                    "description": "30-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 13.3 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD17579Q5A",
+                      "html": "https://www.ti.com/product/CSD17579Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD18531Q5A",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.6 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18531Q5A",
+                      "html": "https://www.ti.com/product/CSD18531Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD18533Q5A",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 5.9 mOhm",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18533Q5A",
+                      "html": "https://www.ti.com/product/CSD18533Q5A"
+                    }
+                  },
+                  {
+                    "part": "CSD87501L",
+                    "description": "30-V, N channel NexFET™ power MOSFET, dual common drain LGA, 5.5 mOhm, gate ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD87501L",
+                      "html": "https://www.ti.com/product/CSD87501L"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00115",
+            "description": "Low Voltage Brushed Motor System",
+            "url": "https://www.ti.com/tool/TIDA-00115",
+            "links": {
+              "schematic": "https://www.ti.com/lit/zip/TIDC194"
+            }
+          },
+          {
+            "name": "TIDA-00643",
+            "description": "4.4 V to 30 V, 15 A, High Performance Brushless DC Drone Propeller Controller Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00643",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUAK1",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRHG6"
+            }
+          },
+          {
+            "name": "TIDA-00736",
+            "description": "Universal Stepper Motor Driver Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00736",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJY0"
+            }
+          },
+          {
+            "name": "TIDA-00774",
+            "description": "18V/1kW, 160A Peak, >98% Efficient, High Power Density Brushless Motor Drive Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00774",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCL0",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRQT8"
+            }
+          },
+          {
+            "name": "TIDA-010266",
+            "description": "Low-cost blood pressure and heart rate monitor reference design",
+            "url": "https://www.ti.com/tool/TIDA-010266",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUF53",
+              "schematic": "https://www.ti.com/lit/pdf/TIDMCH8"
+            }
+          },
+          {
+            "name": "TIDA-01227",
+            "description": "High Voltage Stepper Driver Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-01227",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUCR6",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRQE9"
+            }
+          },
+          {
+            "name": "TIDM-LPBP-BLDCMOTORDRIVE",
+            "description": "Three-Phase Brushless DC Motor Driver",
+            "url": "https://www.ti.com/tool/TIDM-LPBP-BLDCMOTORDRIVE",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDR542"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -41,6 +41,10 @@ const solutions = [
     variantId: 34360,
     subsystemId: 24690,
   },
+  {
+    slug: "blood-pressure-monitor",
+    title: "Blood pressure monitor",
+  },
 ] as const satisfies readonly TiSolution[]
 
 interface TiDocument {
