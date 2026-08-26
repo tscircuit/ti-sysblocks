@@ -1951,19 +1951,19 @@
                 "title": "General-purpose MCUs",
                 "products": [
                   {
-                    "part": "MSPM0C1103",
-                    "description": "24MHz Arm® Cortex®-M0+ MCU with 8KB flash, 1KB SRAM, 12-bit ADC",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0C1103",
-                      "html": "https://www.ti.com/product/MSPM0C1103"
-                    }
-                  },
-                  {
                     "part": "MSPM0C1104",
                     "description": "24MHz Arm® Cortex®-M0+ MCU with 16KB flash, 1KB SRAM, 12-bit ADC",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/MSPM0C1104",
                       "html": "https://www.ti.com/product/MSPM0C1104"
+                    }
+                  },
+                  {
+                    "part": "MSPM0G1106",
+                    "description": "80MHz Arm® Cortex®-M0+ MCU with 64KB flash 32KB SRAM 2x12-bit 4Msps ADC, op-amp",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0G1106",
+                      "html": "https://www.ti.com/product/MSPM0G1106"
                     }
                   },
                   {
@@ -2057,19 +2057,19 @@
                     }
                   },
                   {
-                    "part": "TMS320F28374D",
-                    "description": "C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 512 KB flash, EMIF, 12b ADC",
+                    "part": "TMS320F28375D",
+                    "description": "C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 1024 KB flash, EMIF, 12b ADC",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28374D",
-                      "html": "https://www.ti.com/product/TMS320F28374D"
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28375D",
+                      "html": "https://www.ti.com/product/TMS320F28375D"
                     }
                   },
                   {
-                    "part": "TMS320F28377D",
-                    "description": "C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 1024 KB flash, EMIF, 16b ADC",
+                    "part": "TMS320F28376D",
+                    "description": "C2000™ 32-bit MCU with 800 MIPS, 2xCPU, 2xCLA, FPU, TMU, 512 KB flash, EMIF, 16b ADC",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28377D",
-                      "html": "https://www.ti.com/product/TMS320F28377D"
+                      "datasheet": "https://www.ti.com/lit/gpn/TMS320F28376D",
+                      "html": "https://www.ti.com/product/TMS320F28376D"
                     }
                   },
                   {
@@ -2849,11 +2849,11 @@
                     }
                   },
                   {
-                    "part": "CSD18514Q5A",
-                    "description": "40-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.9 mOhm",
+                    "part": "CSD18531Q5A",
+                    "description": "60-V, N channel NexFET™ power MOSFET, single SON 5 mm x 6 mm, 4.6 mOhm",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/CSD18514Q5A",
-                      "html": "https://www.ti.com/product/CSD18514Q5A"
+                      "datasheet": "https://www.ti.com/lit/gpn/CSD18531Q5A",
+                      "html": "https://www.ti.com/product/CSD18531Q5A"
                     }
                   },
                   {
