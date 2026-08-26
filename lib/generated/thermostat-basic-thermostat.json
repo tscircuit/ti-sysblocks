@@ -775,6 +775,17 @@
               "schematic": "https://www.ti.com/lit/pdf/TIDRKI3"
             }
           }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SNAA267A",
+            "title": "SC Temp Sensors Challenge Precision RTDs and Thermistors in Build Automation (Rev. A)",
+            "type": "Application note",
+            "date": "2019-05-08",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SNAA267"
+            }
+          }
         ]
       }
     },
@@ -1201,6 +1212,17 @@
             "links": {
               "designGuide": "https://www.ti.com/lit/pdf/TIDU516",
               "schematic": "https://www.ti.com/lit/pdf/TIDRAX7"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SLVAEA8A",
+            "title": "Eliminate the Voltage Drop and Save Power: An Ideal Diode (Rev. A)",
+            "type": "Application brief",
+            "date": "2019-07-03",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLVAEA8"
             }
           }
         ]
@@ -1824,6 +1846,17 @@
             "url": "https://www.ti.com/tool/TIDM-TOUCHWHEEL-LEDTRACKING",
             "links": {
               "schematic": "https://www.ti.com/lit/pdf/TIDR811"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SWAY006",
+            "title": "Take your HMI design to the next level with transparent capacitive-touch technol",
+            "type": "White paper",
+            "date": "2017-09-14",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SWAY006"
             }
           }
         ]

@@ -2,7 +2,7 @@
 
 Reusable React components for interactive Texas Instruments-style system block diagrams.
 
-The diagram geometry remains SVG. Product data, reference designs, selection state, tabs, accordions, and the details panel are rendered as accessible React/HTML.
+The diagram geometry remains SVG. Product data, reference designs, technical documentation, selection state, tabs, accordions, and the details panel are rendered as accessible React/HTML.
 
 ## Install
 
@@ -114,6 +114,7 @@ const definition = defineSysBlockDiagram({
         },
       ],
       references: [],
+      technicalDocuments: [],
     },
   },
 })

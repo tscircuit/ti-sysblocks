@@ -12,6 +12,7 @@ const files = await readdir(root)
 const jsonFiles = files.filter((file) => file.endsWith(".json"))
 const failures = []
 let productCount = 0
+let technicalDocumentCount = 0
 
 const finalPathSegment = (url) => {
   const segments = new URL(url).pathname.split("/").filter(Boolean)
@@ -60,6 +61,7 @@ for (const jsonFile of jsonFiles) {
 
   for (const node of source.nodes ?? []) {
     const seenPlacements = new Set()
+    const seenTechnicalDocuments = new Set()
 
     for (const group of node.details?.productGroups ?? []) {
       for (const section of group.sections ?? []) {
@@ -119,6 +121,30 @@ for (const jsonFile of jsonFiles) {
         validateTiUrl(reference.links.schematic, `${location}: schematic URL`)
       }
     }
+
+    for (const document of node.details?.technicalDocuments ?? []) {
+      technicalDocumentCount += 1
+      const location = `${jsonFile}: ${node.details.title} > ${document.title}`
+      const identifier =
+        document.literatureNumber ?? `${document.type}\0${document.title}`
+
+      if (seenTechnicalDocuments.has(identifier)) {
+        failures.push(`${location}: duplicate technical document`)
+      }
+      seenTechnicalDocuments.add(identifier)
+
+      if (!document.title || !document.type) {
+        failures.push(`${location}: missing document title or type`)
+      }
+
+      const pdfUrl = document.links?.pdf
+      const htmlUrl = document.links?.html
+      if (!pdfUrl && !htmlUrl) {
+        failures.push(`${location}: missing PDF and HTML URLs`)
+      }
+      if (pdfUrl) validateTiUrl(pdfUrl, `${location}: PDF URL`)
+      if (htmlUrl) validateTiUrl(htmlUrl, `${location}: HTML URL`)
+    }
   }
 }
 
@@ -127,6 +153,6 @@ if (failures.length > 0) {
   process.exitCode = 1
 } else {
   console.log(
-    `Validated ${jsonFiles.length} diagram definition(s) and ${productCount} TI product recommendation(s).`,
+    `Validated ${jsonFiles.length} diagram definition(s), ${productCount} TI product recommendation(s), and ${technicalDocumentCount} technical document(s).`,
   )
 }

@@ -226,16 +226,20 @@
   color: #333;
 }
 
-.ti-sysblock__reference {
+.ti-sysblock__reference,
+.ti-sysblock__technical-document {
   padding: 12px 0;
   border-bottom: 1px solid var(--ti-sysblock-line);
 }
 
-.ti-sysblock__reference > a {
+.ti-sysblock__reference > a,
+.ti-sysblock__technical-document > a,
+.ti-sysblock__technical-document > span {
   font-size: 15px;
 }
 
 .ti-sysblock__reference p,
+.ti-sysblock__technical-document p,
 .ti-sysblock__empty-copy,
 .ti-sysblock__closed-copy {
   font-size: 13px;
@@ -328,12 +332,15 @@
   }
 
   .ti-sysblock__product p,
-  .ti-sysblock__reference > a {
+  .ti-sysblock__reference > a,
+  .ti-sysblock__technical-document > a,
+  .ti-sysblock__technical-document > span {
     font-size: 14px;
   }
 
   .ti-sysblock__links,
   .ti-sysblock__reference p,
+  .ti-sysblock__technical-document p,
   .ti-sysblock__empty-copy,
   .ti-sysblock__closed-copy {
     font-size: 12px;

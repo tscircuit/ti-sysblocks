@@ -65,6 +65,15 @@ interface TiProductFamily {
   products: TiPanelItem[]
 }
 
+interface TiTechnicalDocument {
+  literatureNumber?: string | null
+  documentType?: string | null
+  description: string
+  date?: string | null
+  literatureUrl?: string | null
+  htmlLiteratureUrl?: string | null
+}
+
 interface TiSubsystem {
   subSystemId: number
   subSystemName: string
@@ -73,6 +82,7 @@ interface TiSubsystem {
   defaultSubSystem: boolean
   referenceDesigns: TiPanelItem[]
   products: Record<string, TiProductFamily[]>
+  techDocs?: Record<string, TiTechnicalDocument[]>
 }
 
 interface TiVariant {
@@ -151,6 +161,20 @@ function prepareSvg(variant: TiVariant) {
 }
 
 function convertSubsystem(subsystem: TiSubsystem) {
+  const technicalDocuments = Object.entries(subsystem.techDocs ?? {}).flatMap(
+    ([category, documents]) =>
+      documents.map((document) => ({
+        literatureNumber: document.literatureNumber ?? undefined,
+        title: plainText(document.description),
+        type: document.documentType ?? category,
+        date: document.date ?? undefined,
+        links: {
+          pdf: absoluteTiUrl(document.literatureUrl),
+          html: absoluteTiUrl(document.htmlLiteratureUrl),
+        },
+      })),
+  )
+
   return {
     id: `subsystemid-${subsystem.subSystemId}`,
     details: {
@@ -194,6 +218,7 @@ function convertSubsystem(subsystem: TiSubsystem) {
           },
         }
       }),
+      ...(technicalDocuments.length > 0 ? { technicalDocuments } : {}),
     },
   }
 }

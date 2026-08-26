@@ -450,6 +450,63 @@
               "schematic": "https://www.ti.com/lit/pdf/TIDRW19"
             }
           }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SWRA641A",
+            "title": "Dynamic Multi-protocol Manager (DMM) Tech Note (Rev. A)",
+            "type": "Application brief",
+            "date": "2021-05-13",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SWRA641",
+              "html": "https://www.ti.com/document-viewer/lit/html/SWRA641"
+            }
+          },
+          {
+            "literatureNumber": "SWPB015A",
+            "title": "SimpleLink™ Wi-Fi® CC3x20 MCU Security (Rev. A)",
+            "type": "More literature",
+            "date": "2019-02-06",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SWPB015"
+            }
+          },
+          {
+            "literatureNumber": "SWAY003A",
+            "title": "Connected microcontrollers essential to automation in buildings (Rev. A)",
+            "type": "White paper",
+            "date": "2018-01-10",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SWAY003"
+            }
+          },
+          {
+            "literatureNumber": "SWRA502C",
+            "title": "CC3120, CC3220 SimpleLink™ Wi-Fi® IoC Networking Subsystem Power Managment (Rev. C)",
+            "type": "Application note",
+            "date": "2018-11-02",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SWRA502"
+            }
+          },
+          {
+            "literatureNumber": "SWAA168",
+            "title": "Designing Thermostats With CC3220 SimpleLink Single-Chip Wi-Fi MCU SoC",
+            "type": "Application note",
+            "date": "2017-10-30",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SWAA168"
+            }
+          },
+          {
+            "literatureNumber": "SWAT011B",
+            "title": "Enabling Smarter Thermostats with SimpleLink™ Wi-Fi® Wireless MCUs (Rev. B)",
+            "type": "Product overview",
+            "date": "2019-01-31",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SWAT011"
+            }
+          }
         ]
       }
     },
@@ -753,6 +810,17 @@
               "schematic": "https://www.ti.com/lit/pdf/TIDRKI3"
             }
           }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SNAA267A",
+            "title": "SC Temp Sensors Challenge Precision RTDs and Thermistors in Build Automation (Rev. A)",
+            "type": "Application note",
+            "date": "2019-05-08",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SNAA267"
+            }
+          }
         ]
       }
     },
@@ -917,6 +985,17 @@
             "links": {
               "designGuide": "https://www.ti.com/lit/pdf/TIDU516",
               "schematic": "https://www.ti.com/lit/pdf/TIDRAX7"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SLVAEA8A",
+            "title": "Eliminate the Voltage Drop and Save Power: An Ideal Diode (Rev. A)",
+            "type": "Application brief",
+            "date": "2019-07-03",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLVAEA8"
             }
           }
         ]
@@ -3015,6 +3094,17 @@
             "url": "https://www.ti.com/tool/TIDM-TOUCHWHEEL-LEDTRACKING",
             "links": {
               "schematic": "https://www.ti.com/lit/pdf/TIDR811"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SWAY006",
+            "title": "Take your HMI design to the next level with transparent capacitive-touch technol",
+            "type": "White paper",
+            "date": "2017-09-14",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SWAY006"
             }
           }
         ]

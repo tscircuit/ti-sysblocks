@@ -30,11 +30,23 @@ export interface SysBlockReferenceDesign {
   }
 }
 
+export interface SysBlockTechnicalDocument {
+  literatureNumber?: string
+  title: string
+  type: string
+  date?: string
+  links?: {
+    pdf?: string
+    html?: string
+  }
+}
+
 export interface SysBlockDetails {
   title: string
   description: string
   groups: SysBlockProductGroup[]
   references?: SysBlockReferenceDesign[]
+  technicalDocuments?: SysBlockTechnicalDocument[]
 }
 
 export interface SysBlockDefinition {

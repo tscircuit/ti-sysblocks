@@ -906,6 +906,35 @@
               "schematic": "https://www.ti.com/lit/pdf/TIDRT45"
             }
           }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SLUA871",
+            "title": "Increasing Power Density With Active Clamp Flyback (UCC28780)",
+            "type": "Application brief",
+            "date": "2018-02-27",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLUA871"
+            }
+          },
+          {
+            "literatureNumber": "SLUA690",
+            "title": "Analysis and Measurement of Resonant Tank Current on LLC",
+            "type": "Application note",
+            "date": "2013-07-30",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLUA690"
+            }
+          },
+          {
+            "literatureNumber": "SLUA582A",
+            "title": "Feedback Loop Design of an LLC Resonant Power Converter (Rev. A)",
+            "type": "Application note",
+            "date": "2010-11-24",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLUA582"
+            }
+          }
         ]
       }
     },
@@ -1190,6 +1219,26 @@
             "links": {
               "designGuide": "https://www.ti.com/lit/pdf/TIDUDF3",
               "schematic": "https://www.ti.com/lit/pdf/TIDRT45"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SLUA690",
+            "title": "Analysis and Measurement of Resonant Tank Current on LLC",
+            "type": "Application note",
+            "date": "2013-07-30",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLUA690"
+            }
+          },
+          {
+            "literatureNumber": "SLUA582A",
+            "title": "Feedback Loop Design of an LLC Resonant Power Converter (Rev. A)",
+            "type": "Application note",
+            "date": "2010-11-24",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SLUA582"
             }
           }
         ]
@@ -2052,6 +2101,18 @@
             "links": {
               "designGuide": "https://www.ti.com/lit/pdf/TIDUDF3",
               "schematic": "https://www.ti.com/lit/pdf/TIDRT45"
+            }
+          }
+        ],
+        "technicalDocuments": [
+          {
+            "literatureNumber": "SBOA165F",
+            "title": "Precision Current Measurements on High-Voltage Power-Supply Rails (Rev. F)",
+            "type": "Application brief",
+            "date": "2022-10-17",
+            "links": {
+              "pdf": "https://www.ti.com/lit/pdf/SBOA165",
+              "html": "https://www.ti.com/document-viewer/lit/html/SBOA165"
             }
           }
         ]
