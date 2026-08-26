@@ -36,6 +36,12 @@ const solutions = [
     title: "Obstacle detection sensor",
   },
   {
+    slug: "automotive-window-module",
+    title: "Window module",
+    variantId: 34360,
+    subsystemId: 24690,
+  },
+  {
     slug: "blood-pressure-monitor",
     title: "Blood pressure monitor",
   },

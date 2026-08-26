@@ -31,8 +31,10 @@ import diagram14Svg from "./rearview-mirror-module.svg?raw"
 import diagram14Json from "./rearview-mirror-module.json"
 import diagram15Svg from "./obstacle-detection-sensor.svg?raw"
 import diagram15Json from "./obstacle-detection-sensor.json"
-import diagram16Svg from "./blood-pressure-monitor.svg?raw"
-import diagram16Json from "./blood-pressure-monitor.json"
+import diagram16Svg from "./automotive-window-module.svg?raw"
+import diagram16Json from "./automotive-window-module.json"
+import diagram17Svg from "./blood-pressure-monitor.svg?raw"
+import diagram17Json from "./blood-pressure-monitor.json"
 
 export const machineVisionCamera = createSysBlockDefinitionFromJson("machine-vision-camera", diagram0Svg, diagram0Json)
 export const driveLineComponentsActiveTransferCase = createSysBlockDefinitionFromJson("drive-line-components-active-transfer-case", diagram1Svg, diagram1Json)
@@ -50,6 +52,7 @@ export const powerBank = createSysBlockDefinitionFromJson("power-bank", diagram1
 export const seatPositionModule = createSysBlockDefinitionFromJson("seat-position-module", diagram13Svg, diagram13Json)
 export const rearviewMirrorModule = createSysBlockDefinitionFromJson("rearview-mirror-module", diagram14Svg, diagram14Json)
 export const obstacleDetectionSensor = createSysBlockDefinitionFromJson("obstacle-detection-sensor", diagram15Svg, diagram15Json)
-export const bloodPressureMonitor = createSysBlockDefinitionFromJson("blood-pressure-monitor", diagram16Svg, diagram16Json)
+export const automotiveWindowModule = createSysBlockDefinitionFromJson("automotive-window-module", diagram16Svg, diagram16Json)
+export const bloodPressureMonitor = createSysBlockDefinitionFromJson("blood-pressure-monitor", diagram17Svg, diagram17Json)
 
-export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat, industrialAcDcDigitalControlledIndustrialAcDc, industrialAcDcAnalogControlledIndustrialAcDc, powerBank, seatPositionModule, rearviewMirrorModule, obstacleDetectionSensor, bloodPressureMonitor]
+export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat, industrialAcDcDigitalControlledIndustrialAcDc, industrialAcDcAnalogControlledIndustrialAcDc, powerBank, seatPositionModule, rearviewMirrorModule, obstacleDetectionSensor, automotiveWindowModule, bloodPressureMonitor]
