@@ -1,0 +1,1111 @@
+{
+  "title": "Accessories",
+  "sourceUrl": "https://www.ti.com/solution/accessories",
+  "defaultSelected": "subsystemid-19517",
+  "nodes": [
+    {
+      "id": "subsystemid-19523",
+      "details": {
+        "title": "Digital processing",
+        "description": "Digital processing performs the signals processing and overall control algorithm. Digital processing may be based on a signal safety MCU, with two or more MCUs.",
+        "productGroups": [
+          {
+            "category": "Microcontrollers (MCUs) & processors",
+            "sections": [
+              {
+                "title": "Low-power MCUs",
+                "products": [
+                  {
+                    "part": "MSP430FR5969",
+                    "description": "16 MHz MCU with 64KB FRAM, 2KB SRAM, AES, 12-bit ADC, comparator, DMA, UART/SPI/I2C, timer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR5969",
+                      "html": "https://www.ti.com/product/MSP430FR5969"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L1117",
+                    "description": "32MHz Arm® Cortex®-M0+ MCU with 128KB dual-bank flash, 16KB SRAM, 12-bit 1.68Msps ADC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L1117",
+                      "html": "https://www.ti.com/product/MSPM0L1117"
+                    }
+                  },
+                  {
+                    "part": "MSPM0L1306",
+                    "description": "32-MHz Arm® Cortex®-M0+ MCU with 64-KB flash, 4-KB SRAM, 12-bit ADC, comparator, OPA",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/MSPM0L1306",
+                      "html": "https://www.ti.com/product/MSPM0L1306"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19522",
+      "details": {
+        "title": "Auxiliary power supply",
+        "description": "Optional auxiliary power supply",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "LM5023",
+                    "description": "AC-DC quasi-Resonant current mode PWM controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5023",
+                      "html": "https://www.ti.com/product/LM5023"
+                    }
+                  },
+                  {
+                    "part": "LM5032",
+                    "description": "High voltage dual Interleaved current mode controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5032",
+                      "html": "https://www.ti.com/product/LM5032"
+                    }
+                  },
+                  {
+                    "part": "UCC24610",
+                    "description": "Secondary side synchronous rectifier controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC24610",
+                      "html": "https://www.ti.com/product/UCC24610"
+                    }
+                  },
+                  {
+                    "part": "UCC25600",
+                    "description": "8-pin high-performance resonant mode LLC controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC25600",
+                      "html": "https://www.ti.com/product/UCC25600"
+                    }
+                  },
+                  {
+                    "part": "UCC28740",
+                    "description": "Constant-Voltage, Constant-Current (CVCC) Flyback controller with Secondary Side Regulation (SSR)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28740",
+                      "html": "https://www.ti.com/product/UCC28740"
+                    }
+                  },
+                  {
+                    "part": "UCC28C50",
+                    "description": "Industrial, 30-V, low-power current-mode PWM controller, 7-V/6.6-V UVLO, 100% duty cycle",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28C50",
+                      "html": "https://www.ti.com/product/UCC28C50"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Shunt voltage references",
+                "products": [
+                  {
+                    "part": "ATL431LI",
+                    "description": "Low-IQ programmable shunt regulator offered in an ultra-small DQN package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ATL431LI",
+                      "html": "https://www.ti.com/product/ATL431LI"
+                    }
+                  },
+                  {
+                    "part": "LM4041A12",
+                    "description": "1.2-V precision micropower shunt voltage reference with 0.1% accuracy",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM4041A12",
+                      "html": "https://www.ti.com/product/LM4041A12"
+                    }
+                  },
+                  {
+                    "part": "TLA431",
+                    "description": "All-capacitor stable precision programmable reference with KRA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA431",
+                      "html": "https://www.ti.com/product/TLA431"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19524",
+      "details": {
+        "title": "Input power protection",
+        "description": "Fuse, EMI filters and other protection components protect the hardware from improper line input.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Hot-swap controllers",
+                "products": [
+                  {
+                    "part": "LM5060-Q1",
+                    "description": "Automotive 5.5-V to 65-V high side protection controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5060-Q1",
+                      "html": "https://www.ti.com/product/LM5060-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "eFuses (integrated hot swaps)",
+                "products": [
+                  {
+                    "part": "TPS25924",
+                    "description": "4.5-V to 13.8-V, 28mΩ, 1-5A eFuse with driver for external blocking FET",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS25924",
+                      "html": "https://www.ti.com/product/TPS25924"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19526",
+      "details": {
+        "title": "Output user interface",
+        "description": "LCD or LED displays are used to visualize measurement or configuration data.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "LED display drivers",
+                "products": [
+                  {
+                    "part": "LP5892-Q1",
+                    "description": "Automotive, high current 48x16 LED matrix driver with 16-bits PWM dimming and ultra low power",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LP5892-Q1",
+                      "html": "https://www.ti.com/product/LP5892-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19528",
+      "details": {
+        "title": "USB power supply",
+        "description": "Optional USB charger output power supply components.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LM5013",
+                    "description": "6-V to 100-V input, 3.5-A non-synchronous buck DC/DC converter with ultra-low quiescent current (IQ)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5013",
+                      "html": "https://www.ti.com/product/LM5013"
+                    }
+                  },
+                  {
+                    "part": "LM61460",
+                    "description": "3-V to 36-V, 6-A, Low-EMI synchronous step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM61460",
+                      "html": "https://www.ti.com/product/LM61460"
+                    }
+                  },
+                  {
+                    "part": "LMQ66430-Q1",
+                    "description": "Automotive 36-V, 3-A low EMI synchronous step-down converter with 1.5-µA IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMQ66430-Q1",
+                      "html": "https://www.ti.com/product/LMQ66430-Q1"
+                    }
+                  },
+                  {
+                    "part": "LMR51440",
+                    "description": "36-V, 4-A synchronous buck converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR51440",
+                      "html": "https://www.ti.com/product/LMR51440"
+                    }
+                  },
+                  {
+                    "part": "TPS563252",
+                    "description": "3-V to 17-V input voltage, 3-A, 1.2-Mhz synchronous buck converter in SOT563",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS563252",
+                      "html": "https://www.ti.com/product/TPS563252"
+                    }
+                  },
+                  {
+                    "part": "TPS564242",
+                    "description": "3-V to 16-V input voltage, 4-A ECO mode, synchronous buck converter in SOT-563 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS564242",
+                      "html": "https://www.ti.com/product/TPS564242"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19527",
+      "details": {
+        "title": "USB charger port",
+        "description": "USB charging control components for the charger unit.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LM5013",
+                    "description": "6-V to 100-V input, 3.5-A non-synchronous buck DC/DC converter with ultra-low quiescent current (IQ)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5013",
+                      "html": "https://www.ti.com/product/LM5013"
+                    }
+                  },
+                  {
+                    "part": "LM61460",
+                    "description": "3-V to 36-V, 6-A, Low-EMI synchronous step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM61460",
+                      "html": "https://www.ti.com/product/LM61460"
+                    }
+                  },
+                  {
+                    "part": "LMQ66430-Q1",
+                    "description": "Automotive 36-V, 3-A low EMI synchronous step-down converter with 1.5-µA IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMQ66430-Q1",
+                      "html": "https://www.ti.com/product/LMQ66430-Q1"
+                    }
+                  },
+                  {
+                    "part": "LMR51440",
+                    "description": "36-V, 4-A synchronous buck converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR51440",
+                      "html": "https://www.ti.com/product/LMR51440"
+                    }
+                  },
+                  {
+                    "part": "TPS563252",
+                    "description": "3-V to 17-V input voltage, 3-A, 1.2-Mhz synchronous buck converter in SOT563",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS563252",
+                      "html": "https://www.ti.com/product/TPS563252"
+                    }
+                  },
+                  {
+                    "part": "TPS564242",
+                    "description": "3-V to 16-V input voltage, 4-A ECO mode, synchronous buck converter in SOT-563 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS564242",
+                      "html": "https://www.ti.com/product/TPS564242"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19525",
+      "details": {
+        "title": "Input user interface",
+        "description": "Input user interfaces include keypads, NFC connectivity and more. For designs seeking to eliminate physical buttons, capacitive keypads may be used.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Reset & watchdog ICs",
+                "products": [
+                  {
+                    "part": "TPS3898",
+                    "description": "Single-channel, ultra-small, adjustable supervisor with active-low, open-drain output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS3898",
+                      "html": "https://www.ti.com/product/TPS3898"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19529",
+      "details": {
+        "title": "Wireless charging",
+        "description": "Optional wireless charging transmitter used for supporting wireless charging functions.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LM5013",
+                    "description": "6-V to 100-V input, 3.5-A non-synchronous buck DC/DC converter with ultra-low quiescent current (IQ)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5013",
+                      "html": "https://www.ti.com/product/LM5013"
+                    }
+                  },
+                  {
+                    "part": "LM61460",
+                    "description": "3-V to 36-V, 6-A, Low-EMI synchronous step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM61460",
+                      "html": "https://www.ti.com/product/LM61460"
+                    }
+                  },
+                  {
+                    "part": "LMQ66430-Q1",
+                    "description": "Automotive 36-V, 3-A low EMI synchronous step-down converter with 1.5-µA IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMQ66430-Q1",
+                      "html": "https://www.ti.com/product/LMQ66430-Q1"
+                    }
+                  },
+                  {
+                    "part": "LMR51440",
+                    "description": "36-V, 4-A synchronous buck converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR51440",
+                      "html": "https://www.ti.com/product/LMR51440"
+                    }
+                  },
+                  {
+                    "part": "TPS563252",
+                    "description": "3-V to 17-V input voltage, 3-A, 1.2-Mhz synchronous buck converter in SOT563",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS563252",
+                      "html": "https://www.ti.com/product/TPS563252"
+                    }
+                  },
+                  {
+                    "part": "TPS564242",
+                    "description": "3-V to 16-V input voltage, 4-A ECO mode, synchronous buck converter in SOT-563 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS564242",
+                      "html": "https://www.ti.com/product/TPS564242"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19530",
+      "details": {
+        "title": "Wireless interface",
+        "description": "In motor drives, the typical wireless communication protocols are NFC & BLE (for service or maintenance interfaces). Sub 1GHz is used for long distance communication.",
+        "productGroups": [
+          {
+            "category": "Wireless connectivity",
+            "sections": [
+              {
+                "title": "Wi-Fi products",
+                "products": [
+                  {
+                    "part": "CC3350MOD",
+                    "description": "SimpleLinkTM dual-band (2.4 and 5 GHz) Wi-Fi 6 companion module",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC3350MOD",
+                      "html": "https://www.ti.com/product/CC3350MOD"
+                    }
+                  },
+                  {
+                    "part": "CC3351MOD",
+                    "description": "SimpleLink™ dual-band (2.4GHz and 5GHz) Wi-Fi® 6 and Bluetooth® Low Energy companion module",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC3351MOD",
+                      "html": "https://www.ti.com/product/CC3351MOD"
+                    }
+                  },
+                  {
+                    "part": "CC3551E",
+                    "description": "SimpleLink™ wireless MCU with dual-band (2.4GHz and 5GHz) Wi-Fi® 6 and Bluetooth® Low Energy",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC3551E",
+                      "html": "https://www.ti.com/product/CC3551E"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19515",
+      "details": {
+        "title": "Current & voltage sense",
+        "description": "Small form factor, highly reliable, and accurate current and voltage sensing solutions to enable the charger to follow the battery charging profile.",
+        "productGroups": [
+          {
+            "category": "Amplifiers",
+            "sections": [
+              {
+                "title": "Analog current-sense amplifiers",
+                "products": [
+                  {
+                    "part": "INA240-Q1",
+                    "description": "AEC-Q100, -4 to 80V, bi-directional, ultra-precise current sense amplifier w/ enhanced pwm rejection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA240-Q1",
+                      "html": "https://www.ti.com/product/INA240-Q1"
+                    }
+                  },
+                  {
+                    "part": "INA296A",
+                    "description": "-5-V to 110-V, bidirectional, 1.1-MHz 8-V/µs ultraprecise current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA296A",
+                      "html": "https://www.ti.com/product/INA296A"
+                    }
+                  },
+                  {
+                    "part": "INA296B",
+                    "description": "-5-V to 110-V, bidirectional, 1.1-MHz 8-V/µs high-precision current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/INA296B",
+                      "html": "https://www.ti.com/product/INA296B"
+                    }
+                  },
+                  {
+                    "part": "LMP8480",
+                    "description": "4 to 76V current sense amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMP8480",
+                      "html": "https://www.ti.com/product/LMP8480"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "General-purpose op amps",
+                "products": [
+                  {
+                    "part": "LM2904B",
+                    "description": "Dual, 36-V, 1.2-MHz operational amplifier with -40°C to 125°C operation",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM2904B",
+                      "html": "https://www.ti.com/product/LM2904B"
+                    }
+                  },
+                  {
+                    "part": "LM358B",
+                    "description": "Dual, 36-V, 1.2-MHz, 3-mV offset voltage operational amplifier with -40°C to 85°C operation",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM358B",
+                      "html": "https://www.ti.com/product/LM358B"
+                    }
+                  },
+                  {
+                    "part": "OPA310-Q1",
+                    "description": "Automotive, single, 5.5-V, 3-MHz high-output-current (150 mA) fast-shutdown operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/OPA310-Q1",
+                      "html": "https://www.ti.com/product/OPA310-Q1"
+                    }
+                  },
+                  {
+                    "part": "TL103WB",
+                    "description": "Dual, 36-V 1.2-MHz low-offset-voltage operational amplifier with internal reference",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TL103WB",
+                      "html": "https://www.ti.com/product/TL103WB"
+                    }
+                  },
+                  {
+                    "part": "TLV9062-Q1",
+                    "description": "Automotive, dual 5.5-V 10-MHz operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9062-Q1",
+                      "html": "https://www.ti.com/product/TLV9062-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLV9102",
+                    "description": "Dual, 16-V, 1.1-MHz, low-power operational amplifier",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV9102",
+                      "html": "https://www.ti.com/product/TLV9102"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP10767",
+            "description": "AC/DC Auxiliary Supply Reference Design Using UCC28911",
+            "url": "https://www.ti.com/tool/PMP10767",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRK22"
+            }
+          },
+          {
+            "name": "PMP11774",
+            "description": "8W Primary-Side Regulated Flyback Using UCC28911 Reference Design",
+            "url": "https://www.ti.com/tool/PMP11774",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRLL5"
+            }
+          },
+          {
+            "name": "PMP30047",
+            "description": "Two Elements Lead-Acid 16V…32V@2A Battery Charger from 170VAC to 270VAC Reference Design",
+            "url": "https://www.ti.com/tool/PMP30047",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNL6"
+            }
+          },
+          {
+            "name": "TIDA-00200",
+            "description": "120V AC 200W, 90% Efficiency, Interleaved Flyback for Battery Charging Applications Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00200",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU413",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRA05"
+            }
+          },
+          {
+            "name": "TIDA-00709",
+            "description": "36W, Universal Input, >90% Efficiency, Dual Output Aux Supply Ref Design for PSU",
+            "url": "https://www.ti.com/tool/TIDA-00709",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUC68",
+              "schematic": "https://www.ti.com/lit/pdf/TIDROE3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-19518",
+      "details": {
+        "title": "Non-isolated DC/DC power supply",
+        "description": "Efficient DC/DC solutions with a small form factor and excellent EMI performance.",
+        "productGroups": [
+          {
+            "category": "Battery management ICs",
+            "sections": [
+              {
+                "title": "Battery charger ICs",
+                "products": [
+                  {
+                    "part": "BQ24610",
+                    "description": "Standalone 1-6 cell Buck battery charge controller with 5V-28V input",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ24610",
+                      "html": "https://www.ti.com/product/BQ24610"
+                    }
+                  },
+                  {
+                    "part": "BQ24780S",
+                    "description": "SMBus 1-4 cell Buck battery charge controller to support hybrid power boost mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ24780S",
+                      "html": "https://www.ti.com/product/BQ24780S"
+                    }
+                  },
+                  {
+                    "part": "BQ25756",
+                    "description": "Stand-alone or I²C-controlled 70-V bidirectional buck-boost charge controller with MPPT",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25756",
+                      "html": "https://www.ti.com/product/BQ25756"
+                    }
+                  },
+                  {
+                    "part": "BQ25887",
+                    "description": "I2C 2 cell 2A Boost battery charger for USB input and integrated cell balancing",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25887",
+                      "html": "https://www.ti.com/product/BQ25887"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Battery monitors & balancers",
+                "products": [
+                  {
+                    "part": "BQ76952",
+                    "description": "3-s to 16-s high-accuracy battery monitor and protector for Li-ion, Li-polymer and LiFePO4",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ76952",
+                      "html": "https://www.ti.com/product/BQ76952"
+                    }
+                  },
+                  {
+                    "part": "BQ79616-Q1",
+                    "description": "16-S automotive precision battery monitor, balancer and integrated protector with ASIL-D compliance",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ79616-Q1",
+                      "html": "https://www.ti.com/product/BQ79616-Q1"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Battery protectors",
+                "products": [
+                  {
+                    "part": "BQ76200",
+                    "description": "High-side n-channel FET driver",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ76200",
+                      "html": "https://www.ti.com/product/BQ76200"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "UCC24610",
+                    "description": "Secondary side synchronous rectifier controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC24610",
+                      "html": "https://www.ti.com/product/UCC24610"
+                    }
+                  },
+                  {
+                    "part": "UCC24630",
+                    "description": "Synchronous rectifier controller With Ultra Low Standby current",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC24630",
+                      "html": "https://www.ti.com/product/UCC24630"
+                    }
+                  },
+                  {
+                    "part": "UCC24636",
+                    "description": "Synchronous rectifier controller With Ultra-Low Standby current",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC24636",
+                      "html": "https://www.ti.com/product/UCC24636"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LM5013",
+                    "description": "6-V to 100-V input, 3.5-A non-synchronous buck DC/DC converter with ultra-low quiescent current (IQ)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5013",
+                      "html": "https://www.ti.com/product/LM5013"
+                    }
+                  },
+                  {
+                    "part": "LM61460",
+                    "description": "3-V to 36-V, 6-A, Low-EMI synchronous step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM61460",
+                      "html": "https://www.ti.com/product/LM61460"
+                    }
+                  },
+                  {
+                    "part": "LMQ66430-Q1",
+                    "description": "Automotive 36-V, 3-A low EMI synchronous step-down converter with 1.5-µA IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMQ66430-Q1",
+                      "html": "https://www.ti.com/product/LMQ66430-Q1"
+                    }
+                  },
+                  {
+                    "part": "LMR51440",
+                    "description": "36-V, 4-A synchronous buck converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR51440",
+                      "html": "https://www.ti.com/product/LMR51440"
+                    }
+                  },
+                  {
+                    "part": "TPS563252",
+                    "description": "3-V to 17-V input voltage, 3-A, 1.2-Mhz synchronous buck converter in SOT563",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS563252",
+                      "html": "https://www.ti.com/product/TPS563252"
+                    }
+                  },
+                  {
+                    "part": "TPS564242",
+                    "description": "3-V to 16-V input voltage, 4-A ECO mode, synchronous buck converter in SOT-563 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS564242",
+                      "html": "https://www.ti.com/product/TPS564242"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "LP5907-Q1",
+                    "description": "Automotive, 250-mA, low-noise, high-PSRR, ultra-low-dropout voltage regulator with low IQ and enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LP5907-Q1",
+                      "html": "https://www.ti.com/product/LP5907-Q1"
+                    }
+                  },
+                  {
+                    "part": "TLV704",
+                    "description": "150-mA 24-V ultra-low-IQ low-dropout (LDO) voltage regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV704",
+                      "html": "https://www.ti.com/product/TLV704"
+                    }
+                  },
+                  {
+                    "part": "TLV761",
+                    "description": "1A 16V high-PSRR linear voltage regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV761",
+                      "html": "https://www.ti.com/product/TLV761"
+                    }
+                  },
+                  {
+                    "part": "TPS7A25",
+                    "description": "300-mA, 18-V, ultra-low-IQ, high-accuracy, adjustable low-dropout voltage regulator with power good",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A25",
+                      "html": "https://www.ti.com/product/TPS7A25"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Reset & watchdog ICs",
+                "products": [
+                  {
+                    "part": "TPS3898",
+                    "description": "Single-channel, ultra-small, adjustable supervisor with active-low, open-drain output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS3898",
+                      "html": "https://www.ti.com/product/TPS3898"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Series voltage references",
+                "products": [
+                  {
+                    "part": "REF31-Q1",
+                    "description": "Automotive, 20-ppm/°C (max), 100-µA, 3-pin SOT-23 series voltage reference",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/REF31-Q1",
+                      "html": "https://www.ti.com/product/REF31-Q1"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-19520",
+      "details": {
+        "title": "Self-diagnostics/monitoring",
+        "description": "Small form factor and reliable watchdog timers, voltage monitors, voltage supervisors, and temperature sensors to ensure proper operation and detect any fault conditions reliably.",
+        "productGroups": [
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Analog temperature sensors",
+                "products": [
+                  {
+                    "part": "LM20",
+                    "description": "±1.5°C Analog Output Temperature Sensor",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM20",
+                      "html": "https://www.ti.com/product/LM20"
+                    }
+                  },
+                  {
+                    "part": "LMT84",
+                    "description": "1.5V-Capable, 10 uA Analog Output Temperature Sensor in SC70 and TO-92",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMT84",
+                      "html": "https://www.ti.com/product/LMT84"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00517",
+            "description": "Basic Fan Controller Reference Design with Over-Temperature Detection",
+            "url": "https://www.ti.com/tool/TIDA-00517",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU798",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRJF3"
+            }
+          },
+          {
+            "name": "TIDA-00702",
+            "description": "60W, 24V High Efficiency Industrial Power Supply with Precision Voltage, Current and Power Limit",
+            "url": "https://www.ti.com/tool/TIDA-00702",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUB51",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRIU5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-19521",
+      "details": {
+        "title": "Wired interface",
+        "description": "Well protected and reliable integrated solutions to ease the addition of I2C/SMBUS interfaces optimized for cost, size, and pin-count.",
+        "productGroups": [
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "RS-485 & RS-422 transceivers",
+                "products": [
+                  {
+                    "part": "THVD1450",
+                    "description": "3.3-V to 5-V RS-485 transceiver with ±18-kV IEC ESD protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/THVD1450",
+                      "html": "https://www.ti.com/product/THVD1450"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDEP0065",
+            "description": "Enhanced I2C and SMbus Master Interface Reference Design with PRU-ICSS",
+            "url": "https://www.ti.com/tool/TIDEP0065",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUBY1",
+              "schematic": "https://www.ti.com/lit/zip/TIDRC79"
+            }
+          },
+          {
+            "name": "TIDM-SMBUS",
+            "description": "SMBus Design Using Low Power Microcontroller",
+            "url": "https://www.ti.com/tool/TIDM-SMBUS",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU741",
+              "schematic": "https://www.ti.com/lit/zip/TIDRDF5"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-19517",
+      "details": {
+        "title": "Isolated AC/DC power supply",
+        "description": "Single or 3-phase AC mains powered drives require the AC input voltage to be rectified with optional power factor correction to derive the DC-link voltage. To generate the isolated rails for the control electronics various power topologies with single or multiple output rails are used and input voltage can be either the AC main of the DC link voltage. Power supply have to be designed for efficiency, line and load regulation and have to meet EMC immunity requirements per IEC61800-3 and isolation requirements per IEC 61800-5.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "AC/DC controllers",
+                "products": [
+                  {
+                    "part": "LM5023",
+                    "description": "AC-DC quasi-Resonant current mode PWM controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5023",
+                      "html": "https://www.ti.com/product/LM5023"
+                    }
+                  },
+                  {
+                    "part": "LM5032",
+                    "description": "High voltage dual Interleaved current mode controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM5032",
+                      "html": "https://www.ti.com/product/LM5032"
+                    }
+                  },
+                  {
+                    "part": "UCC24610",
+                    "description": "Secondary side synchronous rectifier controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC24610",
+                      "html": "https://www.ti.com/product/UCC24610"
+                    }
+                  },
+                  {
+                    "part": "UCC25600",
+                    "description": "8-pin high-performance resonant mode LLC controller",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC25600",
+                      "html": "https://www.ti.com/product/UCC25600"
+                    }
+                  },
+                  {
+                    "part": "UCC28740",
+                    "description": "Constant-Voltage, Constant-Current (CVCC) Flyback controller with Secondary Side Regulation (SSR)",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28740",
+                      "html": "https://www.ti.com/product/UCC28740"
+                    }
+                  },
+                  {
+                    "part": "UCC28C50",
+                    "description": "Industrial, 30-V, low-power current-mode PWM controller, 7-V/6.6-V UVLO, 100% duty cycle",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UCC28C50",
+                      "html": "https://www.ti.com/product/UCC28C50"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Shunt voltage references",
+                "products": [
+                  {
+                    "part": "ATL431LI",
+                    "description": "Low-IQ programmable shunt regulator offered in an ultra-small DQN package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/ATL431LI",
+                      "html": "https://www.ti.com/product/ATL431LI"
+                    }
+                  },
+                  {
+                    "part": "LM4041A12",
+                    "description": "1.2-V precision micropower shunt voltage reference with 0.1% accuracy",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LM4041A12",
+                      "html": "https://www.ti.com/product/LM4041A12"
+                    }
+                  },
+                  {
+                    "part": "TLA431",
+                    "description": "All-capacitor stable precision programmable reference with KRA pin layout",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLA431",
+                      "html": "https://www.ti.com/product/TLA431"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "PMP30047",
+            "description": "Two Elements Lead-Acid 16V…32V@2A Battery Charger from 170VAC to 270VAC Reference Design",
+            "url": "https://www.ti.com/tool/PMP30047",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRNL6"
+            }
+          },
+          {
+            "name": "TIDA-00040",
+            "description": "High Voltage Multi-Cell Synchronous Switch-Mode Charger Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00040",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDR059"
+            }
+          },
+          {
+            "name": "TIDA-00200",
+            "description": "120V AC 200W, 90% Efficiency, Interleaved Flyback for Battery Charging Applications Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00200",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU413",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRA05"
+            }
+          },
+          {
+            "name": "TIDA-00657",
+            "description": "SMBus 1- to 4-cell Hybrid Power Boost Mode Battery Charge Controller Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00657",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUAP8",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRH84"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

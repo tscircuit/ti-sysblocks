@@ -362,11 +362,11 @@
                 "title": "Sensing MCUs",
                 "products": [
                   {
-                    "part": "MSP430FR6005",
-                    "description": "16-MHz MCU with 128-KB FRAM, LCD, 12-bit high speed 8-MSPS sigma-delta ADC and integrated sensor AFE",
+                    "part": "MSP430FR6007",
+                    "description": "16-MHz MCU with 256-KB FRAM, LCD, 12-bit high speed 8-MSPS sigma-delta ADC and integrated sensor AFE",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR6005",
-                      "html": "https://www.ti.com/product/MSP430FR6005"
+                      "datasheet": "https://www.ti.com/lit/gpn/MSP430FR6007",
+                      "html": "https://www.ti.com/product/MSP430FR6007"
                     }
                   }
                 ]

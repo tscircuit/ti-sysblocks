@@ -45,6 +45,10 @@ const solutions = [
     slug: "blood-pressure-monitor",
     title: "Blood pressure monitor",
   },
+  {
+    slug: "accessories",
+    title: "Accessories",
+  },
 ] as const satisfies readonly TiSolution[]
 
 interface TiDocument {
