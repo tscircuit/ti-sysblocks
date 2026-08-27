@@ -180,14 +180,6 @@
                       "datasheet": "https://www.ti.com/lit/gpn/TIOL221",
                       "html": "https://www.ti.com/product/TIOL221"
                     }
-                  },
-                  {
-                    "part": "TIOS1015",
-                    "description": "Digital sensor output driver with integrated surge protection and 5-V LDO output",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TIOS1015",
-                      "html": "https://www.ti.com/product/TIOS1015"
-                    }
                   }
                 ]
               },
@@ -377,11 +369,11 @@
                 "title": "Multimedia & industrial networking SoCs",
                 "products": [
                   {
-                    "part": "AM3358",
-                    "description": "Sitara processor: Arm Cortex-A8, 3D graphics, PRU-ICSS, CAN",
+                    "part": "AM3356",
+                    "description": "Sitara processor: Arm Cortex-A8, PRU-ICSS, CAN",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/AM3358",
-                      "html": "https://www.ti.com/product/AM3358"
+                      "datasheet": "https://www.ti.com/lit/gpn/AM3356",
+                      "html": "https://www.ti.com/product/AM3356"
                     }
                   },
                   {
@@ -549,6 +541,32 @@
         "title": "Non-isolated DC/DC power supply",
         "description": "The digital processing unit usually requires several voltage nodes. This can be realized with either separate DC/DC converters and LDOs or by using dedicated PMICs.",
         "productGroups": [
+          {
+            "category": "Battery management ICs",
+            "sections": [
+              {
+                "title": "Battery charger ICs",
+                "products": [
+                  {
+                    "part": "BQ24040",
+                    "description": "Standalone 1-cell 1-A linear battery charger with 4.2-V VBAT and Temperature Sensing",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ24040",
+                      "html": "https://www.ti.com/product/BQ24040"
+                    }
+                  },
+                  {
+                    "part": "BQ25620",
+                    "description": "I²C controlled 1-cell 3.5-A buck battery charger with 18-V max input, integrated ADC and OTG output",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/BQ25620",
+                      "html": "https://www.ti.com/product/BQ25620"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
           {
             "category": "Power management",
             "sections": [
@@ -847,59 +865,6 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TPSM8A29",
                       "html": "https://www.ti.com/product/TPSM8A29"
-                    }
-                  }
-                ]
-              },
-              {
-                "title": "Reset & watchdog ICs",
-                "products": [
-                  {
-                    "part": "TLV803E",
-                    "description": "Low-power voltage supervisor (reset IC) with active-low open-drain output",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TLV803E",
-                      "html": "https://www.ti.com/product/TLV803E"
-                    }
-                  },
-                  {
-                    "part": "TPS3435",
-                    "description": "Nano-quiescent-current precision timeout watchdog timer",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS3435",
-                      "html": "https://www.ti.com/product/TPS3435"
-                    }
-                  },
-                  {
-                    "part": "TPS3808E",
-                    "description": "600nA ultra-low quiescent current supervisor with programmable delay and manual reset",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS3808E",
-                      "html": "https://www.ti.com/product/TPS3808E"
-                    }
-                  },
-                  {
-                    "part": "TPS3828",
-                    "description": "Voltage monitor with watchdog timer",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS3828",
-                      "html": "https://www.ti.com/product/TPS3828"
-                    }
-                  },
-                  {
-                    "part": "TPS3831",
-                    "description": "150-nA, ultra-low power, supply voltage monitor",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS3831",
-                      "html": "https://www.ti.com/product/TPS3831"
-                    }
-                  },
-                  {
-                    "part": "TPS389006",
-                    "description": "Multichannel overvoltage and undervoltage I²C programmable voltage supervisor",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS389006",
-                      "html": "https://www.ti.com/product/TPS389006"
                     }
                   }
                 ]
@@ -2531,14 +2496,6 @@
                 "title": "Power modules (integrated inductor)",
                 "products": [
                   {
-                    "part": "TLVM23625",
-                    "description": "3-V to 36-V input, 1-V to 6-V output, 2.5-A synchronous buck power module",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TLVM23625",
-                      "html": "https://www.ti.com/product/TLVM23625"
-                    }
-                  },
-                  {
                     "part": "TPSM64406",
                     "description": "High-density, 36V, 0.8V-to-16V output, dual 3A output power module",
                     "links": {
@@ -2576,6 +2533,14 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/TPSM828303",
                       "html": "https://www.ti.com/product/TPSM828303"
+                    }
+                  },
+                  {
+                    "part": "TPSM863252",
+                    "description": "3-V to 17-V input voltage, 3-A Eco-mode synchronous buck module",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPSM863252",
+                      "html": "https://www.ti.com/product/TPSM863252"
                     }
                   }
                 ]
@@ -2703,11 +2668,11 @@
                     }
                   },
                   {
-                    "part": "INA310A",
-                    "description": "-4-V to 110-V, 1.3-MHz, ultra-precise current-sense amplifier with comparator",
+                    "part": "INA310B",
+                    "description": "-4-V to 110-V 1.3-MHz high-precision current-sense amplifier with comparator",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/INA310A",
-                      "html": "https://www.ti.com/product/INA310A"
+                      "datasheet": "https://www.ti.com/lit/gpn/INA310B",
+                      "html": "https://www.ti.com/product/INA310B"
                     }
                   }
                 ]

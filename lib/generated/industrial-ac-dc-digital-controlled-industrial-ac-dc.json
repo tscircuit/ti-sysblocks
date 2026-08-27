@@ -2560,64 +2560,6 @@
             ]
           },
           {
-            "category": "Logic & voltage translation",
-            "sections": [
-              {
-                "title": "Noninverting buffers & drivers",
-                "products": [
-                  {
-                    "part": "SN74HCT244-Q1",
-                    "description": "Automotive 8-ch, 4.5-V to 5.5-V buffers with TTL-compatible CMOS inputs and 3-state outputs",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74HCT244-Q1",
-                      "html": "https://www.ti.com/product/SN74HCT244-Q1"
-                    }
-                  },
-                  {
-                    "part": "SN74LVC1G07",
-                    "description": "Single 1.65-V to 5.5-V buffer with open-drain outputs",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G07",
-                      "html": "https://www.ti.com/product/SN74LVC1G07"
-                    }
-                  },
-                  {
-                    "part": "SN74LVC1G17",
-                    "description": "Single 1.65-V to 5.5-V buffer with Schmitt-Trigger inputs",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G17",
-                      "html": "https://www.ti.com/product/SN74LVC1G17"
-                    }
-                  },
-                  {
-                    "part": "SN74LVC2G17",
-                    "description": "2-ch, 1.65-V to 5.5-V buffers with Schmitt-Trigger inputs",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC2G17",
-                      "html": "https://www.ti.com/product/SN74LVC2G17"
-                    }
-                  },
-                  {
-                    "part": "SN74LVC2G34-EP",
-                    "description": "Enhanced product 2-ch, 1.65-V to 5.5-V buffers",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC2G34-EP",
-                      "html": "https://www.ti.com/product/SN74LVC2G34-EP"
-                    }
-                  },
-                  {
-                    "part": "SN74LVT244B",
-                    "description": "8-ch, 2.7-V to 3.6-V buffers with TTL-compatible CMOS inputs and 3-state outputs",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVT244B",
-                      "html": "https://www.ti.com/product/SN74LVT244B"
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
             "category": "Microcontrollers (MCUs) & processors",
             "sections": [
               {
@@ -2740,6 +2682,59 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/UCD3138A",
                       "html": "https://www.ti.com/product/UCD3138A"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "TPS7A20",
+                    "description": "300mA ultra-low-noise low-IQ low-dropout (LDO) linear regulator with high PSRR",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A20",
+                      "html": "https://www.ti.com/product/TPS7A20"
+                    }
+                  },
+                  {
+                    "part": "TPS7A24",
+                    "description": "200-mA, 18-V, ultra-low-IQ, low-dropout (LDO) voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A24",
+                      "html": "https://www.ti.com/product/TPS7A24"
+                    }
+                  },
+                  {
+                    "part": "TPS7A30",
+                    "description": "200-mA, low-noise, high-PSRR, negative, adjustable low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A30",
+                      "html": "https://www.ti.com/product/TPS7A30"
+                    }
+                  },
+                  {
+                    "part": "TPS7A49",
+                    "description": "150-mA, 36-V, low-noise, high-PSRR, adjustable low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7A49",
+                      "html": "https://www.ti.com/product/TPS7A49"
+                    }
+                  },
+                  {
+                    "part": "TPS7E71",
+                    "description": "150mA, 30V, ultra-low-IQ, low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS7E71",
+                      "html": "https://www.ti.com/product/TPS7E71"
+                    }
+                  },
+                  {
+                    "part": "UA78M",
+                    "description": "500mA 35V linear voltage regulator",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/UA78M",
+                      "html": "https://www.ti.com/product/UA78M"
                     }
                   }
                 ]

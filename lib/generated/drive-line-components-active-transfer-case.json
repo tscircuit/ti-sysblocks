@@ -444,11 +444,11 @@
                     }
                   },
                   {
-                    "part": "TPS2HC08-Q1",
-                    "description": "Automotive, 9.7mΩ, 7.5A dual-channel smart high-side switch",
+                    "part": "TPS2HC16-Q1",
+                    "description": "Automotive, 18.5mΩ, 5A dual-channel smart high-side switch",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/TPS2HC08-Q1",
-                      "html": "https://www.ti.com/product/TPS2HC08-Q1"
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2HC16-Q1",
+                      "html": "https://www.ti.com/product/TPS2HC16-Q1"
                     }
                   }
                 ]
