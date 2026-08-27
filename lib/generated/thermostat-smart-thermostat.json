@@ -1315,19 +1315,19 @@
                     }
                   },
                   {
+                    "part": "AM4377",
+                    "description": "Sitara processor: Arm Cortex-A9, PRU-ICSS, EtherCAT",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/AM4377",
+                      "html": "https://www.ti.com/product/AM4377"
+                    }
+                  },
+                  {
                     "part": "AM4378",
                     "description": "Sitara processor: Arm Cortex-A9, PRU-ICSS, 3D graphics",
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/AM4378",
                       "html": "https://www.ti.com/product/AM4378"
-                    }
-                  },
-                  {
-                    "part": "AM4379",
-                    "description": "Sitara processor: Arm Cortex-A9, PRU-ICSS, EtherCAT, 3D graphics",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/AM4379",
-                      "html": "https://www.ti.com/product/AM4379"
                     }
                   },
                   {
@@ -1505,11 +1505,11 @@
                     }
                   },
                   {
-                    "part": "CC3351MOD",
-                    "description": "SimpleLink™ dual-band (2.4GHz and 5GHz) Wi-Fi® 6 and Bluetooth® Low Energy companion module",
+                    "part": "CC3350MOD",
+                    "description": "SimpleLinkTM dual-band (2.4 and 5 GHz) Wi-Fi 6 companion module",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/CC3351MOD",
-                      "html": "https://www.ti.com/product/CC3351MOD"
+                      "datasheet": "https://www.ti.com/lit/gpn/CC3350MOD",
+                      "html": "https://www.ti.com/product/CC3350MOD"
                     }
                   },
                   {

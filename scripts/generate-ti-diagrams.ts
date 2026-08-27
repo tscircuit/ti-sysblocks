@@ -49,6 +49,10 @@ const solutions = [
     slug: "flat-panel",
     title: "Flat panel",
   },
+  {
+    slug: "consumer-wireless-module",
+    title: "Consumer wireless module",
+  },
 ] as const satisfies readonly TiSolution[]
 
 interface TiDocument {

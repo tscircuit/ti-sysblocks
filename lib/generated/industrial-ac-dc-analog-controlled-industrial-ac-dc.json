@@ -346,27 +346,6 @@
             "category": "Logic & voltage translation",
             "sections": [
               {
-                "title": "AND gates",
-                "products": [
-                  {
-                    "part": "SN74LVC1G08",
-                    "description": "1-ch, 2-input 1.65-V to 5.5-V 32 mA drive strength AND gate",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G08",
-                      "html": "https://www.ti.com/product/SN74LVC1G08"
-                    }
-                  },
-                  {
-                    "part": "SN74LVC1G11",
-                    "description": "1-ch, 3-input 1.65-V to 5.5-V 32 mA drive strength AND gate",
-                    "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G11",
-                      "html": "https://www.ti.com/product/SN74LVC1G11"
-                    }
-                  }
-                ]
-              },
-              {
                 "title": "Inverting buffers & drivers",
                 "products": [
                   {
@@ -391,6 +370,35 @@
                     "links": {
                       "datasheet": "https://www.ti.com/lit/gpn/SN74LVC2G14",
                       "html": "https://www.ti.com/product/SN74LVC2G14"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "NAND gates",
+                "products": [
+                  {
+                    "part": "CD4011B",
+                    "description": "4-ch, 2-input, 3-V to 18-V NAND gates",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CD4011B",
+                      "html": "https://www.ti.com/product/CD4011B"
+                    }
+                  },
+                  {
+                    "part": "SN74AHC132",
+                    "description": "4-ch&nbsp;4-input&nbsp;2-V to 5.5-V NAND gates with Schmitt-Trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AHC132",
+                      "html": "https://www.ti.com/product/SN74AHC132"
+                    }
+                  },
+                  {
+                    "part": "SN74AHC1G00",
+                    "description": "Single 2-input, 2-V to 5.5-V NAND gate",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AHC1G00",
+                      "html": "https://www.ti.com/product/SN74AHC1G00"
                     }
                   }
                 ]

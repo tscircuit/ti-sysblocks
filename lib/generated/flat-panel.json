@@ -24,11 +24,11 @@
                     }
                   },
                   {
-                    "part": "AM4376",
-                    "description": "Sitara processor: Arm Cortex-A9, PRU-ICSS",
+                    "part": "AM4377",
+                    "description": "Sitara processor: Arm Cortex-A9, PRU-ICSS, EtherCAT",
                     "links": {
-                      "datasheet": "https://www.ti.com/lit/gpn/AM4376",
-                      "html": "https://www.ti.com/product/AM4376"
+                      "datasheet": "https://www.ti.com/lit/gpn/AM4377",
+                      "html": "https://www.ti.com/product/AM4377"
                     }
                   },
                   {

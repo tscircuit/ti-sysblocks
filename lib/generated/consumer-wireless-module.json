@@ -1,0 +1,612 @@
+{
+  "title": "Consumer wireless module",
+  "sourceUrl": "https://www.ti.com/solution/consumer-wireless-module",
+  "defaultSelected": "subsystemid-29306",
+  "nodes": [
+    {
+      "id": "subsystemid-29304",
+      "details": {
+        "title": "Input/output connection",
+        "description": "Multiple standard interfaces are used to connect between wireless chip and main system. In input/output interface circuit need multi function signal mux and control.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "Load switches",
+                "products": [
+                  {
+                    "part": "TPS22920",
+                    "description": "3.6-V, 4-A, 5.3-mΩ load switch with output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22920",
+                      "html": "https://www.ti.com/product/TPS22920"
+                    }
+                  },
+                  {
+                    "part": "TPS22922",
+                    "description": "3.6-V, 2-A, 14-mΩ, 35-nA leakage load switch with output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22922",
+                      "html": "https://www.ti.com/product/TPS22922"
+                    }
+                  },
+                  {
+                    "part": "TPS22954",
+                    "description": "5.7-V, 5-A, 14-mΩ load switch with adj. rise time, -Voltage monitoring and output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22954",
+                      "html": "https://www.ti.com/product/TPS22954"
+                    }
+                  },
+                  {
+                    "part": "TPS22964C",
+                    "description": "5.5-V, 3-A, 14-mΩ load switch with output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22964C",
+                      "html": "https://www.ti.com/product/TPS22964C"
+                    }
+                  },
+                  {
+                    "part": "TPS22976",
+                    "description": "2-ch, 5.7-V, 6-A, 14-mΩ, load switch with adj. rise time and optional output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22976",
+                      "html": "https://www.ti.com/product/TPS22976"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Switches & multiplexers",
+            "sections": [
+              {
+                "title": "Analog & precision switches & muxes",
+                "products": [
+                  {
+                    "part": "TMUX1219",
+                    "description": "5V, 2:1 (SPDT), 1-channel, analog switch, 1.8V compatible logic",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMUX1219",
+                      "html": "https://www.ti.com/product/TMUX1219"
+                    }
+                  },
+                  {
+                    "part": "TMUX1308A",
+                    "description": "5V, 8:1, 1-channel, analog mux, injection current control, 1.8V logic",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMUX1308A",
+                      "html": "https://www.ti.com/product/TMUX1308A"
+                    }
+                  },
+                  {
+                    "part": "TS12A12511",
+                    "description": "12V, 2:1 (SPDT), 1-channel, analog switch, negative signaling capability",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TS12A12511",
+                      "html": "https://www.ti.com/product/TS12A12511"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-050007",
+            "description": "Ultra-low Standby Power Reference Design for Wireless Earbud Battery",
+            "url": "https://www.ti.com/tool/TIDA-050007",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUEA6",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRWH1"
+            }
+          },
+          {
+            "name": "TIDA-060017",
+            "description": "Transmitting SPI Signals Over LVDS Interface Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-060017",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUED8",
+              "schematic": "https://www.ti.com/lit/zip/TIDRWR3"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-29302",
+      "details": {
+        "title": "Sensors",
+        "description": "Sensing environment / ambient conditions to monitor the system for stability and performance. Examples include temp sensing, current/power monitoring.",
+        "productGroups": [
+          {
+            "category": "Interface",
+            "sections": [
+              {
+                "title": "USB port protection ICs",
+                "products": [
+                  {
+                    "part": "TPD2S300",
+                    "description": "USB Type-C&trade; short-to-VBUS & IEC ESD protector for CC",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD2S300",
+                      "html": "https://www.ti.com/product/TPD2S300"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Passive and discrete",
+            "sections": [
+              {
+                "title": "ESD protection diodes",
+                "products": [
+                  {
+                    "part": "TPD1E10B06",
+                    "description": "12-pF, ±5.5V, ±30-kV ESD protection diode in 0402 and SOD-523 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD1E10B06",
+                      "html": "https://www.ti.com/product/TPD1E10B06"
+                    }
+                  },
+                  {
+                    "part": "TPD2E009",
+                    "description": "Dual 0.7-pF, 5.5-V, ±8-kV ESD protection diode with 5-A surge rating",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD2E009",
+                      "html": "https://www.ti.com/product/TPD2E009"
+                    }
+                  },
+                  {
+                    "part": "TPD3F303",
+                    "description": "3 channel 5.5-V, ±15kV ESD protection & EMI filter with 300-MHz -3-dB for sim card",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD3F303",
+                      "html": "https://www.ti.com/product/TPD3F303"
+                    }
+                  },
+                  {
+                    "part": "TPD4E05U06",
+                    "description": "Quad 0.5-pF, 5.5-V, ±12-kV ESD protection diode for USB, HDMI & High Speed Interfaces",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD4E05U06",
+                      "html": "https://www.ti.com/product/TPD4E05U06"
+                    }
+                  },
+                  {
+                    "part": "TPD6E05U06",
+                    "description": "6 channel 0.5-pF, 5.5-V, ±12-kV ESD protection diode for USB, HDMI & High Speed Interfaces",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPD6E05U06",
+                      "html": "https://www.ti.com/product/TPD6E05U06"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Sensors",
+            "sections": [
+              {
+                "title": "Digital temperature sensors",
+                "products": [
+                  {
+                    "part": "TMP103",
+                    "description": "±2°C Digital temperature sensor with I2C/SMBus capable of 1.4V in WCSP",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TMP103",
+                      "html": "https://www.ti.com/product/TMP103"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-29300",
+      "details": {
+        "title": "Input power protection",
+        "description": "The input power protection circuit protects the modules from overload, short circuit, reverse current, in-rush current and transients.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "eFuses (integrated hot swaps)",
+                "products": [
+                  {
+                    "part": "TPS25910",
+                    "description": "2.9-V to 20-V, 30mΩ, 0.8-6.5A eFuse",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS25910",
+                      "html": "https://www.ti.com/product/TPS25910"
+                    }
+                  },
+                  {
+                    "part": "TPS2660",
+                    "description": "4.2-V to 60-V, 150m&Omega;, 0.1-2.23A eFuse with integrated input reverse polarity protection",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2660",
+                      "html": "https://www.ti.com/product/TPS2660"
+                    }
+                  },
+                  {
+                    "part": "TPS2661",
+                    "description": "50-V, universal 4-20-mA, ±20-mA current loop protector",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS2661",
+                      "html": "https://www.ti.com/product/TPS2661"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00890",
+            "description": "USB Type-A Plug to USB Type-C Receptacle SuperSpeed MUX With DFP Controller Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00890",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRK59"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-29301",
+      "details": {
+        "title": "DC/DC power supply",
+        "description": "The discrete DCDC power circuit gives the best power efficiency to support each of the functions in the module. And multiple load switches are using to control each of power rail on/off.",
+        "productGroups": [
+          {
+            "category": "Power management",
+            "sections": [
+              {
+                "title": "DC/DC converters",
+                "products": [
+                  {
+                    "part": "LMR38010",
+                    "description": "SIMPLE SWITCHER® 80-V, 1.0-A, 2.2-MHz step-down converter with 40-µA IQ",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/LMR38010",
+                      "html": "https://www.ti.com/product/LMR38010"
+                    }
+                  },
+                  {
+                    "part": "TPS562203",
+                    "description": "4.2-V to 17-V input, 2-A synchronous buck converter in SOT563 with eco-mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS562203",
+                      "html": "https://www.ti.com/product/TPS562203"
+                    }
+                  },
+                  {
+                    "part": "TPS562206",
+                    "description": "4.2-V to 17-V input, 2-A synchronous buck converter in SOT563 with FCCM mode",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS562206",
+                      "html": "https://www.ti.com/product/TPS562206"
+                    }
+                  },
+                  {
+                    "part": "TPS565242",
+                    "description": "3-V to 16-V input voltage, 5-A ECO mode, synchronous buck converter in SOT-563 package",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS565242",
+                      "html": "https://www.ti.com/product/TPS565242"
+                    }
+                  },
+                  {
+                    "part": "TPS62A01",
+                    "description": "2.5V-to-5.5V input, 1A output high-efficiency step-down converter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62A01",
+                      "html": "https://www.ti.com/product/TPS62A01"
+                    }
+                  },
+                  {
+                    "part": "TPS62A02",
+                    "description": "2.5V to 5.5V input, 2A high-efficiency step-down converter in SOT563 and SOT23 packages",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS62A02",
+                      "html": "https://www.ti.com/product/TPS62A02"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Linear & low-dropout (LDO) regulators",
+                "products": [
+                  {
+                    "part": "TLV755P",
+                    "description": "500mA high-PSRR low-I Q low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV755P",
+                      "html": "https://www.ti.com/product/TLV755P"
+                    }
+                  },
+                  {
+                    "part": "TLV758P",
+                    "description": "500-mA, low-IQ, high-accuracy, adjustable ultra-low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV758P",
+                      "html": "https://www.ti.com/product/TLV758P"
+                    }
+                  },
+                  {
+                    "part": "TLV759P",
+                    "description": "1-A, low-IQ, high-accuracy, adjustable ultra-low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV759P",
+                      "html": "https://www.ti.com/product/TLV759P"
+                    }
+                  },
+                  {
+                    "part": "TLV773",
+                    "description": "300-mA high-PSRR low-IQ low-dropout regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV773",
+                      "html": "https://www.ti.com/product/TLV773"
+                    }
+                  },
+                  {
+                    "part": "TLV777",
+                    "description": "1A small-size high-PSRR low-dropout (LDO) regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TLV777",
+                      "html": "https://www.ti.com/product/TLV777"
+                    }
+                  },
+                  {
+                    "part": "TPS769",
+                    "description": "100-mA, 10-V, low-IQ, low-dropout voltage regulator with enable",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS769",
+                      "html": "https://www.ti.com/product/TPS769"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Load switches",
+                "products": [
+                  {
+                    "part": "TPS22920",
+                    "description": "3.6-V, 4-A, 5.3-mΩ load switch with output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22920",
+                      "html": "https://www.ti.com/product/TPS22920"
+                    }
+                  },
+                  {
+                    "part": "TPS22922",
+                    "description": "3.6-V, 2-A, 14-mΩ, 35-nA leakage load switch with output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22922",
+                      "html": "https://www.ti.com/product/TPS22922"
+                    }
+                  },
+                  {
+                    "part": "TPS22954",
+                    "description": "5.7-V, 5-A, 14-mΩ load switch with adj. rise time, -Voltage monitoring and output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22954",
+                      "html": "https://www.ti.com/product/TPS22954"
+                    }
+                  },
+                  {
+                    "part": "TPS22964C",
+                    "description": "5.5-V, 3-A, 14-mΩ load switch with output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22964C",
+                      "html": "https://www.ti.com/product/TPS22964C"
+                    }
+                  },
+                  {
+                    "part": "TPS22976",
+                    "description": "2-ch, 5.7-V, 6-A, 14-mΩ, load switch with adj. rise time and optional output discharge",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TPS22976",
+                      "html": "https://www.ti.com/product/TPS22976"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-00399",
+            "description": "SSD Power Delivery Reference Design",
+            "url": "https://www.ti.com/tool/TIDA-00399",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU961",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRES7"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "subsystemid-29303",
+      "details": {
+        "title": "Input/output protection",
+        "description": "The input/output (I/O) protection improves the module reliability and robustness as it protects from ESD events and provides transient suppression.",
+        "productGroups": [],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-29305",
+      "details": {
+        "title": "Logic & control",
+        "description": "Logic and control is prevalent throughout the system ranging from logic gates, level shifters, buffers, and operational amplifiers.",
+        "productGroups": [
+          {
+            "category": "Logic & voltage translation",
+            "sections": [
+              {
+                "title": "Noninverting buffers & drivers",
+                "products": [
+                  {
+                    "part": "SN74AC17",
+                    "description": "6-channel buffer with Schmitt-trigger inputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74AC17",
+                      "html": "https://www.ti.com/product/SN74AC17"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G07",
+                    "description": "Single 1.65-V to 5.5-V buffer with open-drain outputs",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G07",
+                      "html": "https://www.ti.com/product/SN74LVC1G07"
+                    }
+                  },
+                  {
+                    "part": "SN74LVC1G34",
+                    "description": "Single 1.65-V to 5.5-V buffer",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/SN74LVC1G34",
+                      "html": "https://www.ti.com/product/SN74LVC1G34"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Voltage translators",
+                "products": [
+                  {
+                    "part": "TXU0304",
+                    "description": "Four-channel fixed multidirectional level shifter",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/TXU0304",
+                      "html": "https://www.ti.com/product/TXU0304"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": []
+      }
+    },
+    {
+      "id": "subsystemid-29306",
+      "details": {
+        "title": "Wireless connectivity",
+        "description": "Wireless connectivity provides the main feature of the wireless module such as WiFi, Bluetooth/BLE, Sub-1 GHz etc.",
+        "productGroups": [
+          {
+            "category": "Wireless connectivity",
+            "sections": [
+              {
+                "title": "Low-power 2.4-GHz products",
+                "products": [
+                  {
+                    "part": "CC2340R2",
+                    "description": "Bluetooth, Zigbee and Thread wireless MCU with ultra-low standby current, 256kB flash and +8dBm</",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC2340R2",
+                      "html": "https://www.ti.com/product/CC2340R2"
+                    }
+                  },
+                  {
+                    "part": "CC2540",
+                    "description": "Bluetooth® Low Energy wireless MCU with USB",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC2540",
+                      "html": "https://www.ti.com/product/CC2540"
+                    }
+                  }
+                ]
+              },
+              {
+                "title": "Wi-Fi products",
+                "products": [
+                  {
+                    "part": "CC3200",
+                    "description": "SimpleLink™ 32-bit Arm Cortex-M4 Wi-Fi® wireless MCU with 2 TLS/SSL and 256kB RAM",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC3200",
+                      "html": "https://www.ti.com/product/CC3200"
+                    }
+                  },
+                  {
+                    "part": "CC3351MOD",
+                    "description": "SimpleLink™ dual-band (2.4GHz and 5GHz) Wi-Fi® 6 and Bluetooth® Low Energy companion module",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC3351MOD",
+                      "html": "https://www.ti.com/product/CC3351MOD"
+                    }
+                  },
+                  {
+                    "part": "CC3501E",
+                    "description": "SimpleLink™ wireless MCU with 2.4GHz Wi-Fi® 6 and Bluetooth® Low Energy",
+                    "links": {
+                      "datasheet": "https://www.ti.com/lit/gpn/CC3501E",
+                      "html": "https://www.ti.com/product/CC3501E"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "referenceDesigns": [
+          {
+            "name": "TIDA-01580",
+            "description": "Wireless ECG, SpO2, PTT and heart rate monitor reference design for medical and consumer wearables",
+            "url": "https://www.ti.com/tool/TIDA-01580",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUDO6",
+              "schematic": "https://www.ti.com/lit/zip/TIDRW34"
+            }
+          },
+          {
+            "name": "TIDC-BLE-TO-WIFI-IOT-GATEWAY",
+            "description": "Bluetooth Smart to Wi-Fi IoT Gateway Reference Design",
+            "url": "https://www.ti.com/tool/TIDC-BLE-TO-WIFI-IOT-GATEWAY",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDUA62",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRGI8"
+            }
+          },
+          {
+            "name": "TIDC-CC2540-BLE-USB",
+            "description": "CC2540 Bluetooth Low Energy USB Dongle Reference Design",
+            "url": "https://www.ti.com/tool/TIDC-CC2540-BLE-USB",
+            "links": {
+              "designGuide": "https://www.ti.com/lit/pdf/TIDU977",
+              "schematic": "https://www.ti.com/lit/pdf/TIDRES0"
+            }
+          },
+          {
+            "name": "TIDC-WL1837MODCOM8I",
+            "description": "2.4 & 5 GHz Dual Band Wi-Fi&reg; + Bluetooth&reg; Antenna Design on WiLink&trade; 1837 Module",
+            "url": "https://www.ti.com/tool/TIDC-WL1837MODCOM8I",
+            "links": {
+              "schematic": "https://www.ti.com/lit/pdf/TIDRBP9"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

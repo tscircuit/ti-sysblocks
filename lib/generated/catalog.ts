@@ -37,6 +37,8 @@ import diagram17Svg from "./blood-pressure-monitor.svg?raw"
 import diagram17Json from "./blood-pressure-monitor.json"
 import diagram18Svg from "./flat-panel.svg?raw"
 import diagram18Json from "./flat-panel.json"
+import diagram19Svg from "./consumer-wireless-module.svg?raw"
+import diagram19Json from "./consumer-wireless-module.json"
 
 export const machineVisionCamera = createSysBlockDefinitionFromJson("machine-vision-camera", diagram0Svg, diagram0Json)
 export const driveLineComponentsActiveTransferCase = createSysBlockDefinitionFromJson("drive-line-components-active-transfer-case", diagram1Svg, diagram1Json)
@@ -57,5 +59,6 @@ export const obstacleDetectionSensor = createSysBlockDefinitionFromJson("obstacl
 export const automotiveWindowModule = createSysBlockDefinitionFromJson("automotive-window-module", diagram16Svg, diagram16Json)
 export const bloodPressureMonitor = createSysBlockDefinitionFromJson("blood-pressure-monitor", diagram17Svg, diagram17Json)
 export const flatPanel = createSysBlockDefinitionFromJson("flat-panel", diagram18Svg, diagram18Json)
+export const consumerWirelessModule = createSysBlockDefinitionFromJson("consumer-wireless-module", diagram19Svg, diagram19Json)
 
-export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat, industrialAcDcDigitalControlledIndustrialAcDc, industrialAcDcAnalogControlledIndustrialAcDc, powerBank, seatPositionModule, rearviewMirrorModule, obstacleDetectionSensor, automotiveWindowModule, bloodPressureMonitor, flatPanel]
+export const generatedDiagrams = [machineVisionCamera, driveLineComponentsActiveTransferCase, driveLineComponentsFluidPump, driveLineComponentsTorqueConverter, centralInverter, batteryChargerApplianceBatteryChargers, batteryChargerWirelessBatteryPackChargers, batteryChargerIndustrialBatteryChargers, thermostatBasicThermostat, thermostatSmartThermostat, industrialAcDcDigitalControlledIndustrialAcDc, industrialAcDcAnalogControlledIndustrialAcDc, powerBank, seatPositionModule, rearviewMirrorModule, obstacleDetectionSensor, automotiveWindowModule, bloodPressureMonitor, flatPanel, consumerWirelessModule]
